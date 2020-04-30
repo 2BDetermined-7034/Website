@@ -24,6 +24,12 @@ iframe {
   border-width: 2px;
 }
 
+.addressBox {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+}
+
 .backgroundTexture {
   background-color: #ffffff;
   background-image: url(./artifacts/images/backgroundTexture.png);

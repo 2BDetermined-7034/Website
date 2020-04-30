@@ -18,7 +18,7 @@ class Footer extends Component {
                         <SocialBadge image={twitter} name="twitter" link="https://twitter.com/Team_7034" />
                     </div>
                     <div className="row">
-                        <p className="text-center" style={{width: '100%'}}>
+                        <p className="text-center w-100">
                             Built with <FontAwesomeIcon icon={faHeart} /> by FRC Team 7034
                             <br />
                             Copyright &copy; 2020 FRC Team 7034
