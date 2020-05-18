@@ -1,7 +1,7 @@
 {
   "name": "wlhsfrc",
-  "version": "1.0.0",
-  "homepage": "",
+  "version": "1.0.1",
+  "homepage": "http://wlhsfrc.com/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
