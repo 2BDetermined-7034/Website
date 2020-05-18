@@ -18,7 +18,8 @@ function App() {
       <main role="main">
         <div className="container-fluid pl-0 pr-0 pt-4 pb-4 backgroundTexture">
           <Switch>
-            <Redirect from="/stemchallenge.php" to="/community/stemchallenges"/>
+            <Redirect from="/stemchallenge.php" to="/community/stemchallenges" />
+            <Redirect from="/outreach.php" to="/community/stemchallenges" />
             <Route exact path="/home" component={Home} />
             <Route exact path="/community/outreach" component={Outreach} />
             <Route exact path="/community/ppe" component={PPEProject} />
