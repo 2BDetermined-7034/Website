@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopy } from '@fortawesome/free-solid-svg-icons';
-import logo from '../artifacts/images/logo.png';
+import logo from '../artifacts/images/logoFramed.png';
 import wlhsRoboticsLogo from '../artifacts/images/wlhsRoboticsLogo.png';
 import firstLogo from '../artifacts/images/firstLogo.png';
 
@@ -34,10 +34,9 @@ class Navbar extends Component {
                                 <DropdownNavElement to="/community/stemchallenges">Weekly Stem Challenges</DropdownNavElement>
                             </div>
                         </li>
-                        <NavElement to="/news">News</NavElement>
                     </ul>
                     <div className="d-none d-md-block">
-                        <a className="navbar-brand mr-0" href="https://www.thebluealliance.com/team/7034">
+                        <a className="navbar-brand mr-0" href="#">
                             <img src={logo} width="100" height="100" alt="logo"/>
                         </a>
                     </div>
@@ -54,6 +53,17 @@ class Navbar extends Component {
                         <div className="row d-flex flex-wrap align-items-center">
                             <div className="col">
                                 <img src={wlhsRoboticsLogo} alt="teamLogo" width="100%" />
+                                <div className="input-group pb-2">
+                                    <input className="form-control" type="email" value="wlhsfrc@gmail.com" disabled />
+                                    <div className="input-group-append">
+                                        <CopyToClipboard text="wlhsfrc@gmail.com">
+                                            <button className="btn btn-success">
+                                                <FontAwesomeIcon icon={faCopy} />
+                                            </button>
+                                        </CopyToClipboard>
+                                    </div>
+                                </div>
+                                <input className="form-control" type="text" value="5464 West A Street West Linn, Oregon 97068" disabled />
                             </div>
                             <div className="col">
                                 <h5 className="text-center">Team 7034</h5>

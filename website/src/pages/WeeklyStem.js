@@ -4,6 +4,10 @@ import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 let videos = [
     {
+        title: "Week 3",
+        url: "https://www.youtube.com/embed/rChv_jtlS0k"
+    },
+    {
         title: "Week 2",
         url: "https://www.youtube.com/embed/J-7qrXkvQIY",
     },

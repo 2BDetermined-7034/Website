@@ -6,7 +6,6 @@ import Home from './pages/Home';
 import Outreach from './pages/Outreach';
 import PPEProject from './pages/PPEProject';
 import WeeklyStem from './pages/WeeklyStem';
-import News from './pages/News';
 import Calendar from './pages/Calendar';
 import Sponsors from './pages/Sponsors';
 
@@ -23,7 +22,6 @@ function App() {
             <Route exact path="/community/outreach" component={Outreach} />
             <Route exact path="/community/ppe" component={PPEProject} />
             <Route exact path="/community/stemchallenges" component={WeeklyStem} />
-            <Route exact path="/news" component={News} />
             <Route exact path="/calendar" component={Calendar} />
             <Route exact path="/sponsors" component={Sponsors} />
             <Redirect from="/" to="/home" />

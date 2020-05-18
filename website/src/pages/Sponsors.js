@@ -58,7 +58,9 @@ class Sponsors extends Component {
                     <div className="col-sm mt-3">
                         <BronzeSponsor image='mercedes.png' name="Mercedes-Benz" link="https://www.mbusa.com/en/home" />
                     </div>
-                    <div className="col-sm mt-3" />
+                    <div className="col-sm mt-3">
+                        <BronzeSponsor image='anthem.png' name="Anthem Memory Care" link="https://www.anthemmemorycare.com/"/>
+                    </div>
                 </div>
                 <hr />
                 <div className="row text-center">
@@ -158,7 +160,7 @@ class Sponsors extends Component {
                                 <div className="row px-3">
                                     <div className="input-group">
                                       <input className="form-control" type="email" value="wlhsfrc@gmail.com" disabled />
-                                     <div className="input-group-append">
+                                        <div className="input-group-append">
                                            <CopyToClipboard text="wlhsfrc@gmail.com">
                                                 <button className="btn btn-success">
                                                     <FontAwesomeIcon icon={faCopy} />
@@ -174,8 +176,7 @@ class Sponsors extends Component {
                                         <p>
                                             West Linn High School ASB<br />
                                             Attn: Robotics<br />
-                                            5464 West A Street
-                                            West Linn, Oregon 97068
+                                            5464 West A Street West Linn, Oregon 97068
                                         </p>
                                     </div>
                                 </div>
