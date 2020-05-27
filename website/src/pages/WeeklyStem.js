@@ -1,23 +1,26 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
-
-let videos = [
-    {
-        title: "Week 3",
-        url: "https://www.youtube.com/embed/rChv_jtlS0k"
-    },
-    {
-        title: "Week 2",
-        url: "https://www.youtube.com/embed/J-7qrXkvQIY",
-    },
-    {
-        title: "Week 1",
-        url: "https://www.youtube.com/embed/LiTIuPwqZ6o",
-    }
-]
+import axios from 'axios';
 
 class WeeklyStem extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            videos: []
+        }
+    }
+
+    componentDidMount() {
+        axios.get('http://wlhsfrc.com/api/weeklystem.json').then(response => {
+            this.setState({
+                videos: response.data
+            });
+        }).catch(error => {
+            console.log(error);
+        });
+    }
+
     render() {
         return (
             <div className="container">
@@ -30,13 +33,13 @@ class WeeklyStem extends Component {
                     <div className="carousel slide" data-ride="carousel" id="videoCarousel">
                         <ol className="carousel-indicators">
                             {
-                                videos.map((video, index) =>
+                                this.state.videos.map((video, index) =>
                                 <li key={index} data-target="#videoCarousel" data-slide-to={index} className={`${index === 0 ? 'active' : ''}`}/>)
                             }
                         </ol>
                         <div className="carousel-inner">
                             {
-                                videos.map((video, index) =>
+                                this.state.videos.map((video, index) =>
                                 <Video key={`${video.title} ${index}`} title={video.title} video={video.url} active={index === 0}/>)
                             }
                         </div>
