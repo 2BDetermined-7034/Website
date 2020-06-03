@@ -71,7 +71,7 @@ class Home extends Component {
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Summer of STEAM 2020</h1>
                                     <p className="lead">
-                                        In light of the global pandemic, 2B Determined has developed a new online format for our annual Summer of STEAM camp. Summer of STEAM is a week long summer experience hosted by designed for incoming 8th and 9th graders.
+                                        In light of the global pandemic, 2B Determined has developed a new online format for our annual Summer of STEAM camp. Summer of STEAM is a week long summer experience designed for incoming 8th and 9th graders.
                                     </p>
                                     <Link to="/community/summerofsteam" type="button" className="btn btn-success mx-2 mb-1">Learn More</Link>
                                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSc7yabd4tJxHhAVSxqLJutYncVEtobkcxGL5gVc3B3Vafhbvw/viewform" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Register</a>
