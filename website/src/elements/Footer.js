@@ -55,7 +55,7 @@ class Footer extends Component {
 class SocialBadge extends Component {
     render() {
         return (
-            <a href={this.props.link}>
+            <a href={this.props.link} target="_blank" rel="noopener noreferrer">
                 <img src={this.props.image} alt={this.props.name} width="48" height="48" className="ml-1 mr-1" />
             </a>
         );

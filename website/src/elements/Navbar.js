@@ -21,7 +21,7 @@ class Navbar extends Component {
                             <div className="dropdown-menu">
                             <ModalDropdownNavElement modalId="aboutUs">About Us</ModalDropdownNavElement>
                                 <ModalDropdownNavElement modalId="aboutFirst">About FIRST</ModalDropdownNavElement>
-                                <a className="dropdown-item" href="http://wlhsfrc.com/wiki/doku.php">Wiki</a>
+                                <a className="dropdown-item" href="http://wlhsfrc.com/wiki/doku.php" target="_blank" rel="noopener noreferrer">Wiki</a>
                             </div>
                         </li>
                         <li className="nav-item dropdown">
@@ -32,6 +32,7 @@ class Navbar extends Component {
                                 <DropdownNavElement to="/community/outreach">Outreach</DropdownNavElement>
                                 <DropdownNavElement to="/community/ppe">PPE Project</DropdownNavElement>
                                 <DropdownNavElement to="/community/stemchallenges">Weekly Stem Challenges</DropdownNavElement>
+                                <DropdownNavElement to="/community/summerofsteam">Summer of STEAM</DropdownNavElement>
                             </div>
                         </li>
                     </ul>

@@ -10,7 +10,7 @@ class PPEProject extends Component {
                         2B Determined has partnered with Wilsonville High School's Error Code Xero to produce face shields for essential workers during the COVID-19 pandemic.
                         We have donated masks to hospitals, police and fire departments, and grocery stores around the country.
                         If you or an organization you know is in need of face fields, please fill
-                        out <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-or69Q8A6DGK1wpm4DJtr97SzUk4Q6q1zTKlK0brqaUSzMA/viewform?edit_requested=true">this form</a> or contact
+                        out <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-or69Q8A6DGK1wpm4DJtr97SzUk4Q6q1zTKlK0brqaUSzMA/viewform?edit_requested=true" target="_blank" rel="noopener noreferrer">this form</a> or contact
                         us at <a href="mailto:wlhsfrc@gmail.com">wlhsfrc@gmail.com</a>.
                     </p>
                     <hr />

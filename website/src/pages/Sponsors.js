@@ -147,6 +147,13 @@ class Sponsors extends Component {
                         <CommunityPartner image='mentor.png' name="Mentor Graphics" link="https://www.mentor.com/" />
                     </div>
                 </div>
+                <div className="row text-center mt-3">
+                    <div className="col-sm mt-3">
+                        <CommunityPartner image='logicalposition.png' name="Logical Position" link="https://www.logicalposition.com/" />
+                    </div>
+                    <div className="col-sm mt-3" />
+                    <div className="col-sm mt-3" />
+                </div>
                 <hr />
                 <div className="row text-center">
                     <h1 className="font-weight-bold w-100">Interested in Supporting Us?</h1>
@@ -200,7 +207,7 @@ class TitleSponsor extends Component {
     render() {
         return (
             <div className="card h-100">
-                <a href={this.props.link}>
+                <a href={this.props.link} target="_blank" rel="noopener noreferrer">
                     <img className="card-img-top p-3 w-100" src={require(`../artifacts/images/sponsors/title/${this.props.image}`)} alt={`${this.props.name} logo`}/>
                 </a>
                 <div className="card-body">
@@ -208,7 +215,7 @@ class TitleSponsor extends Component {
                     <p className="card-text">{this.props.children}</p>
                 </div>
                 <div className="card-footer">
-                    <a href={this.props.link} className="btn btn-success">Learn More</a>
+                    <a href={this.props.link} className="btn btn-success" target="_blank" rel="noopener noreferrer">Learn More</a>
                 </div>
             </div>
         );
@@ -219,7 +226,7 @@ class GoldSponsor extends Component {
     render() {
         return (
             <div className="card h-100">
-                <a href={this.props.link}>
+                <a href={this.props.link} target="_blank" rel="noopener noreferrer">
                     <img className="card-img-top p-3 w-100" src={require(`../artifacts/images/sponsors/gold/${this.props.image}`)} alt={`${this.props.name} logo`} />
                 </a>
                 <div className="card-body">
@@ -227,7 +234,7 @@ class GoldSponsor extends Component {
                 </div>
                 {this.props.link !== '#' &&
                     <div className="card-footer">
-                            <a href={this.props.link} className="btn btn-success">Learn More</a>
+                            <a href={this.props.link} className="btn btn-success" target="_blank" rel="noopener noreferrer">Learn More</a>
                     </div>
                 }
             </div>
@@ -239,7 +246,7 @@ class BronzeSponsor extends Component {
     render() {
         return (
             <div className="card h-100">
-                <a href={this.props.link}>
+                <a href={this.props.link} target="_blank" rel="noopener noreferrer">
                     <img className="card-img-top p-3 w-100" src={require(`../artifacts/images/sponsors/bronze/${this.props.image}`)} alt={`${this.props.name} logo`} />
                 </a>
                 <div className="card-body">
@@ -254,7 +261,7 @@ class CommunitySponsor extends Component {
     render() {
         return (
             <div className="card h-100">
-                <a href={this.props.link}>
+                <a href={this.props.link} target="_blank" rel="noopener noreferrer">
                     <img className="card-img-top p-3 w-100" src={require(`../artifacts/images/sponsors/community/${this.props.image}`)} alt={`${this.props.name} logo`} />
                 </a>
                 <div className="card-body">
@@ -269,7 +276,7 @@ class CommunityPartner extends Component {
     render() {
         return (
             <div className="card h-100">
-                <a href={this.props.link}>
+                <a href={this.props.link} target="_blank" rel="noopener noreferrer">
                     <img className="card-img-top p-3 w-100" src={require(`../artifacts/images/sponsors/partners/${this.props.image}`)} alt={`${this.props.name} logo`} />
                 </a>
                 <div className="card-body">
@@ -277,7 +284,7 @@ class CommunityPartner extends Component {
                 </div>
                 {this.props.link !== '#' &&
                     <div className="card-footer">
-                            <a href={this.props.link} className="btn btn-success">Learn More</a>
+                            <a href={this.props.link} className="btn btn-success" target="_blank" rel="noopener noreferrer">Learn More</a>
                     </div>
                 }
             </div>

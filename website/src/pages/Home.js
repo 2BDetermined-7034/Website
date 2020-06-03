@@ -68,6 +68,21 @@ class Home extends Component {
                     <div className="col-sm-8">
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Summer of STEAM 2020</h1>
+                                    <p className="lead">
+                                        In light of the global pandemic, 2B Determined has developed a new online format for our annual Summer of STEAM camp. Summer of STEAM is a week long summer experience hosted by designed for incoming 8th and 9th graders.
+                                    </p>
+                                    <Link to="/community/summerofsteam" type="button" className="btn btn-success mx-2 mb-1">Learn More</Link>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc7yabd4tJxHhAVSxqLJutYncVEtobkcxGL5gVc3B3Vafhbvw/viewform" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Register</a>
+                                </div>
+                                <div className="col-sm mt-3 mt-md-0">
+                                    <img src={require('../artifacts/images/camp/logo.png')} className="d-block w-100" alt="PPE" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
                                 <div className="col-sm">
                                     <img src={require('../artifacts/images/ppe/masks.jpg')} className="d-block w-100" alt="PPE" />
                                 </div>
@@ -77,11 +92,11 @@ class Home extends Component {
                                         2B Determined has partnered with Wilsonville High School's Error Code Xero to produce face shields for essential workers during the COVID-19 pandemic.
                                     </p>
                                     <Link to="/community/ppe" type="button" className="btn btn-success mx-2 mb-1">Learn More</Link>
-                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-or69Q8A6DGK1wpm4DJtr97SzUk4Q6q1zTKlK0brqaUSzMA/viewform?edit_requested=true" type="button" className="btn btn-success mx-2 mb-1">Request PPE</a>
-                                    <a href="https://www.gofundme.com/f/west-linn-robotics-expenses" type="button" className="btn btn-success mx-2">Donate</a>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-or69Q8A6DGK1wpm4DJtr97SzUk4Q6q1zTKlK0brqaUSzMA/viewform?edit_requested=true" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Request PPE</a>
+                                    <a href="https://www.gofundme.com/f/west-linn-robotics-expenses" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2">Donate</a>
                                 </div>
                             </div>
-                        </div>
+                        </div>           
                         <div className="jumbotron text-center bg-white">
                             <div className="carousel slide" data-ride="carousel" id="gallery">
                                 <ol className="carousel-indicators">
