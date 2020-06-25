@@ -43,6 +43,15 @@ var imageGalleryPics = [
         image: 'team.jpg',
         title: ''
     },
+    {
+        image: 'zoomteampic.png',
+        title: ''
+    },
+    {
+        image: 'hatteampic.png',
+        title: ''
+    },
+
 ]
 
 class Home extends Component {
