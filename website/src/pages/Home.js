@@ -80,10 +80,10 @@ class Home extends Component {
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Full STEAM Ahead</h1>
                                     <p className="lead">
-                                        2B Determined has developed an online daycamp program for 4th-7th graders interested in Science, Technology, Engineering, Art, and/or Math! Click below to sign up, or view the flyer for more details!
+                                        2B Determined has developed an online daycamp program for 4th-7th graders interested in Science, Technology, Engineering, Art, and/or Math! We are no longer accepting submissions for camp students. For any inquiries or interest in information about future camps or STEAM programs, email wlhsfrc@gmail.com.
                                     </p>
                                     {/*<Link to="/community/daycamp" type="button" className="btn btn-success mx-2 mb-1">Learn More</Link>*/}
-                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScHFUeNVXdhMh4zDr8rP_xcefgKP4FmBwNYqc0uJruor6aEqw/viewform" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Register</a>
+                                    {/*<a href="https://docs.google.com/forms/d/e/1FAIpQLScHFUeNVXdhMh4zDr8rP_xcefgKP4FmBwNYqc0uJruor6aEqw/viewform" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Register</a>*/}
                                 </div>
                                 <div className="col-sm mt-3 mt-md-0">
                                     <img src={require('../artifacts/images/fullsteamahead.png')} className="d-block w-100" alt="PPE" />
