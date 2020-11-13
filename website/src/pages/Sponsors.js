@@ -41,7 +41,9 @@ class Sponsors extends Component {
                     </div>
                 </div>
                 <div className="row text-center mt-3">
-                    <div className="col-sm mt-3" />
+                    <div className="col-sm mt-3">
+                        <GoldSponsor image='mentor.png' name="Mentor Graphics" link="https://www.mentor.com/" />
+                    </div>
                     <div className="col-sm mt-3">
                         <GoldSponsor image='csm.png' name="Clackamas Steel" link="https://www.facebook.com/pages/category/Metal-Supplier/Clackamas-Steel-Mfg-Inc-141470222559712/" />
                     </div>
@@ -53,7 +55,7 @@ class Sponsors extends Component {
                 </div>
                 <div className="row text-center mt-3">
                     <div className="col-sm mt-3">
-                        <BronzeSponsor image='mentor.png' name="Mentor Graphics" link="https://www.mentor.com/" />
+                        <BronzeSponsor image='dwfritz.jpg' name="DW Fritz" link="https://www.dwfritz.com/" />
                     </div>
                     <div className="col-sm mt-3">
                         <BronzeSponsor image='mercedes.png' name="Mercedes-Benz" link="https://www.mbusa.com/en/home" />
@@ -61,6 +63,15 @@ class Sponsors extends Component {
                     <div className="col-sm mt-3">
                         <BronzeSponsor image='anthem.png' name="Anthem Memory Care" link="https://www.anthemmemorycare.com/"/>
                     </div>
+                </div>
+                <div className="row text-center mt-3">
+                    <div className="col-sm mt-3">
+                        <BronzeSponsor image='siemens.jpg' name="Siemens" link="https://new.siemens.com/us/en.html" />
+                    </div>
+                    <div className="col-sm mt-3">
+                        <BronzeSponsor image='logicalposition.png' name="Logical Position" link="https://www.logicalposition.com/" />
+                    </div>
+                    <div className="col-sm mt-3"/>    
                 </div>
                 <hr />
                 <div className="row text-center">
@@ -130,7 +141,26 @@ class Sponsors extends Component {
                     <div className="col-sm mt-3">
                         <CommunitySponsor image='bellagios.png' name="Bellagios Pizza" link="https://bellagiospizza.com/westlinn" />
                     </div>
-                    <div className="col-sm mt-3" />
+                    <div className="col-sm mt-3" >
+                        <CommunitySponsor image='LOPBA.png' name="Lake Oswego Police Benevolent Association" link="https://www.ci.oswego.or.us/police" />
+                    </div>
+                </div>
+                <div className="row text-center mt-3">
+                    <div className="col-sm mt-3">
+                        <CommunitySponsor image='starkstreet.png' name="Stark Street Lawn & Garden Equipment" link="https://www.starkstreet.com/" />
+                    </div>
+                    <div className="col-sm mt-3">
+                        <CommunitySponsor image='tenanttech.png' name="Tenant Technologies" link="https://www.tenanttech.com/" />
+                        </div>
+                    <div className="col-sm mt-3">
+                        <CommunitySponsor image='gentlecarechiropractic.jpg' name="Gentle Care Chiropractic" link="http://www.gentledoctors.com/" />
+                        </div>
+                    <div className="col-sm mt-3">
+                        <CommunitySponsor image='statefarm.jpg' name="State Farm Insurance" link="https://www.statefarm.com/agent/us/or/west-linn/paul-toole-wjz0v1ys000" /> 
+                        </div>
+                    <div className="col-sm mt-3" >
+                        <CommunitySponsor image='westlakeproperties.png' name="West Lake Properties" link="https://westlakepropertiesonline.com/" />
+                        </div>
                 </div>
                 <hr />
                 <div className="row text-center">
@@ -148,10 +178,10 @@ class Sponsors extends Component {
                     </div>
                 </div>
                 <div className="row text-center mt-3">
+                    <div className="col-sm mt-3" />
                     <div className="col-sm mt-3">
                         <CommunityPartner image='logicalposition.png' name="Logical Position" link="https://www.logicalposition.com/" />
                     </div>
-                    <div className="col-sm mt-3" />
                     <div className="col-sm mt-3" />
                 </div>
                 <hr />

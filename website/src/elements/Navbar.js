@@ -43,6 +43,7 @@ class Navbar extends Component {
                         </a>
                     </div>
                     <ul className="navbar-nav mr-auto text-center">
+                        {/*<NavElement to="#">Scouting Information</NavElement>*/}
                         <NavElement to="/calendar">Calendar</NavElement>
                         <NavElement to="/sponsors">Our Sponsors</NavElement>
                         <ModalNavElement modalId="supportUs">Support Us</ModalNavElement>

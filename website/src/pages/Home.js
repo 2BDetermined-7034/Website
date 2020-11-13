@@ -75,6 +75,22 @@ class Home extends Component {
                             </div>
                         </div>
                     <div className="col-sm-8">
+
+                    <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Newsletter</h1>
+                                    <p className="lead">
+                                        Sign up for our newsletter in order to recieve updates about the team every month!
+                                    </p>
+                                    <a href="https://www.smore.com/7pdna" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">View this month's newsletter</a>
+                                    </div>
+                                <div className="col-sm mt-3 mt-md-0">
+                                    <img src={require('../artifacts/images/newsletter.PNG')} className="d-block w-100" alt="letter" />
+                                </div>
+                            </div>
+                        </div>
+
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
