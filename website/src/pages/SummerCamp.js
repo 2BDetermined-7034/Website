@@ -11,20 +11,25 @@ class SummerCamp extends Component {
                     <div className="col-sm-4">
                         <div className="container">
                             <div className="jumbotron text-center bg-white">
-                                <img src={require('../artifacts/images/camp/flyer.png')} className="d-block w-100" alt="Flyer" />
+                                <img src={require('../artifacts/images/PPD.PNG')} className="d-block w-100" alt="Flyer" />
                             </div>
                         </div>
                     </div>
                     <div className="col-sm-8">
                         <div className="jumbotron text-center bg-white">
-                            <h1 className="display-4 font-weight-bold">Summer of STEAM 2020</h1>
+                            <h1 className="display-4 font-weight-bold">Pandemic Pindown</h1>
                             <p className="lead">
-                                In light of the global pandemic, 2B Determined has developed a new online format for our annual Summer of STEAM camp. Summer of STEAM is a week long summer experience designed for incoming 8th and 9th graders. Curriculum is developed and taught by current 2B Determined members, and is focused on Science, Technology, Engineering, Art, and Mathematics education. Materials are provided, but a device with an active internet connection is required, as well as access to <a href="https://zoom.us/">zoom</a>. 
+                            Our team has created Pandemic Pindown, a game designed to provide a foundation for new and returning students to work together to strategize and design.  
+                            Check out the game manual for rules and information about the game, and take a look at the 3D model of the field below.
+                            All teams are encouraged to participate, and there will be a celebration in mid December where teams can show off their robot designs!
+                            If you have any questions about the game, email us at wlhsfrc@gmail.com or fill out the form below!
+ 
                             </p>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc7yabd4tJxHhAVSxqLJutYncVEtobkcxGL5gVc3B3Vafhbvw/viewform" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Register</a>
-                            <a href="http://wlhsfrc.com/api/assets/Consent%20Form%20-%20Summer%20of%20STEAM%202020.pdf" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Consent Form</a>
+                            <a href="https://docs.google.com/document/d/1-fcQBRXG5nuFleP7kPeP-GChDnVP_9QoVOV1jPapI-w/edit?usp=sharing" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Game Manual</a>
+                            <a href="https://myhub.autodesk360.com/ue2b05185/g/shares/SH919a0QTf3c32634dcf374bd9a976ccf50a?viewState=NoIgbgDAdAjCA0IDeAdEAXAngBwKZoC40ARXAZwEsBzAOzXjQEMyzd1C0BWAYwCZvuAE1zcAtACMIAdimiALAA45ciQDNOC0QE5cnTuIXiAzLlwwjaAL4gAukA" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Game Field</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-jS97pc4znUuXtKNnK8z8hpgr-TXVEEidsYRVmLhl4Za7rw/viewform" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Question Form</a>
                         </div>
-                        <div className="jumbotron text-center bg-white">
+                        {/*<div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm">
                                     <h1 className="display-4 font-weight-bold">Activities</h1>
@@ -53,11 +58,11 @@ class SummerCamp extends Component {
                                     <img src={require('../artifacts/images/camp/logo.png')} className="d-block w-100" alt="logo" />
                                 </div>
                             </div>
-                        </div>
+                        </div>*/}
                     </div>
                 </div>
                 <hr />
-                <div className="row">
+                {/*<div className="row">
                     <div className="col-sm-3" />
                     <div className="col-sm-6">
                         <div className="jumbotron text-center bg-white">
@@ -66,6 +71,7 @@ class SummerCamp extends Component {
                     </div>
                     <div className="col-sm-3" />
                 </div>
+                }
                 <div className="row">
                     <div className="col-sm-8">
                         <div className="jumbotron text-center bg-white">
@@ -118,13 +124,13 @@ class SummerCamp extends Component {
                             </ul>
                         </div>
                     </div>
-                </div>
+                                    </div>*/}
             </div>
         )
     }
 }
 
-class CarouselPic extends Component {
+{/*class CarouselPic extends Component {
     render() {
         return (
             <div className={`carousel-item${this.props.active ? ' active' : ''}`}>
@@ -132,6 +138,6 @@ class CarouselPic extends Component {
             </div>
         );
     }
-}
+}*/}
 
 export default SummerCamp;
