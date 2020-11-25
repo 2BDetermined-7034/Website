@@ -78,6 +78,23 @@ class Home extends Component {
 
                     <div className="jumbotron text-center bg-white">
                             <div className="row">
+                                <div className="col-sm mt-3 mt-md-0">
+                                    <img src={require('../artifacts/images/PPD.PNG')} className="d-block w-100" alt="letter" />
+                                </div>
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Pandemic Pindown</h1>
+                                    <p className="lead">
+                                    Our team has created Pandemic Pindown, an off-season game for new and returning students to work together to strategize and design.
+                                    Check out the page under the Community tab above for more information. 
+                                    If you have any questions about the game, email us at wlhsfrc@gmail.com or fill out the form below!
+                                    </p>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-jS97pc4znUuXtKNnK8z8hpgr-TXVEEidsYRVmLhl4Za7rw/viewform" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Question Form</a>
+                                    </div>
+                            </div>
+                    </div>
+
+                    <div className="jumbotron text-center bg-white">
+                            <div className="row">
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Newsletter</h1>
                                     <p className="lead">
@@ -89,7 +106,7 @@ class Home extends Component {
                                     <img src={require('../artifacts/images/newsletter.PNG')} className="d-block w-100" alt="letter" />
                                 </div>
                             </div>
-                        </div>
+                    </div>
 
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
