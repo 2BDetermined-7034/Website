@@ -78,6 +78,21 @@ class Home extends Component {
 
                     <div className="jumbotron text-center bg-white">
                             <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Hour of Code</h1>
+                                    <p className="lead">
+                                        This week, check out the Hour of Code website created by our team for links to coding lessons, activities, & more! You can choose to follow a guided lesson plan or play around with the site games. Click the button below to get started!
+                                    </p>
+                                    <a href="https://sites.google.com/wlhs.wlwv.k12.or.us/hourofcode/home?authuser=0" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Hour of Code website</a>
+                                    </div>
+                                <div className="col-sm mt-3 mt-md-0">
+                                    <img src={require('../artifacts/images/hocode.png')} className="d-block w-100" alt="letter" />
+                                </div>
+                            </div>
+                    </div>
+
+                    <div className="jumbotron text-center bg-white">
+                            <div className="row">
                                 <div className="col-sm mt-3 mt-md-0">
                                     <img src={require('../artifacts/images/PPD.PNG')} className="d-block w-100" alt="letter" />
                                 </div>
