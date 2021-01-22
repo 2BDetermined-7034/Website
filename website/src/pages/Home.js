@@ -79,14 +79,14 @@ class Home extends Component {
                     <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Hour of Code</h1>
+                                    <h1 className="display-4 font-weight-bold">Newsletter</h1>
                                     <p className="lead">
-                                        This week, check out the Hour of Code website created by our team for links to coding lessons, activities, & more! You can choose to follow a guided lesson plan or play around with the site games. Click the button below to get started!
+                                        Sign up for our newsletter in order to recieve updates about the team every month!
                                     </p>
-                                    <a href="https://sites.google.com/wlhs.wlwv.k12.or.us/hourofcode/home?authuser=0" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Hour of Code website</a>
+                                    <a href="https://www.smore.com/7pdna" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">View this month's newsletter</a>
                                     </div>
                                 <div className="col-sm mt-3 mt-md-0">
-                                    <img src={require('../artifacts/images/hocode.png')} className="d-block w-100" alt="letter" />
+                                    <img src={require('../artifacts/images/newsletter.PNG')} className="d-block w-100" alt="letter" />
                                 </div>
                             </div>
                     </div>
@@ -108,36 +108,24 @@ class Home extends Component {
                             </div>
                     </div>
 
-                    <div className="jumbotron text-center bg-white">
-                            <div className="row">
-                                <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Newsletter</h1>
-                                    <p className="lead">
-                                        Sign up for our newsletter in order to recieve updates about the team every month!
-                                    </p>
-                                    <a href="https://www.smore.com/7pdna" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">View this month's newsletter</a>
-                                    </div>
-                                <div className="col-sm mt-3 mt-md-0">
-                                    <img src={require('../artifacts/images/newsletter.PNG')} className="d-block w-100" alt="letter" />
-                                </div>
-                            </div>
-                    </div>
+                    
 
-                        <div className="jumbotron text-center bg-white">
+                        {/*<div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Full STEAM Ahead</h1>
                                     <p className="lead">
                                         2B Determined has developed an online daycamp program for 4th-7th graders interested in Science, Technology, Engineering, Art, and/or Math! We are no longer accepting submissions for camp students. For any inquiries or interest in information about future camps or STEAM programs, email wlhsfrc@gmail.com.
                                     </p>
-                                    {/*<Link to="/community/daycamp" type="button" className="btn btn-success mx-2 mb-1">Learn More</Link>*/}
-                                    {/*<a href="https://docs.google.com/forms/d/e/1FAIpQLScHFUeNVXdhMh4zDr8rP_xcefgKP4FmBwNYqc0uJruor6aEqw/viewform" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Register</a>*/}
+                                    <Link to="/community/daycamp" type="button" className="btn btn-success mx-2 mb-1">Learn More</Link>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScHFUeNVXdhMh4zDr8rP_xcefgKP4FmBwNYqc0uJruor6aEqw/viewform" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Register</a>
                                 </div>
                                 <div className="col-sm mt-3 mt-md-0">
                                     <img src={require('../artifacts/images/fullsteamahead.png')} className="d-block w-100" alt="PPE" />
                                 </div>
                             </div>
-                        </div>
+                        </div>*/}
+
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm">

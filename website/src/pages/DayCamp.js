@@ -32,6 +32,41 @@ return (
             </div>
         <div className="col-sm-3" />
         </div>
+
+        <div className="row">
+            <div className="col-sm-1" />
+            <div className="col-sm-4">
+                <div className="jumbotron text-center bg-white">
+                    <h1 className="display-4 font-weight-bold">Full STEAM Ahead</h1>
+                    <hr />
+                        <p className="text-left">
+                        2B Determined developed an online daycamp program for 4th-7th graders interested in Science, Technology, Engineering, Art, and/or Math! This camp ran for 5 weeks in 2020, with unique lessons and personalized instruction. Activities and lessons included science and engineering experiments, listening to speakers from various STEAM industries, building lava lamps, coding, and more!
+                        </p>
+                </div>
+            </div>
+
+            
+
+            <div className="col-sm-4">
+                <img src={require('../artifacts/images/fullsteamahead.png')} className="d-block w-100" alt="fsaposter" />
+            </div>
+            
+            <div className="col-sm-1" />
+        </div>
+
+        {/* <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm-6">
+                                    <h1 className="display-4 font-weight-bold">Full STEAM Ahead</h1>
+                                    <p className="lead">
+                                        2B Determined developed an online daycamp program for 4th-7th graders interested in Science, Technology, Engineering, Art, and/or Math! This camp ran for 5 weeks in 2020, with unique lessons and personalized instruction. Activities and lessons included science and engineering experiments, listening to speakers from various STEAM industries, building lava lamps, coding, and more!
+                                    </p>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>*/}
+                        
         
         <div className="row">
             <div className="col-sm-1" />
