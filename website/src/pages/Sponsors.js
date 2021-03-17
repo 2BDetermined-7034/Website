@@ -177,13 +177,6 @@ class Sponsors extends Component {
                         <CommunityPartner image='mentor.png' name="Mentor Graphics" link="https://www.mentor.com/" />
                     </div>
                 </div>
-                <div className="row text-center mt-3">
-                    <div className="col-sm mt-3" />
-                    <div className="col-sm mt-3">
-                        <CommunityPartner image='logicalposition.png' name="Logical Position" link="https://www.logicalposition.com/" />
-                    </div>
-                    <div className="col-sm mt-3" />
-                </div>
                 <hr />
                 <div className="row text-center">
                     <h1 className="font-weight-bold w-100">Interested in Supporting Us?</h1>

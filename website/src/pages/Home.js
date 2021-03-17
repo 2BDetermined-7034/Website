@@ -75,8 +75,18 @@ class Home extends Component {
                             </div>
                         </div>
                     <div className="col-sm-8">
-
-                    <div className="jumbotron text-center bg-white">
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm">
+                                    <img src={require("../artifacts/images/changingthesystem/flyer.jpg")} className="d-block w-100" alt="camp" />
+                                </div>
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Changing the SySTEM Camp</h1>
+                                    <Link to="/community/changingthesystem" type="button" className="btn btn-success mx-2 mb-1">Learn More</Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Newsletter</h1>
@@ -84,48 +94,12 @@ class Home extends Component {
                                         Sign up for our newsletter in order to recieve updates about the team every month!
                                     </p>
                                     <a href="https://www.smore.com/7pdna" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">View this month's newsletter</a>
-                                    </div>
+                                </div>
                                 <div className="col-sm mt-3 mt-md-0">
                                     <img src={require('../artifacts/images/newsletter.PNG')} className="d-block w-100" alt="letter" />
                                 </div>
                             </div>
-                    </div>
-
-                    <div className="jumbotron text-center bg-white">
-                            <div className="row">
-                                <div className="col-sm mt-3 mt-md-0">
-                                    <img src={require('../artifacts/images/PPD.PNG')} className="d-block w-100" alt="letter" />
-                                </div>
-                                <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Pandemic Pindown</h1>
-                                    <p className="lead">
-                                    Our team has created Pandemic Pindown, an off-season game for new and returning students to work together to strategize and design.
-                                    Check out the page under the Community tab above for more information. 
-                                    If you have any questions about the game, email us at wlhsfrc@gmail.com or fill out the form below!
-                                    </p>
-                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-jS97pc4znUuXtKNnK8z8hpgr-TXVEEidsYRVmLhl4Za7rw/viewform" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Question Form</a>
-                                    </div>
-                            </div>
-                    </div>
-
-                    
-
-                        {/*<div className="jumbotron text-center bg-white">
-                            <div className="row">
-                                <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Full STEAM Ahead</h1>
-                                    <p className="lead">
-                                        2B Determined has developed an online daycamp program for 4th-7th graders interested in Science, Technology, Engineering, Art, and/or Math! We are no longer accepting submissions for camp students. For any inquiries or interest in information about future camps or STEAM programs, email wlhsfrc@gmail.com.
-                                    </p>
-                                    <Link to="/community/daycamp" type="button" className="btn btn-success mx-2 mb-1">Learn More</Link>
-                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScHFUeNVXdhMh4zDr8rP_xcefgKP4FmBwNYqc0uJruor6aEqw/viewform" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Register</a>
-                                </div>
-                                <div className="col-sm mt-3 mt-md-0">
-                                    <img src={require('../artifacts/images/fullsteamahead.png')} className="d-block w-100" alt="PPE" />
-                                </div>
-                            </div>
-                        </div>*/}
-
+                        </div>
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm">
