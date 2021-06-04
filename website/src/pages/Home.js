@@ -70,7 +70,40 @@ class Home extends Component {
                                     <h1 className="display-4 font-weight-bold">2B United</h1>
                                     <h1 className="display-4 font-weight-bold">2B Inspired</h1>
                                     <h1 className="display-4 font-weight-bold">2B Determined</h1>
-                                    <img src={require('../artifacts/images/2020teamphoto.jpg')} className="d-block w-100" alt="PPE" />
+                                    <img src={require('../artifacts/images/2021teamphoto.JPG')} className="d-block w-100" alt="PPE" />
+                                    <div className="row mt-4">
+                                        <div className="col-sm-4 mb-2">
+                                            <img src={require('../artifacts/images/awards/2021/regionalChairmans.png')}/>
+                                        </div>
+                                        <div className="col-sm-4 mb-2">
+                                            <img src={require('../artifacts/images/awards/2021/districtsChairmans.png')}/>
+                                        </div>
+                                        <div className="col-sm-4 mb-2">
+                                            <img src={require('../artifacts/images/awards/2019/wilsonvilleJudges.png')}/>
+                                        </div>
+                                    </div>
+                                    <div className="row mt-4">
+                                        <div className="col-sm-4 mb-2">
+                                            <img src={require('../artifacts/images/awards/2019/wilsonvilleSafety.png')}/>
+                                        </div>
+                                        <div className="col-sm-4 mb-2">
+                                            <img src={require('../artifacts/images/awards/2018/houstonInspiration.png')}/>
+                                        </div>
+                                        <div className="col-sm-4 mb-2">
+                                            <img src={require('../artifacts/images/awards/2018/pnwRookieAllStar.png')}/>
+                                        </div>
+                                    </div>
+                                    <div className="row mt-4">
+                                        <div className="col-sm-4 mb-2">
+                                            <img src={require('../artifacts/images/awards/2018/lakeOswegoRookieAllStar.png')}/>
+                                        </div>
+                                        <div className="col-sm-4 mb-2">
+                                            <img src={require('../artifacts/images/awards/2018/lakeOswegoRookieSeed.png')}/>
+                                        </div>
+                                        <div className="col-sm-4 mb-2">
+                                            <img src={require('../artifacts/images/awards/2018/wilsonvilleRookieSeed.png')}/>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -78,11 +111,15 @@ class Home extends Component {
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm">
-                                    <img src={require("../artifacts/images/changingthesystem/flyer.jpg")} className="d-block w-100" alt="camp" />
+                                    <img src={require("../artifacts/images/2021camp/flyer.png")} className="d-block w-100" alt="camp" />
                                 </div>
                                 <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Changing the SySTEM Camp</h1>
-                                    <Link to="/community/changingthesystem" type="button" className="btn btn-success mx-2 mb-1">Learn More</Link>
+                                    <h1 className="display-4 font-weight-bold">Summer of STEAM 2021</h1>
+                                    <p className="lead">
+                                        Summer of STEAM is an annual week-long experience designed to introduce and immerse incoming 8th and 9th graders in STEAM. Registration for our 2021 edition is now open!
+                                    </p>
+                                    {/*<Link to="/community/changingthesystem" type="button" className="btn btn-success mx-2 mb-1">Learn More</Link>*/}
+                                    <a href="https://docs.google.com/forms/d/1u54uXjhoWNFbUMESjAGtAz1m4v3hYYKIKxpZgXpLzQg/" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2">Register</a>
                                 </div>
                             </div>
                         </div>
@@ -93,7 +130,7 @@ class Home extends Component {
                                     <p className="lead">
                                         Sign up for our newsletter in order to recieve updates about the team every month!
                                     </p>
-                                    <a href="https://www.smore.com/7pdna" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">View this month's newsletter</a>
+                                    <a href="https://www.smore.com/7pdna" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">View</a>
                                 </div>
                                 <div className="col-sm mt-3 mt-md-0">
                                     <img src={require('../artifacts/images/newsletter.PNG')} className="d-block w-100" alt="letter" />
@@ -108,7 +145,7 @@ class Home extends Component {
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">PPE Project</h1>
                                     <p className="lead">
-                                        2B Determined has partnered with Wilsonville High School's Error Code Xero to produce face shields for essential workers during the COVID-19 pandemic.
+                                        2B Determined has been producing face shields for essential workers and members of our community throughout the COVID-19 pandemic.
                                     </p>
                                     <Link to="/community/ppe" type="button" className="btn btn-success mx-2 mb-1">Learn More</Link>
                                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-or69Q8A6DGK1wpm4DJtr97SzUk4Q6q1zTKlK0brqaUSzMA/viewform?edit_requested=true" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Request PPE</a>
