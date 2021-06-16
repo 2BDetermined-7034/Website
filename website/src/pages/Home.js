@@ -136,7 +136,7 @@ class Home extends Component {
                                         Summer of STEAM is an annual week-long experience designed to introduce and immerse incoming 8th and 9th graders in STEAM. Registration for our 2021 edition is now open!
                                     </p>
                                     {/*<Link to="/community/changingthesystem" type="button" className="btn btn-success mx-2 mb-1">Learn More</Link>*/}
-                                    <a href="https://docs.google.com/forms/d/1u54uXjhoWNFbUMESjAGtAz1m4v3hYYKIKxpZgXpLzQg/" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2">Register</a>
+                                    <a href="https://forms.gle/GUDftjUW6hUhv1Ts6" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2">Register</a>
                                 </div>
                             </div>
                         </div>
