@@ -117,11 +117,11 @@ class Home extends Component {
                                         <b> It is critical that all students planning on joining us in person over the summer fill out this emergency contact form. You will not be permitted in the lab until this is complete!</b>
                                     </p>
                                     <a href="https://forms.gle/Lb29YYmXjUPRiKTS6" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Emergency Contact Form</a>
-                                    <a href="https://docs.google.com/presentation/d/1Fl1gk0b_5JGZuGwKGMVXI3yc6lWQ0Pb08y-RsCKRUhI/edit?usp=sharing" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Open House Slides</a>
+                                    {<a href="https://docs.google.com/presentation/d/1Fl1gk0b_5JGZuGwKGMVXI3yc6lWQ0Pb08y-RsCKRUhI/edit?usp=sharing" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Open House Slides</a>}
                                     {/*<a href="FILLME" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1" disabled>Open House Recording</a>*/}
                                 </div>
                                 <div className="col-sm mt-3 mt-md-0">
-                                    <img src={require('../artifacts/images/openhouse.png')} className="d-block w-100" alt="letter" />
+                                    <img src={require('../artifacts/images/Interested_In_Joining_Robotics_Flyer.png')} className="d-block w-100" alt="letter" />
                                 </div>
                             </div>
                         </div>
