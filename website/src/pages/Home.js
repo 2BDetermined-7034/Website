@@ -157,9 +157,21 @@ class Home extends Component {
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm">
-                                    <img src={require('../artifacts/images/ppe/masks.jpg')} className="d-block w-100" alt="PPE" />
+                                    <img src={require('../artifacts/images/helpfulmap.png')} className="d-block w-100" alt="Helpful map" />
                                 </div>
                                 <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Summer Lab Access</h1>
+                                    <p className="lead">
+                                        Due to construction, please use the following access route to enter the lab. Failure to do so can jeopardize our lab access. 
+                                    </p>
+
+                                   
+                                </div>
+                            </div>
+                        </div>           
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm">
                                     <h1 className="display-4 font-weight-bold">PPE Project</h1>
                                     <p className="lead">
                                         2B Determined has been producing face shields for essential workers and members of our community throughout the COVID-19 pandemic.
@@ -167,6 +179,10 @@ class Home extends Component {
                                     <Link to="/community/ppe" type="button" className="btn btn-success mx-2 mb-1">Learn More</Link>
                                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-or69Q8A6DGK1wpm4DJtr97SzUk4Q6q1zTKlK0brqaUSzMA/viewform?edit_requested=true" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Request PPE</a>
                                     <a href="https://www.gofundme.com/f/west-linn-robotics-expenses" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2">Donate</a>
+                                </div>
+                                <div className="col-sm my-auto">
+                                    <img src={require('../artifacts/images/ppe/masks.jpg')} className="d-block w-100" alt="PPE" />
+                                   
                                 </div>
                             </div>
                         </div>           
