@@ -113,15 +113,14 @@ class Home extends Component {
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Interested In Joining Robotics</h1>
                                     <p className="lead">
-                                        We will be having summer lab times for students to come in and see what we are all about. The lab will be open Tuesdays 12:00pm-6:30pm and Thursdays 9:00am-1:00pm. If you were unable to attend our open house, please read through the slide show below. A recording of the open house will be posted here soon.
-                                        <b> It is critical that all students planning on joining us in person over the summer fill out this emergency contact form. You will not be permitted in the lab until this is complete!</b>
+                                       Interested in joining robotics over the 2021-2022 school year? Come attend our back to school info night. We will be meeting in room 715 on September 23 at 6 PM. We hope to see you there! 
                                     </p>
-                                    <a href="https://forms.gle/Lb29YYmXjUPRiKTS6" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Emergency Contact Form</a>
-                                    {<a href="https://docs.google.com/presentation/d/1Fl1gk0b_5JGZuGwKGMVXI3yc6lWQ0Pb08y-RsCKRUhI/edit?usp=sharing" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Open House Slides</a>}
+                                    {/*<a href="https://forms.gle/Lb29YYmXjUPRiKTS6" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Emergency Contact Form</a>*/}
+                                    {/*<a href="https://docs.google.com/presentation/d/1Fl1gk0b_5JGZuGwKGMVXI3yc6lWQ0Pb08y-RsCKRUhI/edit?usp=sharing" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Open House Slides</a>*/}
                                     {/*<a href="FILLME" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1" disabled>Open House Recording</a>*/}
                                 </div>
                                 <div className="col-sm mt-3 mt-md-0">
-                                    <img src={require('../artifacts/images/Interested_In_Joining_Robotics_Flyer.png')} className="d-block w-100" alt="letter" />
+                                    <img src={require('../artifacts/images/engineering_club_fair_poster.png')} className="d-block w-100" alt="letter" />
                                 </div>
                             </div>
                         </div>
