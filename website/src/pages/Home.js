@@ -126,16 +126,13 @@ class Home extends Component {
                         </div>
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
-                                <div className="col-sm">
-                                    <img src={require("../artifacts/images/2021camp/flyer.png")} className="d-block w-100" alt="camp" />
-                                </div>
+         
                                 <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Summer of STEAM 2021</h1>
-                                    <p className="lead">
-                                        Summer of STEAM is an annual week-long experience designed to introduce and immerse incoming 8th and 9th graders in STEAM. Registration for our 2021 edition is now open!
-                                    </p>
+                                    <h1 className="display-4 font-weight-bold">Join Robotics 2021!</h1>
                                     {/*<Link to="/community/changingthesystem" type="button" className="btn btn-success mx-2 mb-1">Learn More</Link>*/}
-                                    <a href="https://forms.gle/GUDftjUW6hUhv1Ts6" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2">Register</a>
+                                    <a href="https://drive.google.com/file/d/1zZ3107_WUMvlOF2u6PBEKSiXEkF1Cekj/view?usp=sharing" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2">Team Handbook</a>
+                                    <a href="https://drive.google.com/file/d/13O82ym8nUCa3ELYB2BhQ8jRhAEr79Jeh/view?usp=sharing" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2">Application</a>
+                                    <a href="https://drive.google.com/file/d/1fUmfuzt6YN_-VYyzoQqf8pgFoHUAd3dE/view?usp=sharing" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2">Contact Form</a>
                                 </div>
                             </div>
                         </div>
