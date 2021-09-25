@@ -108,27 +108,15 @@ class Home extends Component {
                             </div>
                         </div>
                     <div className="col-sm-8">
-                        <div className="jumbotron text-center bg-white">
-                            <div className="row">
-                                <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Interested In Joining Robotics</h1>
-                                    <p className="lead">
-                                       Interested in joining robotics over the 2021-2022 school year? Come attend our back to school info night. We will be meeting in room 715 on September 23 at 6 PM. We hope to see you there! 
-                                    </p>
-                                    {/*<a href="https://forms.gle/Lb29YYmXjUPRiKTS6" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Emergency Contact Form</a>*/}
-                                    {/*<a href="https://docs.google.com/presentation/d/1Fl1gk0b_5JGZuGwKGMVXI3yc6lWQ0Pb08y-RsCKRUhI/edit?usp=sharing" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Open House Slides</a>*/}
-                                    {/*<a href="FILLME" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1" disabled>Open House Recording</a>*/}
-                                </div>
-                                <div className="col-sm mt-3 mt-md-0">
-                                    <img src={require('../artifacts/images/engineering_club_fair_poster.png')} className="d-block w-100" alt="letter" />
-                                </div>
-                            </div>
-                        </div>
+                        
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
          
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Join Robotics 2021!</h1>
+                                    <p className="lead">
+                                       To join robotics, please fill out the following forms and email them to manest@wlwv.k12.or.us 
+                                    </p>
                                     {/*<Link to="/community/changingthesystem" type="button" className="btn btn-success mx-2 mb-1">Learn More</Link>*/}
                                     <a href="https://drive.google.com/file/d/1zZ3107_WUMvlOF2u6PBEKSiXEkF1Cekj/view?usp=sharing" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2">Team Handbook</a>
                                     <a href="https://drive.google.com/file/d/13O82ym8nUCa3ELYB2BhQ8jRhAEr79Jeh/view?usp=sharing" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2">Application</a>
