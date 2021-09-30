@@ -115,12 +115,16 @@ class Home extends Component {
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Join Robotics 2021!</h1>
                                     <p className="lead">
-                                       To join robotics, please fill out the following forms and email them to manest@wlwv.k12.or.us 
+                                        To join robotics, please fill out the following forms and email them to manest@wlwv.k12.or.us
+                                    </p>
+                                    <p className="lead">
+                                        In addition make sure pay the $150 fee by sending a check to WLHS - Tim Manes- 5464 W A St. Make the checks payable to West Linn Robotics Organization (WLRO)
                                     </p>
                                     {/*<Link to="/community/changingthesystem" type="button" className="btn btn-success mx-2 mb-1">Learn More</Link>*/}
                                     <a href="https://drive.google.com/file/d/1zZ3107_WUMvlOF2u6PBEKSiXEkF1Cekj/view?usp=sharing" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2">Team Handbook</a>
-                                    <a href="https://drive.google.com/file/d/13O82ym8nUCa3ELYB2BhQ8jRhAEr79Jeh/view?usp=sharing" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2">Application</a>
+                                    <a href="https://drive.google.com/file/d/19qY9sWvsoj97HhyEeqxXEwdocHwpqFKZ/view?usp=sharing" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2">Application</a>
                                     <a href="https://drive.google.com/file/d/1fUmfuzt6YN_-VYyzoQqf8pgFoHUAd3dE/view?usp=sharing" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2">Contact Form</a>
+                                    <a href="https://drive.google.com/file/d/17gAMiVGcV44gZGrg9B5dXfGaJ7McHjEK/view?usp=sharing" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2">Open house video</a>
                                 </div>
                             </div>
                         </div>
