@@ -151,17 +151,39 @@ class Sponsors extends Component {
                     </div>
                     <div className="col-sm mt-3">
                         <CommunitySponsor image='tenanttech.png' name="Tenant Technologies" link="https://www.tenanttech.com/" />
-                        </div>
+                    </div>
                     <div className="col-sm mt-3">
                         <CommunitySponsor image='gentlecarechiropractic.jpg' name="Gentle Care Chiropractic" link="http://www.gentledoctors.com/" />
-                        </div>
+                    </div>
                     <div className="col-sm mt-3">
                         <CommunitySponsor image='statefarm.jpg' name="State Farm Insurance" link="https://www.statefarm.com/agent/us/or/west-linn/paul-toole-wjz0v1ys000" /> 
-                        </div>
+                    </div>
                     <div className="col-sm mt-3" >
                         <CommunitySponsor image='westlakeproperties.png' name="West Lake Properties" link="https://westlakepropertiesonline.com/" />
-                        </div>
+                    </div>
+
                 </div>
+
+                <div className="row text-center mt-3">
+                    <div className="col-sm mt-3" >
+                        <CommunitySponsor image='premierMA.png' name="Premier Martial Arts" link="https://premiermartialarts.com/westlinn/" />
+                    </div>
+                    <div className="col-sm mt-3" >
+                        
+                    </div>
+                    <div className="col-sm mt-3" >
+                        
+                    </div>
+                    <div className="col-sm mt-3" >
+                       
+                    </div>
+                    <div className="col-sm mt-3" >
+                        
+                    </div>
+
+                    <hr />
+                </div>
+
                 <hr />
                 <div className="row text-center">
                     <h1 className="font-weight-bold w-100">Community Partners</h1>
