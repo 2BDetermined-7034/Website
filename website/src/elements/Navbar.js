@@ -32,6 +32,7 @@ class Navbar extends Component {
                                 <DropdownNavElement to="/community/outreach">Outreach</DropdownNavElement>
                                 <DropdownNavElement to="/community/camps">Camps</DropdownNavElement>
                                 <DropdownNavElement to="/community/ppe">PPE Project</DropdownNavElement>
+                                <DropdownNavElement to="/community/hourofcode">Hour Of Code</DropdownNavElement>
                             </div>
                         </li>
                     </ul>

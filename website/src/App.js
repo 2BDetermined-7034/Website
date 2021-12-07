@@ -8,6 +8,7 @@ import PPEProject from './pages/PPEProject';
 import Camps from './pages/Camps';
 import Calendar from './pages/Calendar';
 import Sponsors from './pages/Sponsors';
+import HourOfCode from './pages/HourOfCode';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route exact path="/home" component={Home} />
             <Route exact path="/community/outreach" component={Outreach} />
             <Route exact path="/community/ppe" component={PPEProject} />
+            <Route exact path="/community/hourofcode" component={HourOfCode} />
             <Route exact path="/community/camps" component={Camps} />
             <Route exact path="/calendar" component={Calendar} />
             <Route exact path="/sponsors" component={Sponsors} />
