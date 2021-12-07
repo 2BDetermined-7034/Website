@@ -43,8 +43,9 @@ class Footer extends Component {
                         <p className="text-center w-100">
                             Built with <FontAwesomeIcon icon={faHeart} /> by FRC Team 7034
                             <br />
-                            Copyright &copy; 2020 FRC Team 7034
+                            Copyright &copy; 2021 FRC Team 7034
                         </p>
+                        <p hidden>Sam Felsted loves you</p>
                     </div>
                 </div>
             </footer>
