@@ -42,31 +42,32 @@ class HourOfCode extends Component {
                             <a className="intro-vid" href="https://youtu.be/xJqSu1IbcHg?list=PLzdnOPI1iJNfpD8i4Sx7U0y2MccnrNZuP">here :))</a>
                             </p>
                         </div>
-                        <div className = "dottedLine"></div>
-                        <div>
-                            <img className = "start-off-img"
-                            src = {require("../artifacts/images/Source code-bro.png")}
-                            alt = "start-off-img"
-                            />
-                            <h2 className = "h2">To Start Off...</h2>
-                            <p className="body">If you are a complete beginner and have no idea <br />
-                            how programming or programming 
+                            <div className = "dottedLine"></div>
+                            <div className="to-start-off">
+                                <img className = "start-off-img"
+                                src = {require("../artifacts/images/Source code-bro.png")}
+                                alt = "start-off-img"
+                                /> 
+                                <h2 className = "h2">To Start Off...</h2>
+                                <p className="body">If you are a complete beginner and have no idea <br />
+                                how programming or programming 
                                 language works, <br />
                                 no worries! Let's start this journey with 
-                                <a className="programming-vid" href="https://youtu.be/EGQh5SZctaE" >this video! </a><br />
-                                There are many unique programming languages, <br />
-                                with all of them have its own specialty! <br />
-                                If you are wondering what lanaguage you want to learn first, <br/>
-                                then scroll down to the Resources tab to see some of the <br />
+                                <a className="programming-vid" href="https://youtu.be/EGQh5SZctaE" > this video! </a><br />
+                                make sure to also check out some basic block coding project that you can complete with no programming experience needed here : <br/>
+                                <li><a className = "pw-game" href="https://hourofcode.com/codespeakpassword">Program a Strong Password Generator in Python</a></li>
+                                <li><a className = "ai-game" href="https://hourofcode.com/bsdai">AI Webcam Image Classifier</a></li>
+                                <li><a classname = "health-meal-game" href="https://hourofcode.com/codespeakmeal">Code a Healthy Meal App</a></li>
+                                If you want some challenges, scroll down to the Resources tab to learn more about some of the <br />
                                 most widely use and beginner friendly programming language!
-                            </p>
-                        </div>
+                                </p>
+                            </div>
                         <div className = "dottedLine"></div>
-                        <div>
-                            <h2 className="h2">Resources.</h2>
-                            <p className="body">Below are some amazing free online resources that can teach you about Python, Java, HTML, CSS, and Javascript</p>
-                            <p className="body">Happy coding everyone 🖤💗</p>
-                        </div>
+                            <div>
+                                <h2 className="h2">Resources.</h2>
+                                <p className="body">Below are some amazing free online resources that can teach you about Python, Java, HTML, CSS, and Javascript</p>
+                                <p className="body">Happy coding everyone 🖤💗</p>
+                            </div>
 
                         <div className = "dottedLine"></div>
                             <div className="Python">
