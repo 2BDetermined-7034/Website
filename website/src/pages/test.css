@@ -12,6 +12,24 @@ a:hover {
     background-color: #F0E9D2;
 }
 
+.body {
+    font-family: 'Arvo', serif;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.intro-img {
+    width: 25%;
+    float: right;
+    margin-right: 150px;
+}
+
+.start-off-img {
+    width: 35%;
+    float: left;
+    margin-left: 150px;
+}
+
 .coding-img {
     width: 35%;
     margin-left: 350px;
@@ -50,11 +68,12 @@ a:hover {
     margin: 50px auto;
 }
 
-.resources {
+.h2 {
     text-align: center;
     margin-top: 9px;
     font-family: 'Zen Maru Gothic', sans-serif;
     color: #181D31;
+    margin-bottom: 50px;
 }
 
 .python-logo {
@@ -89,9 +108,9 @@ a:hover {
 }
 
 .the-combo-logo {
-    width: 28%;
+    width: 30%;
     float: right;
-    margin-right: 150px;
+    margin-right: 200px;
 }
 
 .the-combo-resources {
