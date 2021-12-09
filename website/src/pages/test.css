@@ -111,7 +111,7 @@
     line-height: 2;
 }
 
-.btn {
+.hoc-btn {
     background: #04293A;
     background-image: -webkit-linear-gradient(top, #04293A, #04293A);
     background-image: -moz-linear-gradient(top, #04293A, #04293A);
@@ -120,7 +120,6 @@
     background-image: linear-gradient(to bottom, #04293A, #04293A);
     -webkit-border-radius: 18;
     -moz-border-radius: 18;
-    text-align: center;
     border-radius: 15px;
     font-family: 'Arvo', serif;
 
@@ -129,14 +128,13 @@
     padding: 8px 15px 8px 15px;
     border: solid #DED9C4 2px;
     text-decoration: none;
-    align-items: center;
-    margin-left: 100px;
     margin-top: 25px;
+    margin-left: 15px;
     display: inline-block;
 
 }
   
-.btn:hover {
+.hoc-btn:hover {
     background: #064663;
     background-image: -webkit-linear-gradient(top, #064663, #064663);
     background-image: -moz-linear-gradient(top, #064663, #064663);
@@ -144,6 +142,12 @@
     background-image: -o-linear-gradient(top, #064663, #064663);
     background-image: linear-gradient(to bottom, #064663, #064663);
     text-decoration: none;
+}
+
+.vertical-center {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
 }
 
 .dance-img {
@@ -193,3 +197,4 @@
     margin-right: auto;
     width: 35%;
 }
+

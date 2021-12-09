@@ -50,9 +50,13 @@ class HourOfCode extends Component {
                                 src={require("../artifacts/images/dance.gif")}
                                 alt="dance-img"
                                 />
-                                <a className="btn" href="https://youtu.be/tY09z2y8-xQ">Introduction Video </a> 
-                                <a className="btn" href="https://hourofcode.com/dance2019">Dance Party Tutorial</a>
-                                <a className="btn" href="https://curriculum.code.org/hoc/plugged/8/">More Teacher Resources </a> 
+                                <div className="button">
+                                    <div className="vertical-center">
+                                        <a className="hoc-btn" href="https://youtu.be/tY09z2y8-xQ">Introduction Video </a> 
+                                        <a className="hoc-btn" href="https://hourofcode.com/dance2019">Dance Party Tutorial</a>
+                                        <a className="hoc-btn" href="https://curriculum.code.org/hoc/plugged/8/">Teacher Notes</a> 
+                                    </div>
+                                </div>
                                 <p className="dance-body">
                                 Warm Up - <br />
                                 As a class, first think about “what’s your favorite way to be creative?” <br/>
@@ -82,10 +86,13 @@ class HourOfCode extends Component {
                                 src={require("../artifacts/images/anna.jpg")}
                                 alt="anna-img"
                                 />
-                                <a className="btn" href="https://youtu.be/H1-paxNG4kw">Introduction</a>
-                                <a className="btn" href="https://studio.code.org/s/frozen/lessons/1/levels/1">Frozen Tutorial</a>
-                                <a className="btn" href="https://curriculum.code.org/hoc/plugged/2/">More Teacher Resources </a> 
-
+                                <div className="button">
+                                    <div className="vertical-center">
+                                        <a className="hoc-btn" href="https://youtu.be/H1-paxNG4kw">Introduction</a>
+                                        <a className="hoc-btn" href="https://studio.code.org/s/frozen/lessons/1/levels/1">Frozen Tutorial</a>
+                                        <a className="hoc-btn" href="https://curriculum.code.org/hoc/plugged/2/">Teacher Notes </a>
+                                    </div> 
+                                </div>
                                 <p className="elsa-body">
                                 Warm Up - <br />
                                 As a class, think about what does the word ‘code’ mean? What does “debugging’ mean? <br/>
@@ -96,7 +103,7 @@ class HourOfCode extends Component {
                                  make a winter wonderland that you can then share with your friends! <br />
                                  If you have time, feel free to explore other cool projects 
                                  on the 
-                                <a className="website-link" href="https://hourofcode.com/us/learn"> code.org website! </a><br /> 
+                                <a className="website-link" href="https://hourofcode.com/us/learn"> hourofcode.org website! </a><br /> 
                                  Have fun~ and don’t forget to print out 
                                 <a className="certificate" href="https://code.org/certificates"> certificates </a>
                                 for students' hardwork! 
@@ -111,10 +118,14 @@ class HourOfCode extends Component {
                                 src={require("../artifacts/images/star-wars.jpg")}
                                 alt="star-wars-img"
                                 />
-                                <a className="btn" href="https://youtu.be/vNjiHkQQl6A">Introduction</a>
-                                <a className="btn" href="https://code.org/starwars">Star Wars Tutorial</a>
-                                <a className="btn" href="https://code.org/files/star-wars-lp.pdf">More Teacher Resources </a> 
+                                <div className="button">
+                                    <div className="vertical-center">
 
+                                        <a className="hoc-btn" href="https://youtu.be/vNjiHkQQl6A">Introduction</a>
+                                        <a className="hoc-btn" href="https://code.org/starwars">Star Wars Tutorial</a>
+                                        <a className="hoc-btn" href="https://code.org/files/star-wars-lp.pdf" >Teacher Notes </a> 
+                                    </div>
+                                </div>
                                 <p className="star-wars-body">
                                     Warm up - <br />
                                     As a class, 
@@ -123,7 +134,7 @@ class HourOfCode extends Component {
                                     follow the step-by-step tutorial to build Star Wars’ galaxy with code! <br />
                                     If you have time, feel free to explore other cool projects 
                                     on the 
-                                    <a className="website-link" href="https://hourofcode.com/us/learn"> code.org website, </a><br /> 
+                                    <a className="website-link" href="https://hourofcode.com/us/learn"> hourcode.org website, </a><br /> 
                                     or scroll down to the Resources section to learn about other programming languages! <br />
 
                                 </p>
