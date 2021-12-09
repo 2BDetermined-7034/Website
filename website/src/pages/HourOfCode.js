@@ -43,26 +43,93 @@ class HourOfCode extends Component {
                             </p>
                         </div>
                             <div className = "dottedLine"></div>
-                            <div className="to-start-off">
-                                <img className = "start-off-img"
-                                src = {require("../artifacts/images/Source code-bro.png")}
-                                alt = "start-off-img"
-                                /> 
-                                <h2 className = "h2">To Start Off...</h2>
-                                <p className="body">If you are a complete beginner and have no idea <br />
-                                how programming or programming 
-                                language works, <br />
-                                no worries! Let's start this journey with 
-                                <a className="programming-vid" href="https://youtu.be/EGQh5SZctaE" > this video! </a><br />
-                                make sure to also check out some basic block coding project that you can complete with no programming experience needed here : <br/>
-                                <li><a className = "pw-game" href="https://hourofcode.com/codespeakpassword">Program a Strong Password Generator in Python</a></li>
-                                <li><a className = "ai-game" href="https://hourofcode.com/bsdai">AI Webcam Image Classifier</a></li>
-                                <li><a classname = "health-meal-game" href="https://hourofcode.com/codespeakmeal">Code a Healthy Meal App</a></li>
-                                If you want some challenges, scroll down to the Resources tab to learn more about some of the <br />
-                                most widely use and beginner friendly programming language!
+                            <div className="elementary">
+
+                                <h2 className="h2">Elementary School Level - Dance Party</h2>
+                                <img className="dance-img"
+                                src={require("../artifacts/images/dance.gif")}
+                                alt="dance-img"
+                                />
+                                <a className="btn" href="https://youtu.be/tY09z2y8-xQ">Introduction Video </a> 
+                                <a className="btn" href="https://hourofcode.com/dance2019">Dance Party Tutorial</a>
+                                <a className="btn" href="https://curriculum.code.org/hoc/plugged/8/">More Teacher Resources </a> 
+                                <p className="dance-body">
+                                Warm Up - <br />
+                                As a class, first think about “what’s your favorite way to be creative?” <br/>
+                                Today, we are going to be creative “code”, and dancing!! <br/>
+                                Let’s get this mood started with this 
+                                <a className="spotify-playlist" href="https://open.spotify.com/playlist/2MiLztu5QGQERdEsZed81b?si=6cF0s1ETQf2vN_ea8B4fIw&nd=1"> Spotify Playlist.</a>
+
+                                </p>
+                                
+
+                                <p className="dance-body">
+                                Go through the tutorial either as a class or in pairs, 
+                                create a dance party of your own, featuring your favorite songs and artists!  <br />
+                                Don’t forget to print out 
+                                <a className="certificate" href="https://code.org/certificates"> certificates </a>
+                                for students' hardwork! 
+                                Happy Coding!
+                                </p>
+                                
+                                
+                            </div>
+                            <div className = "dottedLine"></div>
+
+                            <div className="middle-school">
+                                <h2 className="h2">Middle School Level - Frozen</h2>
+                                <img className="anna-img"
+                                src={require("../artifacts/images/anna.jpg")}
+                                alt="anna-img"
+                                />
+                                <a className="btn" href="https://youtu.be/H1-paxNG4kw">Introduction</a>
+                                <a className="btn" href="https://studio.code.org/s/frozen/lessons/1/levels/1">Frozen Tutorial</a>
+                                <a className="btn" href="https://curriculum.code.org/hoc/plugged/2/">More Teacher Resources </a> 
+
+                                <p className="elsa-body">
+                                Warm Up - <br />
+                                As a class, think about what does the word ‘code’ mean? What does “debugging’ mean? <br/>
+                                </p>
+                                <p className="elsa-body">As a class or work in pairs, follow the steps on the instruction <br />
+                                and code with Elsa and Anna to create a winter wonderland. <br/>
+                                 You will create snowflakes and patterns as you ice-skate and <br />
+                                 make a winter wonderland that you can then share with your friends! <br />
+                                 If you have time, feel free to explore other cool projects 
+                                 on the 
+                                <a className="website-link" href="https://hourofcode.com/us/learn"> code.org website! </a><br /> 
+                                 Have fun~ and don’t forget to print out 
+                                <a className="certificate" href="https://code.org/certificates"> certificates </a>
+                                for students' hardwork! 
+                                </p>
+                                
+                            </div>
+                            
+                        <div className = "dottedLine"></div>
+                            <div className="high-school">
+                                <h2 className="h2">High School Level - Star Wars</h2>
+                                <img className="star-wars-img"
+                                src={require("../artifacts/images/star-wars.jpg")}
+                                alt="star-wars-img"
+                                />
+                                <a className="btn" href="https://youtu.be/vNjiHkQQl6A">Introduction</a>
+                                <a className="btn" href="https://code.org/starwars">Star Wars Tutorial</a>
+                                <a className="btn" href="https://code.org/files/star-wars-lp.pdf">More Teacher Resources </a> 
+
+                                <p className="star-wars-body">
+                                    Warm up - <br />
+                                    As a class, 
+                                    discuss what you already know about “coding” or “programming! <br/>
+                                    In the next hour or so, <br/>
+                                    follow the step-by-step tutorial to build Star Wars’ galaxy with code! <br />
+                                    If you have time, feel free to explore other cool projects 
+                                    on the 
+                                    <a className="website-link" href="https://hourofcode.com/us/learn"> code.org website, </a><br /> 
+                                    or scroll down to the Resources section to learn about other programming languages! <br />
+
                                 </p>
                             </div>
                         <div className = "dottedLine"></div>
+
                             <div>
                                 <h2 className="h2">Resources.</h2>
                                 <p className="body">Below are some amazing free online resources that can teach you about Python, Java, HTML, CSS, and Javascript</p>
