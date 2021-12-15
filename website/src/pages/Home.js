@@ -121,7 +121,7 @@ class Home extends Component {
                                         at December 18th, starting at 9:30 AM!
                                     </p>
                                     <a href="https://www.twitch.tv/team1540" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">
-                                        view competition LIVE right here
+                                        View Competition LIVE Right Here
                                     </a>
                                 </div>
                             </div>
