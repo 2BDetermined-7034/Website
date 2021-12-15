@@ -110,6 +110,22 @@ class Home extends Component {
                         </div>
                     <div className="col-sm-8">
 
+                        <div className="jumbotron text-center bg-white">
+                            <div className="jumbotron text-center bg-white">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">
+                                        BunnyBots Competition LIVE 
+                                    </h1>
+                                    <p className='lead'>
+                                        Watch the BunnyBots competition LIVE on Twitch 
+                                        at December 18th, starting at 9:30 AM!
+                                    </p>
+                                    <a href="https://www.twitch.tv/team1540" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">
+                                        view competition LIVE right here
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
 
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
