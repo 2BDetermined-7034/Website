@@ -63,6 +63,9 @@ class Sponsors extends Component {
                     <div className="col-sm mt-3">
                         <BronzeSponsor image='anthem.png' name="Anthem Memory Care" link="https://www.anthemmemorycare.com/"/>
                     </div>
+                    <div className="col-sm mt-3">
+                        <BronzeSponsor image='lionsclub.jpg' name="West Linn Lions club" link="http://www.wl-lions.org/"/>
+                    </div>
                 </div>
                 <div className="row text-center mt-3">
                     <div className="col-sm mt-3">
