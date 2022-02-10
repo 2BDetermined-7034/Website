@@ -111,31 +111,6 @@ class Home extends Component {
                     <div className="col-sm-8">
 
                         <div className="jumbotron text-center bg-white">
-                            <div className="jumbotron text-center bg-white">
-                                <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">
-                                        Full STEAM Ahead!
-                                    </h1>
-                                    <p className='text-justified'>
-                                        WLHS robotics team, 2B Determined, is proud to announce
-                                        the return of our camp, Full STEAM Ahead! This is an afterschool
-                                        camp for 3rd, 4th, and 5th graders to introduce them to the world
-                                        of STEAM (Science, Technology, Engineering, Art, Math). It will
-                                        be held on February 2nd (a half day) and will feature lessons and
-                                        activities taught by WLHS's very own robotics team members.
-                                        You can find more information and the sign up link on the flyer below. We hope to see you all soon!
-                                    </p>
-                                    <a href="https://forms.gle/AdyPmWbG9iZxXRnP7" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">
-                                        Sign Up Here
-                                    </a>
-                                </div>
-                                <div className="col-sm mt-3 mt-md-0">
-                                    <img src={require('../artifacts/images/2022camp/Full_S.T.E.A.M._Ahead_Flyer.png')} className="d-block w-100" alt="letter" />
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Newsletter</h1>
