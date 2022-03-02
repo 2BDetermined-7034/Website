@@ -113,6 +113,18 @@ class Home extends Component {
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Competition Season</h1>
+                                    <p className="lead">
+                                        After 8 weeks of hard work, it's time for us to compete in this year's 2022 Rapid React events! Using the link below you can watch us compete on twitch in our first event on March 4th and 5th.
+                                        *Unfortunatly the link is not active yet, but it will be by the time we compete*
+                                    </p>
+                                    <a href="" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">*Awaiting Link*</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Newsletter</h1>
                                     <p className="lead">
                                         Sign up for our newsletter in order to recieve updates about the team every month!
