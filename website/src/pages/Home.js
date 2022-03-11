@@ -113,12 +113,12 @@ class Home extends Component {
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Competition Season</h1>
+                                    <h1 className="display-4 font-weight-bold">Watch us live!!!</h1>
                                     <p className="lead">
-                                        After 8 weeks of hard work, it's time for us to compete in this year's 2022 Rapid React events! Using the link below you can watch us compete on twitch in our first event on March 4th and 5th.
-                                        *Unfortunatly the link is not active yet, but it will be by the time we compete*
+                                        Use the link below to watch us compete in our first competition of our 2022 Rapid React season.
+                                        We'll be competing in qualification matches from 2:15-7:15 on March 4th and from 9:30-11:30 on March 5th and our finals will be live 1:00-4:00 on March 5th as well.
                                     </p>
-                                    <a href="" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">*Awaiting Link*</a>
+                                    <a href="https://www.twitch.tv/firstinspires28" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Competition Stream</a>
                                 </div>
                             </div>
                         </div>
