@@ -5,15 +5,7 @@ import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 var imageGalleryPics = [
     {
-        image: 'actionShot.JPG',
-        title: ''
-    },
-    {
-        image: 'bunnyBots2019.JPG',
-        title: ''
-    },
-    {
-        image: 'camp.JPG',
+        image: 'camp.png',
         title: ''
     },
     {
@@ -21,35 +13,47 @@ var imageGalleryPics = [
         title: ''
     },
     {
-        image: 'climb.JPG',
+        image: 'lion.jpeg',
         title: ''
     },
     {
-        image: 'deepSpaceRobot.jpg',
+        image: 'Llama.png',
         title: ''
     },
     {
-        image: 'girlsLab.jpg',
+        image: 'lolsam.png',
         title: ''
     },
     {
-        image: 'library.jpg',
+        image: 'octo.jpg',
         title: ''
     },
     {
-        image: 'llama.jpg',
+        image: 'teamphoto2022.png',
         title: ''
     },
     {
-        image: 'team.jpg',
+        image: 'teambanner.jpg',
         title: ''
     },
     {
-        image: 'zoomteampic.png',
+        image: 'tree.png',
         title: ''
     },
     {
-        image: 'hatteampic.png',
+        image: 'powerPuff.png',
+        title: ''
+    },
+    {
+        image: 'robotaction.png',
+        title: ''
+    },
+    {
+        image: 'seniors.jpg',
+        title: ''
+    },
+    {
+        image: 'robotStance.png',
         title: ''
     },
 
@@ -72,6 +76,14 @@ class Home extends Component {
                                     <h1 className="display-4 font-weight-bold">2B Inspired</h1>
                                     <h1 className="display-4 font-weight-bold">2B Determined</h1>
                                     <img src={require('../artifacts/images/2021teamphoto.JPG')} className="d-block w-100" alt="PPE" />
+                                    <div className="row mt-4">
+                                        <div className="col-sm-4 mb-2">
+                                            <img src={require('../artifacts/images/awards/2022/2022CAIS_winner.png')}/>
+                                        </div>
+                                        <div className="col-sm-4 mb-2">
+                                            <img src={require('../artifacts/images/awards/2022/2022CAIS_InvinCtrl.png')}/>
+                                        </div>
+                                    </div>
                                     <div className="row mt-4">
                                         <div className="col-sm-4 mb-2">
                                             <img src={require('../artifacts/images/awards/2021/regionalChairmans.png')}/>
@@ -113,12 +125,12 @@ class Home extends Component {
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Watch us live!!!</h1>
+                                    <h1 className="display-4 font-weight-bold">CAIS Competition Results</h1>
                                     <p className="lead">
-                                        Use the link below to watch us compete in our first competition of our 2022 Rapid React season.
-                                        We'll be competing in qualification matches from 2:15-7:15 on March 4th and from 9:30-11:30 on March 5th and our finals will be live 1:00-4:00 on March 5th as well.
+                                        During our first competition at the CAIS week 1 event, our team finished 1st
+                                        seed and were the captains of the winning alliance. We were also given the Innovation in Control award
+                                        and we want to congratulate our team members Anna Olsen for her Safety All-Star award and Max Dodge for being a Deans List Semi-Finalist.
                                     </p>
-                                    <a href="https://www.twitch.tv/firstinspires28" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Competition Stream</a>
                                 </div>
                             </div>
                         </div>
@@ -148,7 +160,7 @@ class Home extends Component {
                                     <a href="https://www.gofundme.com/f/west-linn-robotics-expenses" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2">Donate</a>
                                 </div>
                                 <div className="col-sm my-auto">
-                                    <img src={require('../artifacts/images/ppe/masks.jpg')} className="d-block w-100" alt="PPE" />
+                                    <img src={require('../artifacts/images/ppe/masks.jpeg')} className="d-block w-100" alt="PPE" />
                                    
                                 </div>
                             </div>
