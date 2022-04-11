@@ -78,10 +78,24 @@ class Home extends Component {
                                     <img src={require('../artifacts/images/2021teamphoto.JPG')} className="d-block w-100" alt="PPE" />
                                     <div className="row mt-4">
                                         <div className="col-sm-4 mb-2">
+
+                                        </div>
+                                        <div className="col-sm-4 mb-2">
+                                            <img src={require('../artifacts/images/awards/2022/2022OSF_EngiInsp.png')}/>
+                                        </div>
+                                        <div className="col-sm-4 mb-2">
+
+                                        </div>
+                                    </div>
+                                    <div className="row mt-4">
+                                        <div className="col-sm-4 mb-2">
                                             <img src={require('../artifacts/images/awards/2022/2022CAIS_winner.png')}/>
                                         </div>
                                         <div className="col-sm-4 mb-2">
                                             <img src={require('../artifacts/images/awards/2022/2022CAIS_InvinCtrl.png')}/>
+                                        </div>
+                                        <div className="col-sm-4 mb-2">
+                                            <img src={require('../artifacts/images/awards/2022/2022OSF_winner.png')}/>
                                         </div>
                                     </div>
                                     <div className="row mt-4">
@@ -122,6 +136,57 @@ class Home extends Component {
                         </div>
                     <div className="col-sm-8">
 
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">We're Going To Worlds!</h1>
+                                    <p className="lead">
+                                        During our season we have ranked high enough to be going to the First Worlds Championship and we ask for any support you can give,
+                                        using the go fund me linked below you can help fund our travel expenses for this fantastic opportunity.
+                                    </p>
+                                    <a href="https://gofund.me/de11ae81" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">GoFundMe</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Watch us live!!!</h1>
+                                    <p className="lead">
+                                        Use the link below to watch us compete in our third competition of our 2022 Rapid React season.
+                                        We'll be competing in qualification matches from 4:00PM-7:00PM on April 7th, from 10:00AM-6:00PM on
+                                        April 8th, and from 9:00AM-11:00AM on April 9th and our finals will be live 12:30PM-3:30PM on April 9th as well.
+                                        You can also check out our Blue Alliance page to see our match schedule.
+                                    </p>
+                                    <a href="https://www.twitch.tv/firstinspires29" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Competition Stream</a>
+                                    <a href="https://www.thebluealliance.com/team/7034" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Blue Alliance</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">PNW Championship Competition Results</h1>
+                                    <p className="lead">
+                                        During our third competition at the PNW District event, our team finished 19st
+                                        seed and we were picked by the 7th alliance captain team 997, but unfortunately we were knocked out during quarter final matches.
+                                        We want to congratulate our team members Anna Olsen for her Safety All-Star award and Max Dodge for being a First Deans List Finalist.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">OSF Competition Results</h1>
+                                    <p className="lead">
+                                        During our second competition at the OSF week 4 event, our team finished 4st
+                                        seed, moved to 3rd, and were the captains of the winning alliance. We were also given the Engineering Inspiration award
+                                        and we want to congratulate our team members Anna Olsen for her Safety All-Star award and Max Dodge for being a Deans List Semi-Finalist.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
