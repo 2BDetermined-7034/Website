@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopy } from '@fortawesome/free-solid-svg-icons';
-import logo from '../artifacts/images/logoFramed.png';
+import logo from '../artifacts/images/GearLogo2022.png';
 import wlhsRoboticsLogo from '../artifacts/images/wlhsRoboticsLogo.png';
 import firstLogo from '../artifacts/images/firstLogo.png';
 
