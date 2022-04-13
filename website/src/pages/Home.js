@@ -153,9 +153,9 @@ class Home extends Component {
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Watch us live!!!</h1>
                                     <p className="lead">
-                                        Use the link below to watch us compete in our third competition of our 2022 Rapid React season.
-                                        We'll be competing in qualification matches from 4:00PM-7:00PM on April 7th, from 10:00AM-6:00PM on
-                                        April 8th, and from 9:00AM-11:00AM on April 9th and our finals will be live 12:30PM-3:30PM on April 9th as well.
+                                        Use the link below to watch us compete in our final competition of our 2022 Rapid React season.
+                                        We'll be competing in qualification matches from 6:30AM-4:00PM on April 21st, from 6:00AM-3:00PM on
+                                        April 22nd, and finals will be held 6:30AM-9:30AM.
                                         You can also check out our Blue Alliance page to see our match schedule.
                                     </p>
                                     <a href="https://www.twitch.tv/firstinspires29" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Competition Stream</a>
