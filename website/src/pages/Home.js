@@ -158,7 +158,7 @@ class Home extends Component {
                                         April 22nd, and finals will be held 6:30AM-9:30AM.
                                         You can also check out our Blue Alliance page to see our match schedule.
                                     </p>
-                                    <a href="https://www.twitch.tv/firstinspires29" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Competition Stream</a>
+                                    <a href="https://www.twitch.tv/firstinspires_newton" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Competition Stream</a>
                                     <a href="https://www.thebluealliance.com/team/7034" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Blue Alliance</a>
                                 </div>
                             </div>
