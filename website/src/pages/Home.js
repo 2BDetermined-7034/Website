@@ -182,9 +182,8 @@ class Home extends Component {
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Summer Lab Access</h1>
                                     <p className="lead">
-                                        Here is a map of where our lab is located
+                                        Here is a map of where our lab is located. The classroom is in room 715 in the 700 building behind the school.
                                     </p>
-                                    <a href="https://forms.gle/yEyU4Bh5BM1ASCT8A" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Emergency Contact Info</a>
                                 </div>
                                 <div className="col-sm mt-3 mt-md-0">
                                     <img src={require('../artifacts/images/map.png')} className="d-block w-100" alt="letter" />
