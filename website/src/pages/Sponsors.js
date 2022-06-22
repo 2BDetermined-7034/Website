@@ -22,7 +22,7 @@ class Sponsors extends Component {
                         <TitleSponsor image='lam.png' name="Lam Research" link="https://www.lamresearch.com/"><b>Lam Research</b> is dedicated to the success of consumers by being a world-class provider of innovative technology and productivity solutions to the semiconductor industry.</TitleSponsor>
                     </div>
                     <div className="col-sm mt-3">
-                        <TitleSponsor image='d4.png' name="Erickson Forensic" link="https://ericksonforensic.com/"><b>Erickson Forensic</b> Erickson Forensic specializes in evidence-based accident reconstruction for a variety of vehicles including  passenger cars, tractor-trailers and farm equipment, as well as incidents involving bicycles and pedestrian</TitleSponsor>
+                        <TitleSponsor image='ef.png' name="Erickson Forensic" link="https://ericksonforensic.com/"><b>Erickson Forensic</b> Erickson Forensic specializes in evidence-based accident reconstruction for a variety of vehicles including  passenger cars, tractor-trailers and farm equipment, as well as incidents involving bicycles and pedestrian</TitleSponsor>
                     </div>
                 </div>
                 <hr />
