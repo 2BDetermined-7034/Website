@@ -141,46 +141,27 @@ class Home extends Component {
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Summer Of STEAM</h1>
-                                    <h1 className="display-4 font-weight-bold">Registration Open Now!!!</h1>
+                                    <h1 className="display-4 font-weight-bold">Incoming students!</h1>
                                     <p className="lead">
-                                        Team 7034 is excited to welcome incoming 8th and 9th grade students for our Summer STEM camp!
-                                        Camp will take place at the high school, and give students a hands-on introduction
-                                        to engineering, coding, and other STEM-related activities. Registration is now open with either the QR on the flyer or using the link below,
-                                        with more details on the flyer attached. Please email wlhsfrc@gmail.com with any questions,
-                                        and we look forward to seeing you soon!
+                                        Interesting in joining robotics? Great!!! Here are the forms you need to fill out to join. You're always welcome in room 715 (700 building behind the school) 
+                                        to come and check out robotics!
                                     </p>
-                                    <a href="https://forms.gle/UVaX6FEgQAMjhoJQ8" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Register Here</a>
+                                    <a href="https://forms.gle/yEyU4Bh5BM1ASCT8A" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Emergency Contact Info</a>
+
+
+
                                 </div>
                                 <div className="col-sm mt-3 mt-md-0">
-                                    <img src={require('../artifacts/images/2022camp/Summer_of_S.T.E.A.M._2022_Flyer.jpg')} className="d-block w-100" alt="letter" />
+                                <img src={require('../artifacts/images/camp/2022/flyer.png')} className="d-block w-100" alt="letter" />
                                 </div>
                             </div>
                          </div>
 
-                        <div className="jumbotron text-center bg-white">
-                            <div className="row">
-                                <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Summer Lab Times</h1>
-                                    <p className="lead">
-                                        Team 7034 is excited to open our lab during the summer and invite people to
-                                        come join us in a commitment free way to learn about our team and work on new projects.
-                                        Please see the additional details listed on the flyer and anyone looking to come into the lab
-                                        is required to fill out the Emergency Contact Form and please email wlhsfrc@gmail.com with any questions.
-                                        Thank you and we look forward to see you over this summer!
-                                    </p>
-                                    <a href="https://forms.gle/yEyU4Bh5BM1ASCT8A" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Emergency Contact Info</a>
-                                </div>
-                                <div className="col-sm mt-3 mt-md-0">
-                                    <img src={require('../artifacts/images/camp/2022/flyer.png')} className="d-block w-100" alt="letter" />
-                                </div>
-                            </div>
-                        </div>
 
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Summer Lab Access</h1>
+                                    <h1 className="display-4 font-weight-bold">Lab Access</h1>
                                     <p className="lead">
                                         Here is a map of where our lab is located. The classroom is in room 715 in the 700 building behind the school.
                                     </p>
