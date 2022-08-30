@@ -139,7 +139,6 @@ class Home extends Component {
                     <div className="col-sm-8">
 
                         <div className="jumbotron text-center bg-white">
-                            <div className="row">
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Incoming students!</h1>
                                     <p className="lead">
@@ -156,9 +155,7 @@ class Home extends Component {
 
                                 </div>
                                 <div className="col-sm mt-3 mt-md-0">
-                                <img src={require('../artifacts/images/camp/2022/flyer.png')} className="d-block w-100" alt="letter" />
                                 </div>
-                            </div>
                          </div>
 
 
