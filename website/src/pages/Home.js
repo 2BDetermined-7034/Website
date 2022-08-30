@@ -143,10 +143,14 @@ class Home extends Component {
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Incoming students!</h1>
                                     <p className="lead">
-                                        Interesting in joining robotics? Great!!! Here are the forms you need to fill out to join. You're always welcome in room 715 (700 building behind the school) 
+                                        Interesting in joining robotics? Great!!! You're always welcome in room 715 (700 building behind the school) 
                                         to come and check out robotics!
                                     </p>
+
+
+
                                     <a href="https://forms.gle/yEyU4Bh5BM1ASCT8A" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Emergency Contact Info</a>
+                                    <a href="https://docs.google.com/document/d/1ZZ4ZRuYdhhTvWdU9l1pxtZcvL9wcgm_2gu6Yq0xtLLU/edit?usp=sharing" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Team Handbook</a>
 
 
 
