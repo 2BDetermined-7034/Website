@@ -150,14 +150,22 @@ class Home extends Component {
 
                                 <a href="https://forms.gle/yEyU4Bh5BM1ASCT8A" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Emergency Contact Info</a>
                                 <a href="https://docs.google.com/document/d/1ZZ4ZRuYdhhTvWdU9l1pxtZcvL9wcgm_2gu6Yq0xtLLU/edit?usp=sharing" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Team Handbook</a>
-
-                                <img src={require('../artifacts/images/fliers/Full_STEAM_Ahead_2022_Flyer-3.png')} className="d-block w-100" alt="PPE" />
-
                             </div>
                             <div className="col-sm mt-3 mt-md-0">
                             </div>
                         </div>
 
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Elementary School STEAM Camp</h1>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfiokPjU7RNXgY4Wm8cZgXaJCxdD-7VqGbLouSZ397M0XvI4w/viewform?usp=sf_link" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Sign up</a>
+                                    <img src={require('../artifacts/images/fliers/Full_STEAM_Ahead_2022_Flyer-3.png')} className="d-block w-100" alt="PPE" />
+
+                                </div>
+
+                            </div>
+                        </div>
 
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
@@ -174,7 +182,7 @@ class Home extends Component {
                         </div>
 
 
-
+                                    <img src={require('../artifacts/images/map.png')} className="d-block w-100" alt="letter" />
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
