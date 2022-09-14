@@ -68,95 +68,95 @@ class Home extends Component {
                 <div className="row">
                     <div className="col-sm-4">
                         <div className="container">
-                                <div className="card h-100" style={{marginBottom: '32px'}}>
-                                    <div className="card-body">
-                                        <TwitterTimelineEmbed sourceType="profile" screenName="Team_7034" options={{height: 600}}/>
+                            <div className="card h-100" style={{marginBottom: '32px'}}>
+                                <div className="card-body">
+                                    <TwitterTimelineEmbed sourceType="profile" screenName="Team_7034" options={{height: 600}}/>
+                                </div>
+                            </div>
+                            <div className="jumbotron text-center bg-white" >
+                                <h1 className="display-4 font-weight-bold">2B United</h1>
+                                <h1 className="display-4 font-weight-bold">2B Inspired</h1>
+                                <h1 className="display-4 font-weight-bold">2B Determined</h1>
+                                <img src={require('../artifacts/images/2021teamphoto.JPG')} className="d-block w-100" alt="PPE" />
+                                <div className="row mt-4">
+                                    <div className="col-sm-4 mb-2">
+
+                                    </div>
+                                    <div className="col-sm-4 mb-2">
+                                        <img src={require('../artifacts/images/awards/2022/2022OSF_EngiInsp.png')}/>
+                                    </div>
+                                    <div className="col-sm-4 mb-2">
+
                                     </div>
                                 </div>
-                                <div className="jumbotron text-center bg-white">
-                                    <h1 className="display-4 font-weight-bold">2B United</h1>
-                                    <h1 className="display-4 font-weight-bold">2B Inspired</h1>
-                                    <h1 className="display-4 font-weight-bold">2B Determined</h1>
-                                    <img src={require('../artifacts/images/2021teamphoto.JPG')} className="d-block w-100" alt="PPE" />
-                                    <div className="row mt-4">
-                                        <div className="col-sm-4 mb-2">
-
-                                        </div>
-                                        <div className="col-sm-4 mb-2">
-                                            <img src={require('../artifacts/images/awards/2022/2022OSF_EngiInsp.png')}/>
-                                        </div>
-                                        <div className="col-sm-4 mb-2">
-
-                                        </div>
+                                <div className="row mt-4">
+                                    <div className="col-sm-4 mb-2">
+                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2022/2022CAIS_winner.png')}/>
                                     </div>
-                                    <div className="row mt-4">
-                                        <div className="col-sm-4 mb-2">
-                                            <img src={require('../artifacts/images/awards/2022/2022CAIS_winner.png')}/>
-                                        </div>
-                                        <div className="col-sm-4 mb-2">
-                                            <img src={require('../artifacts/images/awards/2022/2022CAIS_InvinCtrl.png')}/>
-                                        </div>
-                                        <div className="col-sm-4 mb-2">
-                                            <img src={require('../artifacts/images/awards/2022/2022OSF_winner.png')}/>
-                                        </div>
+                                    <div className="col-sm-4 mb-2">
+                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2022/2022CAIS_InvinCtrl.png')}/>
                                     </div>
-                                    <div className="row mt-4">
-                                        <div className="col-sm-4 mb-2">
-                                            <img src={require('../artifacts/images/awards/2021/regionalChairmans.png')}/>
-                                        </div>
-                                        <div className="col-sm-4 mb-2">
-                                            <img src={require('../artifacts/images/awards/2021/districtsChairmans.png')}/>
-                                        </div>
-                                        <div className="col-sm-4 mb-2">
-                                            <img src={require('../artifacts/images/awards/2019/wilsonvilleJudges.png')}/>
-                                        </div>
+                                    <div className="col-sm-4 mb-2">
+                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2022/2022OSF_winner.png')}/>
                                     </div>
-                                    <div className="row mt-4">
-                                        <div className="col-sm-4 mb-2">
-                                            <img src={require('../artifacts/images/awards/2019/wilsonvilleSafety.png')}/>
-                                        </div>
-                                        <div className="col-sm-4 mb-2">
-                                            <img src={require('../artifacts/images/awards/2018/houstonInspiration.png')}/>
-                                        </div>
-                                        <div className="col-sm-4 mb-2">
-                                            <img src={require('../artifacts/images/awards/2018/pnwRookieAllStar.png')}/>
-                                        </div>
+                                </div>
+                                <div className="row mt-4">
+                                    <div className="col-sm-4 mb-2">
+                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2021/regionalChairmans.png')}/>
                                     </div>
-                                    <div className="row mt-4">
-                                        <div className="col-sm-4 mb-2">
-                                            <img src={require('../artifacts/images/awards/2018/lakeOswegoRookieAllStar.png')}/>
-                                        </div>
-                                        <div className="col-sm-4 mb-2">
-                                            <img src={require('../artifacts/images/awards/2018/lakeOswegoRookieSeed.png')}/>
-                                        </div>
-                                        <div className="col-sm-4 mb-2">
-                                            <img src={require('../artifacts/images/awards/2018/wilsonvilleRookieSeed.png')}/>
-                                        </div>
+                                    <div className="col-sm-4 mb-2">
+                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2021/districtsChairmans.png')}/>
+                                    </div>
+                                    <div className="col-sm-4 mb-2">
+                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2019/wilsonvilleJudges.png')}/>
+                                    </div>
+                                </div>
+                                <div className="row mt-4">
+                                    <div className="col-sm-4 mb-2">
+                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2019/wilsonvilleSafety.png')}/>
+                                    </div>
+                                    <div className="col-sm-4 mb-2">
+                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2018/houstonInspiration.png')}/>
+                                    </div>
+                                    <div className="col-sm-4 mb-2">
+                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2018/pnwRookieAllStar.png')}/>
+                                    </div>
+                                </div>
+                                <div className="row mt-4">
+                                    <div className="col-sm-4 mb-2">
+                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2018/lakeOswegoRookieAllStar.png')}/>
+                                    </div>
+                                    <div className="col-sm-4 mb-2">
+                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2018/lakeOswegoRookieSeed.png')}/>
+                                    </div>
+                                    <div className="col-sm-4 mb-2">
+                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2018/wilsonvilleRookieSeed.png')}/>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
                     <div className="col-sm-8">
 
                         <div className="jumbotron text-center bg-white">
-                                <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Incoming students!</h1>
-                                    <p className="lead">
-                                        Interesting in joining robotics? Great!!! You're always welcome in room 715 (700 building behind the school) 
-                                        to come and check out robotics!
-                                    </p>
+                            <div className="col-sm my-auto">
+                                <h1 className="display-4 font-weight-bold">Incoming students!</h1>
+                                <p className="lead">
+                                    Interesting in joining robotics? Great!!! You're always welcome in room 715 (700 building behind the school)
+                                    to come and check out robotics!
+                                </p>
 
 
 
-                                    <a href="https://forms.gle/yEyU4Bh5BM1ASCT8A" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Emergency Contact Info</a>
-                                    <a href="https://docs.google.com/document/d/1ZZ4ZRuYdhhTvWdU9l1pxtZcvL9wcgm_2gu6Yq0xtLLU/edit?usp=sharing" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Team Handbook</a>
+                                <a href="https://forms.gle/yEyU4Bh5BM1ASCT8A" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Emergency Contact Info</a>
+                                <a href="https://docs.google.com/document/d/1ZZ4ZRuYdhhTvWdU9l1pxtZcvL9wcgm_2gu6Yq0xtLLU/edit?usp=sharing" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Team Handbook</a>
 
+                                <img src={require('../artifacts/images/fliers/Full_STEAM_Ahead_2022_Flyer-3.png')} className="d-block w-100" alt="PPE" />
 
-
-                                </div>
-                                <div className="col-sm mt-3 mt-md-0">
-                                </div>
-                         </div>
+                            </div>
+                            <div className="col-sm mt-3 mt-md-0">
+                            </div>
+                        </div>
 
 
                         <div className="jumbotron text-center bg-white">
@@ -251,22 +251,22 @@ class Home extends Component {
                                 </div>
                                 <div className="col-sm my-auto">
                                     <img src={require('../artifacts/images/ppe/masks.jpeg')} className="d-block w-100" alt="PPE" />
-                                   
+
                                 </div>
                             </div>
-                        </div>           
+                        </div>
                         <div className="jumbotron text-center bg-white">
                             <div className="carousel slide" data-ride="carousel" id="gallery">
                                 <ol className="carousel-indicators">
                                     {
                                         imageGalleryPics.map((img, index) =>
-                                        <li key={index} data-target="#gallery" data-slide-to={index} className={`${index === 0 ? 'active' : ''}`}/>)
+                                            <li key={index} data-target="#gallery" data-slide-to={index} className={`${index === 0 ? 'active' : ''}`}/>)
                                     }
                                 </ol>
                                 <div className="carousel-inner">
                                     {
                                         imageGalleryPics.map((img, index) =>
-                                        <GalleryImage key={img.image} img={img.image} className="d-block h-100" alt={img.image} active={index === 0} title={img.title} />)
+                                            <GalleryImage key={img.image} img={img.image} className="d-block h-100" alt={img.image} active={index === 0} title={img.title} />)
                                     }
                                 </div>
                                 <a className="carousel-control-prev" href="#gallery" role="button" data-slide="prev">
