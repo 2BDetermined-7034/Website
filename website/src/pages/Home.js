@@ -138,6 +138,23 @@ class Home extends Component {
                     </div>
                     <div className="col-sm-8">
 
+                    <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Chezy Champs!</h1>
+                                    <p className="lead">
+                                    Our team was invited to compete at Chezy Champs, an off-season competition hosted by World Championship winner team 254. 
+                                </p>
+                                    <a href="https://www.thebluealliance.com/event/2022cc" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Match information</a>
+                                    <a href="FILL ME PLZ" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Watch livestream</a>
+                                    <img src={require('../artifacts/images/fliers/Full_STEAM_Ahead_2022_Flyer-3.png')} className="d-block w-100" alt="PPE" />
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
                         <div className="jumbotron text-center bg-white">
                             <div className="col-sm my-auto">
                                 <h1 className="display-4 font-weight-bold">Incoming students!</h1>
