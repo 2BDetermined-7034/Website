@@ -172,18 +172,6 @@ class Home extends Component {
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Elementary School STEAM Camp</h1>
-                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfiokPjU7RNXgY4Wm8cZgXaJCxdD-7VqGbLouSZ397M0XvI4w/viewform?usp=sf_link" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Sign up</a>
-                                    <img src={require('../artifacts/images/fliers/Full_STEAM_Ahead_2022_Flyer-3.png')} className="d-block w-100" alt="PPE" />
-
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div className="jumbotron text-center bg-white">
-                            <div className="row">
-                                <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Lab Access</h1>
                                     <p className="lead">
                                         Here is a map of where our lab is located. The classroom is in room 715 in the 700 building behind the school.
