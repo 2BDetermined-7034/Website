@@ -141,12 +141,11 @@ class Home extends Component {
                     <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Chezy Champs!</h1>
+                                    <h1 className="display-4 font-weight-bold">Girls Generation</h1>
                                     <p className="lead">
-                                    Our team was invited to compete at Chezy Champs, an off-season competition hosted by World Championship winner team 254. 
                                 </p>
-                                    <a href="https://www.thebluealliance.com/event/2022cc" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Match information</a>
-                                    <a href="https://www.twitch.tv/robosportsnetwork" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Watch livestream</a>
+                                October 15th we’ll be competing in Girls Generation, an offseason competition that highlights women in STEM! It gives people a chance to experience STEM in a more comfortable environment, and we are excited to be involved! We just successfully completed a new type of drive base called swerve which allows the robot to drive in any direction. We are also bringing our robot from the past season in order to give more opportunities for driving, coaching, and competition setting experience. Girls Generation has been a great way for incoming and current team members to learn manufacturing, electrical, software, and experience the team environment! Now that the robot drives we need to finish attaching the climb mechanism and then practice for the upcoming competition!
+
                                 </div>
 
                             </div>
