@@ -138,6 +138,25 @@ class Home extends Component {
                     </div>
                     <div className="col-sm-8">
 
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Full Steam Ahead Camp</h1>
+                                    <p className="lead">
+                                        West Linn High School Robotics team is exited to host an after-school robotics camp for students in grades 3rd-5th. The camp will be held at West Linn High School from 1:15-3:40 PM.
+                                    </p>
+                                    <p className={"lead"}>
+                                        You can drop off your student(s) at the front entrance of the school <b>(West A Street)</b> and pick them up at the same location.
+                                    </p>
+                                    <p className={"lead"}>
+                                        <b>Camp Registration is closed! Feel free to email us to subscribe to our newsletter for future camps!</b>
+                                    </p>
+                                    <img src={require('../artifacts/images/camp/2022/Full STEAM Ahead 2022 Flyer-3.png')} className="d-block w-100" alt="PPE" />
+                                </div>
+
+                            </div>
+                        </div>
+
                     <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
