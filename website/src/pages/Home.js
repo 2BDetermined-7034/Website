@@ -276,7 +276,7 @@ class Home extends Component {
                                     </p>
                                     <Link to="/community/ppe" type="button" className="btn btn-success mx-2 mb-1">Learn More</Link>
                                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-or69Q8A6DGK1wpm4DJtr97SzUk4Q6q1zTKlK0brqaUSzMA/viewform?edit_requested=true" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">Request PPE</a>
-                                    <a href="https://www.gofundme.com/f/west-linn-robotics-expenses" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2">Donate</a>
+                                    <a href="https://www.gofundme.com/f/s49nup-west-linn-robotics-expenses?utm_source=customer&utm_medium=copy_link_all&utm_campaign=p_cp+share-sheet" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2">Donate</a>
                                 </div>
                                 <div className="col-sm my-auto">
                                     <img src={require('../artifacts/images/ppe/masks.jpeg')} className="d-block w-100" alt="PPE" />

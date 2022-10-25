@@ -241,7 +241,7 @@ class Sponsors extends Component {
                     <div className="col-sm">
                         <div className="card h-100">
                             <div className="card-body">
-                                <embed height="500px" width="100%" src="https://www.gofundme.com/mvc.php?route=widgets/mediawidget&fund=west-linn-robotics-expenses&image=1&coinfo=0&preview=1" type="text/html" />
+                                <embed height="500px" width="100%" src="https://www.gofundme.com/f/s49nup-west-linn-robotics-expenses?utm_source=customer&utm_medium=copy_link_all&utm_campaign=p_cp+share-sheet" type="text/html" />
                             </div>
                         </div>
                     </div>
