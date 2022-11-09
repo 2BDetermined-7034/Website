@@ -102,7 +102,7 @@ class Navbar extends Component {
                    <div className="container-fluid">
                         <div className="row">
                             <h5>Donations</h5>
-                            <embed height="159px" width="100%" src="https://www.gofundme.com/f/team-funding-for-international-competitions/widget/medium/" type="text/html" />
+                            <embed height="159px" width="100%" src="https://www.gofundme.com/f/s49nup-west-linn-robotics-expenses/widget/medium/" type="text/html" />
                         </div>
                         <hr />
                         <div className="row">
