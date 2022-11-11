@@ -68,11 +68,12 @@ class Home extends Component {
                 <div className="row">
                     <div className="col-sm-4">
                         <div className="container">
+                           {/* Twitter
                             <div className="card h-100" style={{marginBottom: '32px'}}>
                                 <div className="card-body">
                                     <TwitterTimelineEmbed sourceType="profile" screenName="Team_7034" options={{height: 600}}/>
                                 </div>
-                            </div>
+                            </div>*/}
                             <div className="jumbotron text-center bg-white" >
                                 <h1 className="display-4 font-weight-bold">2B United</h1>
                                 <h1 className="display-4 font-weight-bold">2B Inspired</h1>
@@ -149,9 +150,9 @@ class Home extends Component {
                                         You can drop off your student(s) at the front entrance of the school <b>(West A Street)</b> and pick them up at the same location.
                                     </p>
                                     <p className={"lead"}>
-                                        <b>Camp Registration is closed! Feel free to email us to subscribe to our newsletter for future camps!</b>
+                                        <b>Camp Registration is <b>closed!</b> Feel free to email us to subscribe to our newsletter for future camps!</b>
                                     </p>
-                                    <img src={require('../artifacts/images/camp/2022/Full STEAM Ahead 2022 Flyer-3.png')} className="d-block w-100" alt="PPE" />
+                                   <img src={require('../artifacts/images/camp/2022/Full STEAM Ahead 2022 Flyer-3.png')} className="d-block w-100" alt="PPE" />
                                 </div>
 
                             </div>
