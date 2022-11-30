@@ -9,6 +9,7 @@ import Camps from './pages/Camps';
 import Calendar from './pages/Calendar';
 import Sponsors from './pages/Sponsors';
 import HourOfCode from './pages/HourOfCode';
+import Compresults from './pages/Compresults';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route exact path="/community/outreach" component={Outreach} />
             <Route exact path="/community/ppe" component={PPEProject} />
             <Route exact path="/community/hourofcode" component={HourOfCode} />
+            <Route exact path="/About_Us/Competition_Results" component={Compresults} />
             <Route exact path="/community/camps" component={Camps} />
             <Route exact path="/calendar" component={Calendar} />
             <Route exact path="/sponsors" component={Sponsors} />
