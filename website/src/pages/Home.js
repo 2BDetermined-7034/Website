@@ -147,12 +147,15 @@ class Home extends Component {
                                         West Linn High School Robotics team is exited to host an after-school robotics camp for students in grades 3rd-5th. The camp will be held at West Linn High School from 1:15-3:40 PM.
                                     </p>
                                     <p className={"lead"}>
-                                        You can drop off your student(s) at the front entrance of the school <b>(West A Street)</b> and pick them up at the same location.
-                                    </p>
-                                    <p className={"lead"}>
                                         <b>Camp Registration is <b>closed!</b> Feel free to email us to subscribe to our newsletter for future camps!</b>
                                     </p>
-                                   <img src={require('../artifacts/images/camp/2022/Full STEAM Ahead 2022 Flyer-3.png')} className="d-block w-100" alt="PPE" />
+                                    <p className='lead'>
+                                        <b><b><u>Update:</u></b> Our half-day camp Full STEAM Ahead last week was a huge success! We had 44 elementary schoolers attend, with team members teaching a variety of lessons and campers getting to watch our competition robot. We all had a great time and can’t wait to do it again in the future!</b>
+                                    </p>
+                                   <img src={require('../artifacts/images/FULL Steam Ahead/IMG 4.JPG')} className="w-50"  alt="PPE" />
+                                   <img src={require('../artifacts/images/FULL Steam Ahead/IMG 3.JPG')} className="w-50" alt="PPE" />
+                                   <img src={require('../artifacts/images/FULL Steam Ahead/IMG 2.JPG')} className="w-50" alt="PPE" />
+                                   <img src={require('../artifacts/images/FULL Steam Ahead/IMG 1.JPG')} className="w-50" alt="PPE" />
                                 </div>
 
                             </div>
