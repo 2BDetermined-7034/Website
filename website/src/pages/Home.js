@@ -209,8 +209,6 @@ class Home extends Component {
                             </div>
                         </div>
 
-
-                                    <img src={require('../artifacts/images/map.png')} className="d-block w-100" alt="letter" />
                        {/* 
                        <div className="jumbotron text-center bg-white">
                             <div className="row">

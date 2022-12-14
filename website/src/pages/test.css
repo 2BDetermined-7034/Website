@@ -6,6 +6,11 @@
     line-height: 2.5;
 }
 
+@font-face {
+    font-family: Ethnocentric;
+    src: url(../ethnocentric_rg.otf);
+}
+
 .intro-img {
     width: 25%;
     float: right;

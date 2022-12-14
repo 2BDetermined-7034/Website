@@ -7,12 +7,25 @@ import logo from '../artifacts/images/GearLogo2022.png';
 import wlhsRoboticsLogo from '../artifacts/images/wlhsRoboticsLogo.png';
 import firstLogo from '../artifacts/images/firstLogo.png';
 
+
 class Navbar extends Component {
     render() {
         return (
             <Fragment>
-                <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" style={{fontSize: '1.5rem'}}>
-                    <ul className="navbar-nav ml-auto text-center">
+                <nav className="navbar sticky-top navbar-expand-lg navbar-dark" style={{fontSize: '1.5rem', backgroundColor: "#fd9f12"}}>
+                        <div className="d-inline-block d-md-block">
+                                <a className="navbar-brand" href="/home">
+                                    <img src={logo} width="90" height="90" alt="logo"/>
+                                </a>
+                        </div>
+                    <a className="navbar-link" href='/home' style={{ textDecoration: 'none' }}>
+                            <div style={{fontSize: '4.0rem', fontFamily:"Ethnocentric", color: "white"}}>
+                                    <b>
+                                        7034
+                                    </b>
+                            </div>
+                    </a>
+                    <ul className="navbar-nav mx-auto text-center" style={{paddingRight: "200px"}}> {/*This controls the location in the navbar, used to be ml-auto*/}
                         <NavElement to="/home">Home</NavElement>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
@@ -25,6 +38,7 @@ class Navbar extends Component {
                                 <DropdownNavElement to="/About_Us/Competition_Results">Competition Results</DropdownNavElement>
                             </div>
                         </li>
+                    
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
                                 Community
@@ -37,19 +51,15 @@ class Navbar extends Component {
                                 
                             </div>
                         </li>
-                    </ul>
-                    <div className="d-none d-md-block">
-                        <a className="navbar-brand mr-0" href="#">
-                            <img src={logo} width="100" height="100" alt="logo"/>
-                        </a>
-                    </div>
-                    <ul className="navbar-nav mr-auto text-center">
-                        {/*<NavElement to="#">Scouting Information</NavElement>*/}
                         <NavElement to="/calendar">Calendar</NavElement>
                         <NavElement to="/sponsors">Our Sponsors</NavElement>
                         <ModalNavElement modalId="supportUs">Support Us</ModalNavElement>
-                    </ul>
-                </nav>
+                </ul>    
+                        {/*<NavElement to="#">Scouting Information</NavElement>*/}
+                        
+                    
+                
+            </nav>
 
                 {/* Modals */}
                 <Modal id="aboutUs" label="About Us" sizeModifier="modal-lg">
