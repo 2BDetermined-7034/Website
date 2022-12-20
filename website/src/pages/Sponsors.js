@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import { CopyToClipboard } from 'react-copy-to-clipboard';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCopy } from '@fortawesome/free-solid-svg-icons';
 
 class Sponsors extends Component {
     render() {
@@ -15,6 +12,9 @@ class Sponsors extends Component {
                     <h1 className="font-weight-bold w-100">Title Sponsors</h1>
                 </div>
                 <div className="row text-center">
+                    <div className="col-sm mt-3">
+                        <TitleSponsor image='nasa-logo-fullsize.png' name="NASA" link="https://www.nasa.gov/"><b>NASA</b> is dedicated to increasing interest in engineering, technology, science, and mathematics disciplines among youth in the United States.</TitleSponsor>
+                    </div>
                     <div className="col-sm mt-3">
                         <TitleSponsor image='te.png' name="TE Connectivity" link="https://www.te.com/usa-en/home.html"><b>TE Connectivity</b> works with technology to design and build devices that support a high-tech future.</TitleSponsor>
                     </div>
@@ -47,7 +47,9 @@ class Sponsors extends Component {
                     <div className="col-sm mt-3">
                         <GoldSponsor image='csm.png' name="Clackamas Steel" link="https://www.facebook.com/pages/category/Metal-Supplier/Clackamas-Steel-Mfg-Inc-141470222559712/" />
                     </div>
-                    <div className="col-sm mt-3" />
+                    <div className="col-sm mt-3">
+                        <GoldSponsor image='boeing-logo.png' name="Boeing" link="https://www.boeing.com/" />
+                    </div>
                 </div>
                 <hr />
                 <div className="row text-center">
@@ -172,10 +174,10 @@ class Sponsors extends Component {
                         <CommunitySponsor image='premierMA.png' name="Premier Martial Arts" link="https://premiermartialarts.com/westlinn/" />
                     </div>
                     <div className="col-sm mt-3" >
-                        
+                        <CommunitySponsor image='Baja_Fresh.png' name="Baja Fresh Lake Oswego" link="https://www.bajafresh.com/stores/mexican-food-lake-oswego/30455/" />
                     </div>
                     <div className="col-sm mt-3" >
-                        
+                        <CommunitySponsor image='SunnysDiner.png' name="Sunny's Diner" link="https://sunnysdiner.com/" />
                     </div>
                     <div className="col-sm mt-3" >
                        
@@ -203,49 +205,6 @@ class Sponsors extends Component {
                     </div>
                 </div>
                 <hr />
-                <div className="row text-center">
-                    <h1 className="font-weight-bold w-100">Interested in Supporting Us?</h1>
-                    <div className="col-sm">
-                        <div className="card h-100">
-                            <div className="card-body">
-                                <div className="row px-3">
-                                    <h5>Prospective Sponsors or Partners</h5>
-                                    <p>Please reach out to our business team for further information.</p>
-                                </div>
-                                <div className="row px-3">
-                                    <div className="input-group">
-                                      <input className="form-control" type="email" value="wlhsfrc@gmail.com" disabled />
-                                        <div className="input-group-append">
-                                           <CopyToClipboard text="wlhsfrc@gmail.com">
-                                                <button className="btn btn-success">
-                                                    <FontAwesomeIcon icon={faCopy} />
-                                                </button>
-                                            </CopyToClipboard>
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr />
-                                <div className="row px-3">
-                                    <div className="m-3 p-3 bg-light w-100 h-100 textCenter addressBox">
-                                        <h5>Mail Checks To:</h5>
-                                        <p>
-                                            West Linn High School ASB<br />
-                                            Attn: Robotics<br />
-                                            5464 West A Street West Linn, Oregon 97068
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-sm">
-                        <div className="card h-100">
-                            <div className="card-body">
-                                <embed height="500px" width="100%" src="https://www.gofundme.com/f/s49nup-west-linn-robotics-expenses?utm_source=customer&utm_medium=copy_link_all&utm_campaign=p_cp+share-sheet" type="text/html" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         );
     }

@@ -18,13 +18,19 @@ class Navbar extends Component {
                                     <img src={logo} width="90" height="90" alt="logo"/>
                                 </a>
                         </div>
-                    <a className="navbar-link" href='/home' style={{ textDecoration: 'none' }}>
+                        <div className="d-inline-block d-md-block">
+                                <a className="navbar-brand" href="/home">
+                                    <img src={require('../artifacts/images/Team_number.png')} height="80" alt="logo"/>
+                                </a>
+                        </div>
+
+                    {/*<a className="navbar-link" href='/home' style={{ textDecoration: 'none' }}>
                             <div style={{fontSize: '4.0rem', fontFamily:"Ethnocentric", color: "white"}}>
                                     <b>
                                         7034
                                     </b>
                             </div>
-                    </a>
+                    </a>*/}
                     <ul className="navbar-nav mx-auto text-center" style={{paddingRight: "200px"}}> {/*This controls the location in the navbar, used to be ml-auto*/}
                         <NavElement to="/home">Home</NavElement>
                         <li className="nav-item dropdown">
@@ -53,7 +59,7 @@ class Navbar extends Component {
                         </li>
                         <NavElement to="/calendar">Calendar</NavElement>
                         <NavElement to="/sponsors">Our Sponsors</NavElement>
-                        <ModalNavElement modalId="supportUs">Support Us</ModalNavElement>
+                        <NavElement to="/SupportUs">Support Us</NavElement>
                 </ul>    
                         {/*<NavElement to="#">Scouting Information</NavElement>*/}
                         
@@ -110,7 +116,7 @@ class Navbar extends Component {
                     </div>
                 </Modal>
 
-                <Modal id="supportUs" label="Support Us">
+             {/*   <Modal id="supportUs" label="Support Us">
                    <div className="container-fluid">
                         <div className="row">
                             <h5>Donations</h5>
@@ -134,7 +140,7 @@ class Navbar extends Component {
                             </div>
                         </div>
                    </div>
-                </Modal>
+                </Modal>*/}
             </Fragment>
         );
     }
