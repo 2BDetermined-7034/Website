@@ -21,7 +21,7 @@ class Compresults extends Component {
                     <div className="col-sm-8">
                         <div className="jumbotron text-center bg-white">
                             <div className="col-sm my-auto">
-                                <h1 className="display-4 font-weight-bold">2022 Bunny Bots Competition Results</h1>
+                                <h1 className="display-4 font-weight-bold">Bunny Bots Competition Results</h1>
                                 <p className="lead">
                                     On December 17th, 2022 we attended a bunny bots completion held at Catlin Gable school campus in portland, bringing three robots total, two of which were designed and made by new/incoming students, and the third robot was a swerve drive base - previously made for our Girls Generation Competition, but we just stripped it down to just the drive base, removing anything that was not needed, and added weights, Christmas lights, and a wreath.
                                 </p>
