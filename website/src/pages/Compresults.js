@@ -23,19 +23,39 @@ class Compresults extends Component {
                             <div className="col-sm my-auto">
                                 <h1 className="display-4 font-weight-bold">Bunny Bots Competition Results</h1>
                                 <p className="lead">
-                                    On December 17th, 2022 we attended a bunny bots completion held at Catlin Gable school campus in portland, bringing three robots total, two of which were designed and made by new/incoming students, and the third robot was a swerve drive base - previously made for our Girls Generation Competition, but we just stripped it down to just the drive base, removing anything that was not needed, and added weights, Christmas lights, and a wreath.
+                                    This past Saturday, December 17th, we attended the bunny bots competition held at Catlin Gabel School in Portland. We brought three robots in total, two of which (A and B) were designed and built by new students. The third robot (robot C) was our experimental swerve drive base that we decorated with Christmas lights and a wreath.                                </p>
+                                <p className="lead">
+                                    At the competition, robot A ranked 19th and B ranked 22nd after the qualifying rounds. Robot 3 (the swerve drive base) placed 3rd after qualifying rounds and advanced into the semifinals as the 3rd alliance captain!
                                 </p>
                                 <p className="lead">
-                                    During that time, Robots named A and B (the ones made by new members), with A placing 19th place and B placing 22nd place out of 24 teams after qualifying rounds and both were not picked during alliance selections and did not continue forward. Robot C/3 (the swerve drive base) placed 3rd after qualifying rounds, and moved onto semifinals, where they lost the first round of the semifinals, as well as the second round, and did not continue forward.
+                                    We had so much fun at the competition and it was a huge learning opportunity, especially for the new members. If you wish to see the recording of the competition, you can view it <a href={"https://www.youtube.com/watch?v=gu1z2s3G15A&ab_channel=1540FlamingChickens"}>here</a>.
                                 </p>
-                                <p className="lead">
-                                    In all, we had a great time at the competition, and learned a lot of things, along with the new members. If you wish to see the recording of the competition, you can view it here <a href={"https://www.youtube.com/watch?v=gu1z2s3G15A&ab_channel=1540FlamingChickens"}>here</a>.
-                                </p>
+                                <img src={require('../artifacts/images/2022bunnybots/DSC_0291.JPG')} className="w-50"  alt="bunnybots" />
                             </div>
                         </div>
                         <div className="col-sm-2" />
                     </div>
                 </div>
+
+                <div className="row">
+                    <div className="col-sm-2" />
+                    <div className="col-sm-8">
+                    <div className="jumbotron text-center bg-white">
+                        <div className="row">
+                            <div className="col-sm my-auto">
+                                <h1 className="display-4 font-weight-bold">Girls Generation</h1>
+                                <p className="lead">
+                                </p>
+                                October 15th we’ll be competing in Girls Generation, an offseason competition that highlights women in STEM! It gives people a chance to experience STEM in a more comfortable environment, and we are excited to be involved! We just successfully completed a new type of drive base called swerve which allows the robot to drive in any direction. We are also bringing our robot from the past season in order to give more opportunities for driving, coaching, and competition setting experience. Girls Generation has been a great way for incoming and current team members to learn manufacturing, electrical, software, and experience the team environment! Now that the robot drives we need to finish attaching the climb mechanism and then practice for the upcoming competition!
+
+                            </div>
+
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+
 
                 <div className="row">
                     <div className="col-sm-2" />

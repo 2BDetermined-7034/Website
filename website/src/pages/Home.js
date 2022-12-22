@@ -161,18 +161,7 @@ class Home extends Component {
                             </div>
                         </div>
 
-                    <div className="jumbotron text-center bg-white">
-                            <div className="row">
-                                <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Girls Generation</h1>
-                                    <p className="lead">
-                                </p>
-                                October 15th we’ll be competing in Girls Generation, an offseason competition that highlights women in STEM! It gives people a chance to experience STEM in a more comfortable environment, and we are excited to be involved! We just successfully completed a new type of drive base called swerve which allows the robot to drive in any direction. We are also bringing our robot from the past season in order to give more opportunities for driving, coaching, and competition setting experience. Girls Generation has been a great way for incoming and current team members to learn manufacturing, electrical, software, and experience the team environment! Now that the robot drives we need to finish attaching the climb mechanism and then practice for the upcoming competition!
 
-                                </div>
-
-                            </div>
-                        </div>
 
 
                     {/*
