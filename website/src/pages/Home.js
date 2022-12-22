@@ -152,6 +152,9 @@ class Home extends Component {
                                     <p className='lead'>
                                         <b><b><u>Update:</u></b> Our half-day camp Full STEAM Ahead last week was a huge success! We had 44 elementary schoolers attend, with team members teaching a variety of lessons and campers getting to watch our competition robot. We all had a great time and can’t wait to do it again in the future!</b>
                                     </p>
+                                    <p className='lead'>
+                                        During the camp, the district made a video about the camp, and you can watch it <a href="https://www.youtube.com/watch?v=MzJHAbYnLY4">here</a>.
+                                    </p>
                                    <img src={require('../artifacts/images/FULL Steam Ahead/IMG 4.JPG')} className="w-50"  alt="PPE" />
                                    <img src={require('../artifacts/images/FULL Steam Ahead/IMG 3.JPG')} className="w-50" alt="PPE" />
                                    <img src={require('../artifacts/images/FULL Steam Ahead/IMG 2.JPG')} className="w-50" alt="PPE" />
