@@ -40,8 +40,8 @@ class Navbar extends Component {
                             <div className="dropdown-menu">
                             <ModalDropdownNavElement modalId="aboutUs">About Us</ModalDropdownNavElement>
                                 <ModalDropdownNavElement modalId="aboutFirst">About FIRST</ModalDropdownNavElement>
-                                <a className="dropdown-item" href="http://wlhsfrc.com/wiki/doku.php" target="_blank" rel="noopener noreferrer">Wiki</a>
                                 <DropdownNavElement to="/About_Us/Competition_Results">Competition Results</DropdownNavElement>
+                                <a className="dropdown-item" href="http://wlhsfrc.com/wiki/doku.php" target="_blank" rel="noopener noreferrer">Wiki</a>
                             </div>
                         </li>
                     
