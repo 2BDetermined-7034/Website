@@ -78,7 +78,7 @@ class Home extends Component {
                                 <h1 className="display-4 font-weight-bold">2B United</h1>
                                 <h1 className="display-4 font-weight-bold">2B Inspired</h1>
                                 <h1 className="display-4 font-weight-bold">2B Determined</h1>
-                                <img src={require('../artifacts/images/2021teamphoto.JPG')} className="d-block w-100" alt="PPE" />
+                                <img src={require('../artifacts/images/TeamPhoto.png')} className="d-block w-100" alt="PPE" />
                                 <div className="row mt-4">
                                     <div className="col-sm-4 mb-2">
 
@@ -137,9 +137,9 @@ class Home extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-8">
-
-                        <div className="jumbotron text-center bg-white">
+                      <div className="col-sm-8">
+{/*
+                      <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Full Steam Ahead Camp</h1>
@@ -160,9 +160,10 @@ class Home extends Component {
                                    <img src={require('../artifacts/images/FULL Steam Ahead/IMG 2.JPG')} className="w-50" alt="PPE" />
                                    <img src={require('../artifacts/images/FULL Steam Ahead/IMG 1.JPG')} className="w-50" alt="PPE" />
                                 </div>
-
+ 
                             </div>
-                        </div>
+                    </div>
+                    */}
 
 
 
@@ -186,6 +187,20 @@ class Home extends Component {
                             </div>
                         </div>
                         */} 
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Newsletter</h1>
+                                    <p className="lead">
+                                        Sign up for our newsletter in order to recieve updates about the team every month!
+                                    </p>
+                                    <a href="https://www.smore.com/63e8z-wlhs-robotics" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">View</a>
+                                </div>
+                                <div className="col-sm mt-3 mt-md-0">
+                                    <img src={require('../artifacts/images/newsletter.PNG')} className="d-block w-100" alt="letter" />
+                                </div>
+                            </div>
+                        </div>
 
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
@@ -253,20 +268,7 @@ class Home extends Component {
                             </div>
                         </div>
                         */}
-                        <div className="jumbotron text-center bg-white">
-                            <div className="row">
-                                <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Newsletter</h1>
-                                    <p className="lead">
-                                        Sign up for our newsletter in order to recieve updates about the team every month!
-                                    </p>
-                                    <a href="https://www.smore.com/7pdna" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">View</a>
-                                </div>
-                                <div className="col-sm mt-3 mt-md-0">
-                                    <img src={require('../artifacts/images/newsletter.PNG')} className="d-block w-100" alt="letter" />
-                                </div>
-                            </div>
-                        </div>
+
                         {/*
                         <div className="jumbotron text-center bg-white">
                             <div className="row">

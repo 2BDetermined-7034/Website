@@ -56,7 +56,7 @@
 }
 
 .dottedLine {
-    border: dotted #678983 8px;
+    border: dotted #ffffff 8px;
     border-bottom: none;
     width: 8%;
     margin: 50px auto;
@@ -194,6 +194,10 @@
     font-family: 'Arvo', serif;
     text-align: center;
     line-height: 2;
+}
+
+.white-text {
+    color: white;
 }
 
 .star-wars-img {

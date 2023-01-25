@@ -6,7 +6,7 @@ class HourOfCode extends Component {
     render() {
         return(
             <div className="container">
-                <div className="header">
+                <div className="header white-text">
                     <Typewriter
   
                     onInit={(typewriter)=> {
@@ -23,11 +23,11 @@ class HourOfCode extends Component {
                     />
                 </div>
                 <img className="coding-img" src={require("../artifacts/images/Code typing-bro.png")} alt="coding-img"></img>
-                <div className="content">
-                    <div className="second-title"><h2>A great way to start your coding journey~</h2></div>
+                <div className="content white-text">
+                    <div className="second-title white-text"><h2>A great way to start your coding journey~</h2></div>
                     <div className = "dottedLine"></div>
                         <div className="intro">
-                            <h2 className = "h2">Introduction</h2>
+                            <h2 className = "h2 white-text">Introduction</h2>
                             <img className = "intro-img"
                             src = {require("../artifacts/images/Code review-amico.png")}
                             alt = "intro-img"
@@ -45,7 +45,7 @@ class HourOfCode extends Component {
                             <div className = "dottedLine"></div>
                             <div className="elementary">
 
-                                <h2 className="h2">Elementary School Level - Dance Party</h2>
+                                <h2 className="h2 white-text">Elementary School Level - Dance Party</h2>
                                 <img className="dance-img"
                                 src={require("../artifacts/images/dance.gif")}
                                 alt="dance-img"
@@ -57,7 +57,7 @@ class HourOfCode extends Component {
                                         <a className="hoc-btn" href="https://curriculum.code.org/hoc/plugged/8/">Teacher Notes</a> 
                                     </div>
                                 </div>
-                                <p className="dance-body">
+                                <p className="dance-body white-text">
                                 Warm Up - <br />
                                 As a class, first think about “what’s your favorite way to be creative?” <br/>
                                 Today, we are going to be creative “code”, and dancing!! <br/>
@@ -67,7 +67,7 @@ class HourOfCode extends Component {
                                 </p>
                                 
 
-                                <p className="dance-body">
+                                <p className="dance-body white-text">
                                 Go through the tutorial either as a class or in pairs, 
                                 create a dance party of your own, featuring your favorite songs and artists!  <br />
                                 Don’t forget to print out 
@@ -81,7 +81,7 @@ class HourOfCode extends Component {
                             <div className = "dottedLine"></div>
 
                             <div className="middle-school">
-                                <h2 className="h2">Middle School Level - Frozen</h2>
+                                <h2 className="h2 white-text">Middle School Level - Frozen</h2>
                                 <img className="anna-img"
                                 src={require("../artifacts/images/anna.jpg")}
                                 alt="anna-img"
@@ -93,11 +93,11 @@ class HourOfCode extends Component {
                                         <a className="hoc-btn" href="https://curriculum.code.org/hoc/plugged/2/">Teacher Notes </a>
                                     </div> 
                                 </div>
-                                <p className="elsa-body">
+                                <p className="elsa-body white-text">
                                 Warm Up - <br />
                                 As a class, think about what does the word ‘code’ mean? What does “debugging’ mean? <br/>
                                 </p>
-                                <p className="elsa-body">As a class or work in pairs, follow the steps on the instruction <br />
+                                <p className="elsa-body white-text">As a class or work in pairs, follow the steps on the instruction <br />
                                 and code with Elsa and Anna to create a winter wonderland. <br/>
                                  You will create snowflakes and patterns as you ice-skate and <br />
                                  make a winter wonderland that you can then share with your friends! <br />
@@ -113,7 +113,7 @@ class HourOfCode extends Component {
                             
                         <div className = "dottedLine"></div>
                             <div className="high-school">
-                                <h2 className="h2">High School Level - Star Wars</h2>
+                                <h2 className="h2 white-text">High School Level - Star Wars</h2>
                                 <img className="star-wars-img"
                                 src={require("../artifacts/images/star-wars.jpg")}
                                 alt="star-wars-img"
@@ -126,7 +126,7 @@ class HourOfCode extends Component {
                                         <a className="hoc-btn" href="https://code.org/files/star-wars-lp.pdf" >Teacher Notes </a> 
                                     </div>
                                 </div>
-                                <p className="star-wars-body">
+                                <p className="star-wars-body white-text">
                                     Warm up - <br />
                                     As a class, 
                                     discuss what you already know about “coding” or “programming! <br/>
@@ -142,7 +142,7 @@ class HourOfCode extends Component {
                         <div className = "dottedLine"></div>
 
                             <div>
-                                <h2 className="h2">Resources.</h2>
+                                <h2 className="h2 white-text">Resources.</h2>
                                 <p className="body">Below are some amazing free online resources that can teach you about Python, Java, HTML, CSS, and Javascript</p>
                                 <p className="body">Happy coding everyone 🖤💗</p>
                             </div>
@@ -168,7 +168,7 @@ class HourOfCode extends Component {
                                 />
                                 <ul className="java-coding-resources">
                                     <a className="geeksforgeeks" href="https://www.geeksforgeeks.org/java/?ref=shm">GeeksforGeeks - ☕</a><br/>
-                                    <p className="java-descr">This self-paced Java tutorial goes in detail of 
+                                    <p className="java-descr white-text">This self-paced Java tutorial goes in detail of 
                                     what Java is and how Java works, including concepts such as Strings,
                                     Methods, Flow Control etc that will allow you to code a cool program of your own!</p>
                                 </ul>
@@ -181,7 +181,7 @@ class HourOfCode extends Component {
                                 />
                                 <ul className="the-combo-resources">
                                     <a className="w3school-css" href="https://www.w3schools.com">W3Schools - 📑</a><br/>
-                                    <p className="combo-dev">W3Schools include lots of fun practices along with detailed
+                                    <p className="combo-dev white-text">W3Schools include lots of fun practices along with detailed
                                     description for HTML, CSS, and Javascript, the combo you would need to build
                                     a functional website, like this one!</p>
 

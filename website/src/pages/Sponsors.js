@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
+import "./test.css";
 
 class Sponsors extends Component {
     render() {
         return(
             <div className="container">
                 <div className="row text-center">
-                    <h2 className="display-4 font-weight-bold w-100">We thank our sponsors for making this program possible!</h2>
+                    <h2 className="display-4 font-weight-bold w-100 white-text">We thank our sponsors for making this program possible!</h2>
                 </div>
                 <hr />
                 <div className="row text-center">
-                    <h1 className="font-weight-bold w-100">Title Sponsors</h1>
+                    <h1 className="font-weight-bold w-100 white-text">Title Sponsors</h1>
                 </div>
                 <div className="row text-center">
                     <div className="col-sm mt-3">
@@ -27,7 +28,7 @@ class Sponsors extends Component {
                 </div>
                 <hr />
                 <div className="row text-center">
-                    <h1 className="font-weight-bold w-100">Gold Sponsors</h1>
+                    <h1 className="font-weight-bold w-100 white-text">Gold Sponsors</h1>
                 </div>
                 <div className="row text-center mt-3">
                     <div className="col-sm mt-3">
@@ -53,7 +54,7 @@ class Sponsors extends Component {
                 </div>
                 <hr />
                 <div className="row text-center">
-                    <h1 className="font-weight-bold w-100">Bronze Sponsors</h1>
+                    <h1 className="font-weight-bold w-100 white-text">Bronze Sponsors</h1>
                 </div>
                 <div className="row text-center mt-3">
                     <div className="col-sm mt-3">
@@ -80,7 +81,7 @@ class Sponsors extends Component {
                 </div>
                 <hr />
                 <div className="row text-center">
-                    <h1 className="font-weight-bold w-100">Community Sponsors</h1>
+                    <h1 className="font-weight-bold w-100 white-text">Community Sponsors</h1>
                 </div>
                 <div className="row text-center mt-3">
                     <div className="col-sm mt-3">
@@ -191,7 +192,7 @@ class Sponsors extends Component {
 
                 <hr />
                 <div className="row text-center">
-                    <h1 className="font-weight-bold w-100">Community Partners</h1>
+                    <h1 className="font-weight-bold w-100 white-text">Community Partners</h1>
                 </div>
                 <div className="row text-center mt-3">
                     <div className="col-sm mt-3">

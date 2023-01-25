@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopy } from '@fortawesome/free-solid-svg-icons';
+import "./test.css";
 
 class SupportUs extends Component {
     render() {
         return (
             <div className="row text-center">
-            <h1 className="font-weight-bold w-100">Interested in Supporting Us?</h1>
+            <h1 className="font-weight-bold w-100 white-text">Interested in Supporting Us?</h1>
             <div className="col-sm">
                 <div className="card h-100">
                     <div className="card-body">
@@ -35,6 +36,14 @@ class SupportUs extends Component {
                                     West Linn High School ASB<br />
                                     Attn: Robotics<br />
                                     5464 West A Street West Linn, Oregon 97068
+                                </p>
+                            </div>
+                        </div>
+                        <div className="row px-3">
+                            <div className="m-3 p-3 bg-light w-100 h-100 textCenter addressBox">
+                                <h5>IRS EIN</h5>
+                                <p>
+                                    85-1375698 <br />
                                 </p>
                             </div>
                         </div>

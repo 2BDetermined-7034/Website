@@ -11,6 +11,7 @@ import Sponsors from './pages/Sponsors';
 import HourOfCode from './pages/HourOfCode';
 import Compresults from './pages/Compresults';
 import SupportUs from './pages/SupportUs';
+import Newsletter from './pages/Newsletter';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             <Route exact path="/community/camps" component={Camps} />
             <Route exact path="/calendar" component={Calendar} />
             <Route exact path="/sponsors" component={Sponsors} />
+            <Route exact path="/Newsletter" component={Newsletter} />
             <Route exact path="/SupportUs" component={SupportUs} />
             <Redirect from="/" to="/home" />
           </Switch>

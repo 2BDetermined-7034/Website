@@ -31,7 +31,7 @@ class Navbar extends Component {
                                     </b>
                             </div>
                     </a>*/}
-                    <ul className="navbar-nav mx-auto text-center" style={{paddingRight: "200px"}}> {/*This controls the location in the navbar, used to be ml-auto*/}
+                    <ul className="navbar-nav mx-auto text-center" style={{paddingRight: "50px"}}> {/*This controls the location in the navbar, used to be ml-auto*/}
                         <NavElement to="/home">Home</NavElement>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
@@ -59,7 +59,9 @@ class Navbar extends Component {
                         </li>
                         <NavElement to="/calendar">Calendar</NavElement>
                         <NavElement to="/sponsors">Our Sponsors</NavElement>
+                        {/*<NavElement to="/Newsletter">Newsletter</NavElement>*/}
                         <NavElement to="/SupportUs">Support Us</NavElement>
+
                 </ul>    
                         {/*<NavElement to="#">Scouting Information</NavElement>*/}
                         
