@@ -38,8 +38,8 @@ class Navbar extends Component {
                                 About
                             </a>
                             <div className="dropdown-menu">
-                            <ModalDropdownNavElement modalId="aboutUs">About Us</ModalDropdownNavElement>
-                                <ModalDropdownNavElement modalId="aboutFirst">About FIRST</ModalDropdownNavElement>
+                                <DropdownNavElement to="/AboutUs">About Us</DropdownNavElement>
+                                {/*<ModalDropdownNavElement modalId="aboutFirst">About FIRST</ModalDropdownNavElement>*/}
                                 <DropdownNavElement to="/About_Us/Competition_Results">Competition Results</DropdownNavElement>
                                 <a className="dropdown-item" href="http://wlhsfrc.com/wiki/doku.php" target="_blank" rel="noopener noreferrer">Wiki</a>
                             </div>
@@ -59,9 +59,9 @@ class Navbar extends Component {
                         </li>
                         <NavElement to="/calendar">Calendar</NavElement>
                         <NavElement to="/sponsors">Our Sponsors</NavElement>
-                        {/*<NavElement to="/Newsletter">Newsletter</NavElement>*/}
+                        <NavElement to="/Newsletter">Newsletter</NavElement>
                         <NavElement to="/SupportUs">Support Us</NavElement>
-
+                        
                 </ul>    
                         {/*<NavElement to="#">Scouting Information</NavElement>*/}
                         
@@ -69,7 +69,7 @@ class Navbar extends Component {
                 
             </nav>
 
-                {/* Modals */}
+                {/* Modals
                 <Modal id="aboutUs" label="About Us" sizeModifier="modal-lg">
                     <div className="container-fluid">
                         <div className="row d-flex flex-wrap align-items-center">
@@ -116,7 +116,7 @@ class Navbar extends Component {
                             </div>
                         </div>
                     </div>
-                </Modal>
+                </Modal>*/}
 
              {/*   <Modal id="supportUs" label="Support Us">
                    <div className="container-fluid">
@@ -148,13 +148,13 @@ class Navbar extends Component {
     }
 }
 
-class RedLetter extends Component {
+{/*class RedLetter extends Component {
     render() {
         return (
             <span className="text-danger font-weight-bold">{this.props.letter}</span>
         )
     }
-}
+}*/}
 
 class Modal extends Component {
     render() {

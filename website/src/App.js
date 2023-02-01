@@ -12,6 +12,7 @@ import HourOfCode from './pages/HourOfCode';
 import Compresults from './pages/Compresults';
 import SupportUs from './pages/SupportUs';
 import Newsletter from './pages/Newsletter';
+import AboutUs from './pages/AboutUs';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Redirect from="/stemchallenge.php" to="/community/stemchallenges" />
             <Redirect from="/outreach.php" to="/community/stemchallenges" />
             <Route exact path="/home" component={Home} />
+            <Route exact path="/AboutUs" component={AboutUs} />
             <Route exact path="/community/outreach" component={Outreach} />
             <Route exact path="/community/ppe" component={PPEProject} />
             <Route exact path="/community/hourofcode" component={HourOfCode} />
