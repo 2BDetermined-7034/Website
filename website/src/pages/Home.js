@@ -186,7 +186,20 @@ class Home extends Component {
                             <div className="col-sm mt-3 mt-md-0">
                             </div>
                         </div>
-                        */} 
+                        */}
+                          <div className="jumbotron text-center bg-white">
+                              <div className="row">
+                                  <div className="col-sm my-auto">
+                                      <h1 className="display-4 font-weight-bold">Changing The System website!</h1>
+                                      <p className="lead">
+                                        Recently, we unveiled a brand-new website for our Changing The System girls camp, which will feature our whole camp package when it becomes available. The website is now accessible at <a href={"https://changingthesystem.net/"}>changingthesystem.net</a>
+                                      </p>
+                                  </div>
+                                  <div className="col-sm mt-3 mt-md-0">
+                                      <img src={require('../artifacts/CTSWebsite.png')} className="d-flex w-100" alt="letter" />
+                                  </div>
+                              </div>
+                          </div>
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
