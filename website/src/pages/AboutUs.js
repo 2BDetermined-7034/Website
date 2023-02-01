@@ -17,7 +17,7 @@ class AboutUs extends Component {
                                 <div className="col-sm-5">
                                     <div className="ml-4">
                                         <img src={wlhsRoboticsLogo} alt="teamLogo" height="200" />
-                                        </div>
+                                    </div>
                                         <div className="input-group pb-2">
                                             <input className="form-control" type="email" value="wlhsfrc@gmail.com" disabled />
                                             <div className="input-group-append">
@@ -44,12 +44,15 @@ class AboutUs extends Component {
                         </div>    
                     </div>
             </div>
+                
                         <div className="card h-100">
                             <div className="row d-flex flex-wrap align-items-center">
-                                <div className="col-sm-5">
-                                        <img src={firstLogo} alt="firstLogo" width="300" height="200" />
-                                </div>
                                 <div className="col">
+                                    <div className="align-items-center">
+                                        <img src={firstLogo} alt="firstLogo" width="300" height="200" />
+                                    </div>
+                                </div>
+                                <div className="col-7">
                                     <h5 className="text-center">FIRST Robotics</h5>
                                     <p className="text-justified">
                                         <RedLetter letter="F"/>or <RedLetter letter="I"/>nspiration and <RedLetter letter="R"/>ecognition of <RedLetter letter="S"/>cience and <RedLetter letter="T"/>echnology (FIRST) is an international youth organization that operates the FIRST Robotics Competition,

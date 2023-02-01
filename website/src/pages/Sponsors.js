@@ -124,8 +124,8 @@ class Sponsors extends Component {
                     <div className="col-sm mt-3">
                         <CommunitySponsor image='eyetoeye.png' name="Eye to Eye Clinic" link="http://www.eyetoeyeclinic.com/" />
                     </div>
-                    <div className="col-sm mt-3">
-                        <CommunitySponsor image='jetboats.png' name="Willamette Jet Boats" link="https://willamettejet.com/" />
+                    <div className="col-sm mt-3" >
+                        <CommunitySponsor image='SunnysDiner.png' name="Sunny's Diner" link="https://sunnysdiner.com/" />
                     </div>
                     <div className="col-sm mt-3">
                         <CommunitySponsor image='lcp.png' name="Linn City Pub" link="http://www.linncity.com/" />
@@ -178,7 +178,7 @@ class Sponsors extends Component {
                         <CommunitySponsor image='Baja_Fresh.png' name="Baja Fresh Lake Oswego" link="https://www.bajafresh.com/stores/mexican-food-lake-oswego/30455/" />
                     </div>
                     <div className="col-sm mt-3" >
-                        <CommunitySponsor image='SunnysDiner.png' name="Sunny's Diner" link="https://sunnysdiner.com/" />
+                        
                     </div>
                     <div className="col-sm mt-3" >
                        
