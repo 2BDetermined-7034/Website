@@ -17,7 +17,6 @@ class Navbar extends Component {
                     </a>*/}
                     <ul className="navbar-nav mx-auto text-center" style={{paddingRight: "50px"}}> {/*This controls the location in the navbar, used to be ml-auto*/}
                     <div className="navbar ml-auto">
-                        <NavElement to="/Scout">Scout</NavElement>
                     </div>
                         <NavElement to="/Main">Main</NavElement>
                         {/*<NavElement to="/community/hourofcode">Hour Of Code</NavElement>*/}

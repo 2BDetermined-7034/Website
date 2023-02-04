@@ -30,7 +30,10 @@ iframe {
   box-sizing: border-box;
 }
 
+:root {
+  --bg-color: rgb(20,20,20);
+}
+
 .backgroundTexture {
-  background-color: #4b4b4b;
-  background-image: url(./artifacts/images/backgroundTexture.png);
+  background-color: var(--bg-color);
 }

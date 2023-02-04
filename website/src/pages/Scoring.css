@@ -1,0 +1,78 @@
+:root {
+    --bg-color: rgb(20,20,20);
+}
+
+.body {
+    background-color: var(--bg-color);
+    display: flex;
+
+    padding: 0px;
+}
+
+h2 {
+    color: white;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+}
+
+.container {
+    display: block;
+    margin-left: auto;    
+    place-content: center;
+    margin-right: auto;
+}
+
+select {
+    background-color: rgb(244, 244, 244);
+}
+
+option {
+    background-color: rgba(244, 244, 244);
+}
+
+.textbox {
+    background-color: rgb(173, 173, 173);
+    text-align: center;
+}
+
+.COMMENT {
+    background-color: rgb(173, 173, 173);
+    text-align: left;
+}
+
+.Dropdown {
+    background-color: rgba(193, 193, 193, 0.1);
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    max-width: 800px;
+    width: calc(100% - 20px);
+}
+
+.card {
+    background-color: rgb(59, 59, 59, .8);
+    border: 1px solid rgba(255, 255, 255, .1);
+    border-radius: 10px;
+    height: fit-content;
+    max-width: 400px;
+    margin-bottom: 10px;
+    display: flex;
+    place-items: center;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(228, 228, 228);
+    font-family: "Space Mono", monospace;
+}
+
+h {
+    color: rgb(149, 149, 149);
+    padding-bottom: 5px;
+}
