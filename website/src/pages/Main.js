@@ -5,10 +5,12 @@ import ConeOFF from '../artifacts/images/Box/ConeOFF.png';
 import ConeON from '../artifacts/images/Box/ConeON.png';
 import Empty from '../artifacts/images/Box/Blank.png';
 import "./Scoring.css";
+let counter = 0; 
 
 class Main extends Component {
     render() {
         return(
+
 
     <div className="container">
         <div className="card">
