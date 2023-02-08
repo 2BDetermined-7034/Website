@@ -1,12 +1,22 @@
 import React, { Component } from 'react';
-import Script from 'next/script';
 import PurpleOFF from '../artifacts/images/Box/PurpleOFF.png';
 import PurpleON from '../artifacts/images/Box/PurpleON.png';
 import ConeOFF from '../artifacts/images/Box/ConeOFF.png';
 import ConeON from '../artifacts/images/Box/ConeON.png';
 import Empty from '../artifacts/images/Box/Blank.png';
 import "./Scoring.css";
-
+function incrementValue(){
+    var value = parseInt(document.getElementById('number').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    document.getElementById('number').value = value;
+}
+function decrementValue(){
+    var value = parseInt(document.getElementById('number').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value--;
+    document.getElementById('number').value = value;
+}
 class Main extends Component {
     
     render() {
@@ -14,6 +24,9 @@ class Main extends Component {
         return(
 
     <div className="container">
+        <script>
+
+        </script>
         <div className="card">
             <div className="row text-center">
                 <div>
@@ -95,21 +108,6 @@ class Main extends Component {
                     <div className="col-l">
                     <h><b>Score</b></h> {/* Button Ticker*/}
                     <div className="col-sm flex flex-row items-center">
-                    <Script id="show-banner" strategy="afterInteractive">
-
-                    </Script>
-                            function incrementValue(){
-                                var value = parseInt(document.getElementById('number').value, 10);
-                                value = isNaN(value) ? 0 : value;
-                                value++;
-                                document.getElementById('number').value = value;
-                            }
-                            function decrementValue(){
-                                var value = parseInt(document.getElementById('number').value, 10);
-                                value = isNaN(value) ? 0 : value;
-                                value--;
-                                document.getElementById('number').value = value;
-                            }
                         <form>
                             <input type="text" id="number" value="0"/>
                             <input type="button" onclick="incrementValue()" value="Plus" />
