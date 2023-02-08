@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
+import Script from 'next/script';
 import PurpleOFF from '../artifacts/images/Box/PurpleOFF.png';
 import PurpleON from '../artifacts/images/Box/PurpleON.png';
 import ConeOFF from '../artifacts/images/Box/ConeOFF.png';
 import ConeON from '../artifacts/images/Box/ConeON.png';
 import Empty from '../artifacts/images/Box/Blank.png';
 import "./Scoring.css";
-let counter = 0; 
 
 class Main extends Component {
+    
     render() {
-        return(
 
+        return(
 
     <div className="container">
         <div className="card">
@@ -94,15 +95,26 @@ class Main extends Component {
                     <div className="col-l">
                     <h><b>Score</b></h> {/* Button Ticker*/}
                     <div className="col-sm flex flex-row items-center">
-                        <button class="minus" type="button">
-                            -
-                        </button>
-                            <h2 class="counter">
-                                0
-                            </h2>
-                        <button class="plus" type="button">
-                            +
-                        </button>
+                    <Script id="show-banner" strategy="afterInteractive">
+
+                    </Script>
+                            function incrementValue(){
+                                var value = parseInt(document.getElementById('number').value, 10);
+                                value = isNaN(value) ? 0 : value;
+                                value++;
+                                document.getElementById('number').value = value;
+                            }
+                            function decrementValue(){
+                                var value = parseInt(document.getElementById('number').value, 10);
+                                value = isNaN(value) ? 0 : value;
+                                value--;
+                                document.getElementById('number').value = value;
+                            }
+                        <form>
+                            <input type="text" id="number" value="0"/>
+                            <input type="button" onclick="incrementValue()" value="Plus" />
+                            <input type="button" onclick="decrementValue()" value="Minus" />
+                        </form>
                     </div>
                 </div>
             </div>

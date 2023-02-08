@@ -40,5 +40,28 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      function incrementValue()
+      {
+          var value = parseInt(document.getElementById('number').value, 10);
+          value = isNaN(value) ? 0 : value;
+          value++;
+          document.getElementById('number').value = value;
+      }
+      function decrementValue()
+      {
+          var value = parseInt(document.getElementById('number').value, 10);
+          value = isNaN(value) ? 0 : value;
+          value--;
+          document.getElementById('number').value = value;
+      }
+  </script>
+  <!--
+<form>
+  <input type="text" id="number" value="0"/>
+  <input type="button" onclick="incrementValue()" value="Plus" 
+  />
+  <input type="button" onclick="decrementValue()" value="Minus" />-->
+</form>
   </body>
 </html>
