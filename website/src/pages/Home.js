@@ -187,19 +187,40 @@ class Home extends Component {
                             </div>
                         </div>
                         */}
+                          {/*<div className="jumbotron text-center bg-white">*/}
+                          {/*    <div className="row">*/}
+                          {/*        <div className="col-sm my-auto">*/}
+                          {/*            <h1 className="display-4 font-weight-bold">Changing The SySTEM website!</h1>*/}
+                          {/*            <p className="lead">*/}
+                          {/*              Recently, we unveiled a brand-new website for our Changing The SySTEM girls camp, which will feature our whole camp package when it becomes available. The website is now accessible at <a href={"https://changingthesystem.net/"}>changingthesystem.net</a>*/}
+                          {/*            </p>*/}
+                          {/*        </div>*/}
+                          {/*        <div className="col-sm mt-3 mt-md-0">*/}
+                          {/*            <img src={require('../artifacts/CTSWebsite.png')} className="d-flex w-100" alt="letter" />*/}
+                          {/*        </div>*/}
+                          {/*    </div>*/}
+                          {/*</div>*/}
+
                           <div className="jumbotron text-center bg-white">
                               <div className="row">
                                   <div className="col-sm my-auto">
-                                      <h1 className="display-4 font-weight-bold">Changing The SySTEM website!</h1>
+                                      <h1 className="display-4 font-weight-bold">Upcoming Competitions</h1>
                                       <p className="lead">
-                                        Recently, we unveiled a brand-new website for our Changing The SySTEM girls camp, which will feature our whole camp package when it becomes available. The website is now accessible at <a href={"https://changingthesystem.net/"}>changingthesystem.net</a>
+                                          Our upcoming competitions are listed below. We will be updating this page as we get more information about the competitions.
                                       </p>
-                                  </div>
-                                  <div className="col-sm mt-3 mt-md-0">
-                                      <img src={require('../artifacts/CTSWebsite.png')} className="d-flex w-100" alt="letter" />
+                                        <div className={"col-sm my-auto"}>
+                                            <p>
+                                                <b>CLACKAMAS FRC EVENT (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/clackamas-frc-event/"}>Additional Information</a>):</b> <u>When</u>: March 2-4, 2023  <u>Where</u>: Clackamas Academy of Industrial Sciences (CAIS) (1306 12th St, Oregon City, OR 97045) <b><u>Stream</u></b>: <a href={"https://google.com"}>This will be updated</a>
+                                            </p>
+                                            <p>
+                                                <b>OREGON STATE FAIR FRC EVENT (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/oregon-state-fair-frc-event/"}>Additional Information</a>):</b> <u>When</u>: March 23-25, 2025 <u>Where</u>: Oregon State Fairgrounds (2330 – 17th St. NE Salem, OR 97301 USA) <b><u>Stream</u></b>: <a href={"https://google.com"}>This will be updated</a>
+                                            </p>
+                                        </div>
                                   </div>
                               </div>
                           </div>
+
+
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
