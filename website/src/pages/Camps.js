@@ -21,6 +21,23 @@ return (
             </div>
             <div className="col-sm-2" />
         </div>
+        <div className="row">
+        <div className="col-sm-2" />
+            <div className="col-sm-8"> 
+                <div className="jumbotron text-center bg-white">
+                    <h1 className="display-4 font-weight-bold">Changing The SySTEM website!</h1>
+                    <p className="lead">
+                    Recently, we unveiled a brand-new website for our Changing The SySTEM girls camp, 
+                    which will feature our whole camp package when it becomes available. 
+                    The website is now accessible at <a href={"https://changingthesystem.net/"}>changingthesystem.net</a>
+                    </p>
+                    <div className="col-sm mt-3 mt-md-0">
+                        <img src={require('../artifacts/CTSWebsite.png')} className="w-50" alt="letter" />
+                    </div>
+                </div>
+            </div>
+            <div className="col-sm-2" />
+        </div>
             <hr />
 
         <div className="row">
@@ -47,7 +64,7 @@ return (
                     <img src={require('../artifacts/images/fullsteamahead.png')} className="d-block w-100" alt="fsaposter" />
                 </div>
             </div>
-
+{/* 
             <div className="col-sm-4">
                 <div className="jumbotron text-center bg-white">
                     <h1 className="display-4 font-weight-bold">Changing the SySTEM</h1>
@@ -60,7 +77,7 @@ return (
                     <img src={require('../artifacts/images/changingthesystem/flyer.jpg')} className="d-block w-100" alt="ctsposter" />
                 </div>
             </div>
-            
+*/}            
             <div className="col-sm-4">
                 <div className="jumbotron text-center bg-white">
                     <h1 className="display-4 font-weight-bold">Day Camps</h1>

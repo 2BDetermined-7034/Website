@@ -13,6 +13,7 @@ import Compresults from './pages/Compresults';
 import SupportUs from './pages/SupportUs';
 import Newsletter from './pages/Newsletter';
 import AboutUs from './pages/AboutUs';
+import ChangingSystem from './pages/ChangingSystem';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
             <Route exact path="/sponsors" component={Sponsors} />
             <Route exact path="/Newsletter" component={Newsletter} />
             <Route exact path="/SupportUs" component={SupportUs} />
+            <Route exact path="/ChangingtheSySTEM" component={ChangingSystem} />
             <Redirect from="/" to="/home" />
           </Switch>
         </div>

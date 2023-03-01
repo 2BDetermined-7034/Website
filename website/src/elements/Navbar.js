@@ -59,9 +59,10 @@ class Navbar extends Component {
                         </li>
                         <NavElement to="/calendar">Calendar</NavElement>
                         <NavElement to="/sponsors">Our Sponsors</NavElement>
-                        <NavElement to="/Newsletter">Newsletter</NavElement>
-                        <NavElement to="/SupportUs">Support Us</NavElement>
                         
+                        {/*<NavElement to="/Newsletter">Newsletter</NavElement>*/}
+                        <NavElement to="/SupportUs">Support Us</NavElement>
+                        <NavElement to="/ChangingtheSySTEM">CTS</NavElement>
                 </ul>    
                         {/*<NavElement to="#">Scouting Information</NavElement>*/}
                         
