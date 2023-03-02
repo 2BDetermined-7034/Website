@@ -211,13 +211,13 @@ class Home extends Component {
                                         <div className={"col-sm my-auto"}>
                                             <p>
                                                 <b>CLACKAMAS FRC EVENT (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/clackamas-frc-event/"}>Additional Information</a>):</b> 
-                                                <u>When</u>: March 2-4, 2023  <u>Where</u>: Clackamas Academy of Industrial Sciences (CAIS) (1306 12th St, Oregon City, OR 97045) 
-                                                <b><u>Stream</u></b>: <a href={"https://google.com"}>This will be updated</a>
+                                                <u>When</u>: March 2-4, 2023  <u>Where</u>: Clackamas Academy of Industrial Sciences (CAIS) (1306 12th St, Oregon City, OR 97045)
+                                                 <b> <u>Stream</u></b>: <a href={"http://twitch.tv/firstinspires27"}>Twitch.tv/firstinspires27</a>
                                             </p>
                                             <p>
                                                 <b>OREGON STATE FAIR FRC EVENT (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/oregon-state-fair-frc-event/"}>Additional Information</a>):</b> 
                                                 <u>When</u>: March 23-25, 2025 <u>Where</u>: Oregon State Fairgrounds (2330 – 17th St. NE Salem, OR 97301 USA) <b><u>Stream</u></b>: 
-                                                <a href={"https://google.com"}>This will be updated</a>
+                                                <a href={"/"}>This will be updated</a>
                                             </p>
                                             <p>
                                                 <b><a href={"https://www.thebluealliance.com/team/7034"}>BLUE ALLIANCE SCHEDULE</a></b>
