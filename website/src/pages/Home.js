@@ -229,6 +229,9 @@ class Home extends Component {
                                                 Update at 2:54 PM: "Team 7034 was <b>Rank 4</b> with a record of 3-0-0"!
                                             </p>
                                             <img src={require('../artifacts/images/Competition/Schedule.png')} className="w-50"/>
+                                            <br/>
+                                            <img src={require('../artifacts/images/Competition/Robotpic.jpg')} className="w-50"/>
+                                            <img src={require('../artifacts/images/Competition/Robotpic2.jpg')} className="w-50"/>
                                         </div>
                                   </div>
                               </div>
