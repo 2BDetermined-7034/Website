@@ -225,6 +225,9 @@ class Home extends Component {
                                             <p>
                                                 <b><a href={"https://www.thebluealliance.com/team/7034"}>BLUE ALLIANCE SCHEDULE</a></b>
                                             </p>
+                                            <p>
+                                                Update at 2:54 PM: "Team 7034 was <b>Rank 4</b> with a record of 3-0-0"!
+                                            </p>
                                             <img src={require('../artifacts/images/Competition/Schedule.png')} className="w-50"/>
                                         </div>
                                   </div>
