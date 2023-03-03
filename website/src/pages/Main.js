@@ -110,8 +110,8 @@ class Main extends Component {
                     <div className="col-sm flex flex-row items-center">
                         <form>
                             <input type="text" id="number" value="0"/>
-                            <input type="button" onclick="incrementValue()" value="Plus" />
-                            <input type="button" onclick="decrementValue()" value="Minus" />
+                            <input type="button" onclick={{incrementValue}} value="Plus" />
+                            <input type="button" onclick={{decrementValue}} value="Minus" />
                         </form>
                     </div>
                 </div>

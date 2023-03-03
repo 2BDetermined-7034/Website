@@ -8,18 +8,15 @@ import Main from './pages/Main';
 function App() {
   return (
     <Router>
-      <header>
-        <Navbar />
-      </header>
       <main role="main">
         <div className="container-fluid pl-0 pr-0 pt-4 pb-4 backgroundTexture">
           <Switch>
-            <Redirect from="/stemchallenge.php" to="/community/stemchallenges" />
+            {/*<Redirect from="/stemchallenge.php" to="/community/stemchallenges" />
             <Redirect from="/outreach.php" to="/community/stemchallenges" />
             <Route exact path="/community/hourofcode" component={HourOfCode} />
-            <Route exact path="/scout" component={Scout} />
+            <Route exact path="/scout" component={Scout} />*/}
             <Route exact path="/main" component={Main} />
-            <Redirect from="/" to="/home" />
+            <Redirect from="/" to="/Main" />
           </Switch>
         </div>
       </main>
