@@ -210,7 +210,7 @@ class Home extends Component {
                                       </p>
                                         <div className={"col-sm my-auto"}>
                                             <p>
-                                                <b><b style={{color: "red"}}>ONGOING</b> - CLACKAMAS FRC EVENT (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/clackamas-frc-event/"}>Additional Information</a>):</b> 
+                                                <b><b style={{color: "red"}}>ENDED</b> - CLACKAMAS FRC EVENT (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/clackamas-frc-event/"}>Additional Information</a>):</b> 
                                                 <br /> <u>When</u>: March 2-4, 2023  
                                                 <br /><u>Where</u>: Clackamas Academy of Industrial Sciences (CAIS) (1306 12th St, Oregon City, OR 97045)
                                                 <br /> <b> <u>Stream</u></b>: <a href={"https://twitch.tv/firstinspires27"}>twitch.tv/firstinspires27</a>
@@ -222,16 +222,23 @@ class Home extends Component {
                                                 <br /><u>Where</u>: Oregon State Fairgrounds (2330 – 17th St. NE Salem, OR 97301 USA) 
                                                 <br /><b><u>Stream</u></b>: <a href={"/"}>This will be updated</a>
                                             </p>
+                                            <hr />
                                             <p>
-                                                <b><a href={"https://www.thebluealliance.com/team/7034"}>BLUE ALLIANCE SCHEDULE</a></b>
+                                                We got 2nd place! With record of 14-4-0!
+                                                <br />
+                                                We also won the following awards:
+                                                <li>District Event Finalist</li>
+                                                <li>Team Sustainability Award</li>
                                             </p>
                                             <p>
-                                                Update at 8:16 AM: "Team 7034 was <b>Rank 3</b> with a record of 8-2-0"!
+                                                <b><a href={"https://www.thebluealliance.com/team/7034"}>BLUE ALLIANCE</a></b>
                                             </p>
                                             <img src={require('../artifacts/images/Competition/Schedule.png')} className="w-50"/>
                                             <br/>
                                             <img src={require('../artifacts/images/Competition/Robotpic.jpg')} className="w-50"/>
                                             <img src={require('../artifacts/images/Competition/Robotpic2.jpg')} className="w-50"/>
+                                            <br/>
+                                            <img src={require('../artifacts/images/Competition/CoolPhoto.jpg')} className="w-100"/>
                                         </div>
                                   </div>
                               </div>
