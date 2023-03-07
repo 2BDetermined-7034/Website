@@ -213,8 +213,7 @@ class Home extends Component {
                                                 <b><b style={{color: "red"}}>ENDED</b> - CLACKAMAS FRC EVENT (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/clackamas-frc-event/"}>Additional Information</a>):</b> 
                                                 <br /> <u>When</u>: March 2-4, 2023  
                                                 <br /><u>Where</u>: Clackamas Academy of Industrial Sciences (CAIS) (1306 12th St, Oregon City, OR 97045)
-                                                <br /> <b> <u>Stream</u></b>: <a href={"https://twitch.tv/firstinspires27"}>twitch.tv/firstinspires27</a>
-                                                <br /> <b> <u>Stream Feed:</u></b> <a href={"https://www.thebluealliance.com/gameday#chat=firstupdatesnow&layout=2&view_0=2023orore-0&view_1=2023orore-1&view_2=2023orore-2"}>thebluealliance.com/gameday#chat=firstupdatesnow&layout=2&view_0=2023orore-0&view_1=2023orore-1&view_2=2023orore-2</a>
+                                                <br /> <b> <u>Match Replays</u></b>: <a href={"https://www.thebluealliance.com/event/2023orore"}>thebluealliance.com/event/2023orore</a>
                                             </p>
                                             <p>
                                                 <b>OREGON STATE FAIR FRC EVENT (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/oregon-state-fair-frc-event/"}>Additional Information</a>):</b> 
