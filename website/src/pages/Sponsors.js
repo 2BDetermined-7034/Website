@@ -10,7 +10,7 @@ class Sponsors extends Component {
                 </div>
                 <hr />
                 <div className="row text-center">
-                    <h1 className="font-weight-bold w-100 white-text">Title Sponsors</h1>
+                    <h1 className="font-weight-bold w-100 white-text">Gold Sponsors</h1>
                 </div>
                 <div className="row text-center">
                     <div className="col-sm mt-3">
@@ -23,12 +23,8 @@ class Sponsors extends Component {
                         <TitleSponsor image='lam.png' name="Lam Research" link="https://www.lamresearch.com/"><b>Lam Research</b> is dedicated to the success of consumers by being a world-class provider of innovative technology and productivity solutions to the semiconductor industry.</TitleSponsor>
                     </div>
                     <div className="col-sm mt-3">
-                        <TitleSponsor image='ef.jpg' name="Erickson Forensic" link="https://ericksonforensic.com/"><b>Erickson Forensic</b> Erickson Forensic specializes in evidence-based accident reconstruction for a variety of vehicles including  passenger cars, tractor-trailers and farm equipment, as well as incidents involving bicycles and pedestrian</TitleSponsor>
-                    </div>
-                </div>
-                <hr />
-                <div className="row text-center">
-                    <h1 className="font-weight-bold w-100 white-text">Gold Sponsors</h1>
+                        <TitleSponsor image='MarieLamfrom.png' name="Marie Lamfrom Charitable Foundation" link="https://www.marielamfrom.org/"><b></b></TitleSponsor>
+        </div>
                 </div>
                 <div className="row text-center mt-3">
                     <div className="col-sm mt-3">
