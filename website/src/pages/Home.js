@@ -217,9 +217,10 @@ class Home extends Component {
                                             </p>
                                             <p>
                                                 <b>OREGON STATE FAIR FRC EVENT (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/oregon-state-fair-frc-event/"}>Additional Information</a>):</b> 
-                                                <br /><u>When</u>: March 23-25, 2025 
+                                                <br /><u>When</u>: March 23-25, 2023
                                                 <br /><u>Where</u>: Oregon State Fairgrounds (2330 – 17th St. NE Salem, OR 97301 USA) 
-                                                <br /><b><u>Stream</u></b>: <a href={"/"}>This will be updated</a>
+                                                <br /><b><u>Stream</u></b>: <a href={"http://twitch.tv/firstinspires27"}>twitch.tv/firstinspires27</a>
+                                                <br /><b><u>Stream</u></b>: <a href={"http://twitch.tv/firstwa_red2"}>twitch.tv/firstwa_red2 (WIDE view)</a>
                                             </p>
                                             <hr />
                                             <p>
