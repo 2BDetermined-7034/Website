@@ -216,7 +216,7 @@ class Home extends Component {
                                                 <br /> <b> <u>Match Replays</u></b>: <a href={"https://www.thebluealliance.com/event/2023orore"}>thebluealliance.com/event/2023orore</a>
                                             </p>
                                             <p>
-                                                <b>OREGON STATE FAIR FRC EVENT (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/oregon-state-fair-frc-event/"}>Additional Information</a>):</b> 
+                                                <b><b style={{color: "red"}}>ENDED</b> - OREGON STATE FAIR FRC EVENT (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/oregon-state-fair-frc-event/"}>Additional Information</a>):</b> 
                                                 <br /><u>When</u>: March 23-25, 2023
                                                 <br /><u>Where</u>: Oregon State Fairgrounds (2330 – 17th St. NE Salem, OR 97301 USA) 
                                                 <br /><b><u>Stream</u></b>: <a href={"http://twitch.tv/firstinspires27"}>twitch.tv/firstinspires27</a>
@@ -224,21 +224,8 @@ class Home extends Component {
                                             </p>
                                             <hr />
                                             <p>
-                                                We got 2nd place! With record of 14-4-0!
-                                                <br />
-                                                We also won the following awards:
-                                                <li>District Event Finalist</li>
-                                                <li>Team Sustainability Award</li>
-                                            </p>
-                                            <p>
                                                 <b><a href={"https://www.thebluealliance.com/team/7034"}>BLUE ALLIANCE</a></b>
                                             </p>
-                                            <img src={require('../artifacts/images/Competition/Schedule.png')} className="w-50"/>
-                                            <br/>
-                                            <img src={require('../artifacts/images/Competition/Robotpic.jpg')} className="w-50"/>
-                                            <img src={require('../artifacts/images/Competition/Robotpic2.jpg')} className="w-50"/>
-                                            <br/>
-                                            <img src={require('../artifacts/images/Competition/CoolPhoto.jpg')} className="w-100"/>
                                         </div>
                                   </div>
                               </div>

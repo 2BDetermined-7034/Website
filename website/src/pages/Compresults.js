@@ -21,6 +21,58 @@ class Compresults extends Component {
                     <div className="col-sm-8">
                         <div className="jumbotron text-center bg-white">
                             <div className="col-sm my-auto">
+                                <h1 className="display-4 font-weight-bold">OREGON STATE FAIR FRC EVENT</h1>
+                                <p className="lead">
+                                March 23-25, 2023
+                                </p>
+                                <p className="lead">
+
+
+                                <b><a href={"https://www.thebluealliance.com/team/7034"}>BLUE ALLIANCE</a></b>
+                                </p>
+
+                                <br/>
+
+                            </div>
+                        </div>
+                        <div className="col-sm-2" />
+                    </div>
+                </div> 
+
+                <div className="row">
+                    <div className="col-sm-2" />
+                    <div className="col-sm-8">
+                        <div className="jumbotron text-center bg-white">
+                            <div className="col-sm my-auto">
+                                <h1 className="display-4 font-weight-bold">CLACKAMAS FRC EVENT</h1>
+                                <p className="lead">
+                                March 2-4, 2023
+                                </p>
+                                <p className="lead">
+                                We got 2nd place! With record of 14-4-0!
+                                                <br />
+                                                We also won the following awards:
+                                                <li>District Event Finalist</li>
+                                                <li>Team Sustainability Award</li>
+                                <b><a href={"https://www.thebluealliance.com/team/7034"}>BLUE ALLIANCE</a></b>
+                                </p>
+                                <img src={require('../artifacts/images/Competition/Schedule.png')} className="w-50"/>
+                                <br/>
+                                <img src={require('../artifacts/images/Competition/Robotpic.jpg')} className="w-50"/>
+                                <img src={require('../artifacts/images/Competition/Robotpic2.jpg')} className="w-50"/>
+                                <br/>
+                                <img src={require('../artifacts/images/Competition/CoolPhoto.jpg')} className="w-100"/>
+                            </div>
+                        </div>
+                        <div className="col-sm-2" />
+                    </div>
+                </div> 
+
+                <div className="row">
+                    <div className="col-sm-2" />
+                    <div className="col-sm-8">
+                        <div className="jumbotron text-center bg-white">
+                            <div className="col-sm my-auto">
                                 <h1 className="display-4 font-weight-bold">Bunny Bots Competition Results</h1>
                                 <p className="lead">
                                     This past Saturday, December 17th, we attended the bunny bots competition held at Catlin Gabel School in Portland. We brought three robots in total, two of which (A and B) were designed and built by new students. The third robot (robot C) was our experimental swerve drive base that we decorated with Christmas lights and a wreath.                                </p>
