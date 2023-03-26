@@ -14,7 +14,8 @@ const data = [
     { text: "How many of this variant do you want to purchase? ", imageUrl: "https://media.discordapp.net/attachments/953754034630717454/1089657277625159780/image.png" },
     { text: "How many of this variant do you want to purchase? ", imageUrl: "https://media.discordapp.net/attachments/953754034630717454/1089657463831265330/image.png" },
     { text: "How many of this variant do you want to purchase? ", imageUrl: "https://media.discordapp.net/attachments/953754034630717454/1089657632110944377/image.png" },
-    { text: "How many of this variant do you want to purchase? ", imageUrl: "https://media.discordapp.net/attachments/953754034630717454/1089657780715126876/image.png" },
+    // { text: "How many of this variant do you want to purchase? ", imageUrl: "https://media.discordapp.net/attachments/953754034630717454/1089657780715126876/image.png" },
+    { text: "How many of our team sticker would you like? (You'll get at least 1 or 2 with your order, so you can put 0 or N/A unless you want to order more)", imageUrl: "https://media.discordapp.net/attachments/953754034630717454/1089657780715126876/image.png" },
     {text: "Are you going to be at DCMP?"},
     {text: "Any questions or concerns? Such as shipping, payment, etc."}
 ];
