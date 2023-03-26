@@ -14,7 +14,22 @@ import SupportUs from './pages/SupportUs';
 import Newsletter from './pages/Newsletter';
 import AboutUs from './pages/AboutUs';
 import ChangingSystem from './pages/ChangingSystem';
+import StickerForm from "./pages/StickerForm";
+const data = [
+  { text: "What is your team number and name?", imageUrl: "image_url_1" },
+  { text: "What is your Discord Tag so we can contact you for pickup (i.e Nek#0887)", imageUrl: "image_url_2" },
+  { text: "How many of this variant do you want to purchase? ", imageUrl: "image_url_2" },
+  { text: "How many of this variant do you want to purchase? ", imageUrl: "image_url_2" },
+  { text: "How many of this variant do you want to purchase? ", imageUrl: "image_url_2" },
+  { text: "How many of this variant do you want to purchase? ", imageUrl: "image_url_2" },
+  { text: "How many of this variant do you want to purchase? ", imageUrl: "image_url_2" },
+  { text: "How many of this variant do you want to purchase? ", imageUrl: "image_url_2" },
+  { text: "How many of this variant do you want to purchase? ", imageUrl: "image_url_2" },
+  { text: "How many of this variant do you want to purchase? ", imageUrl: "image_url_2" },
+  {text: "Are you going to be at DCMP?", imageUrl: "image_url_2" },
+  {text: "Any questions or concerns? Such as shipping, payment, etc.", imageUrl: "image_url_2"}
 
+];
 function App() {
   return (
     <Router>
@@ -38,6 +53,7 @@ function App() {
             <Route exact path="/Newsletter" component={Newsletter} />
             <Route exact path="/SupportUs" component={SupportUs} />
             <Route exact path="/ChangingtheSySTEM" component={ChangingSystem} />
+            <Route exact path="/stickers" render={() => <StickerForm data={data} />} />
             <Redirect from="/" to="/home" />
           </Switch>
         </div>
