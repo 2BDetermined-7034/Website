@@ -7,14 +7,14 @@ const doc = new GoogleSpreadsheet('1Btj39JO21hdNKuoRfXj-hMIXCvG9tEuJZ4_7bkmHgDs'
 const data = [
     { text: "What is your team number and name?" },
     { text: "What is your Discord Tag so we can contact you for pickup (i.e Nek#0887)"},
-    { text: "How many of this variant do you want to purchase? ", imageUrl: "https://media.discordapp.net/attachments/953754034630717454/1089656361853390898/image.png" },
+    { text: "How many of the \"Heart Cape\" do you want to purchase?", imageUrl: "https://media.discordapp.net/attachments/953754034630717454/1089656361853390898/image.png" },
     { text: "How many of this variant do you want to purchase? Limited to 5/person", imageUrl: "https://media.discordapp.net/attachments/953754034630717454/1089656676359077918/image.png" },
-    { text: "How many of this variant do you want to purchase? ", imageUrl: "https://media.discordapp.net/attachments/953754034630717454/1089656935600631879/image.png" },
-    { text: "How many of this variant do you want to purchase? ", imageUrl: "https://media.discordapp.net/attachments/953754034630717454/1089657095596544040/image.png" },
-    { text: "How many of this variant do you want to purchase? ", imageUrl: "https://media.discordapp.net/attachments/953754034630717454/1089657277625159780/image.png" },
-    { text: "How many of this variant do you want to purchase? ", imageUrl: "https://media.discordapp.net/attachments/953754034630717454/1089657463831265330/image.png" },
-    { text: "How many of this variant do you want to purchase? ", imageUrl: "https://media.discordapp.net/attachments/953754034630717454/1089657632110944377/image.png" },
-    // { text: "How many of this variant do you want to purchase? ", imageUrl: "https://media.discordapp.net/attachments/953754034630717454/1089657780715126876/image.png" },
+    { text: "How many of the \"Mean Machine Heart\" do you want to purchase? ", imageUrl: "https://media.discordapp.net/attachments/953754034630717454/1089656935600631879/image.png" },
+    { text: "How many of the \"Whatever this is\" do you want to purchase? ", imageUrl: "https://media.discordapp.net/attachments/953754034630717454/1089657095596544040/image.png" },
+    { text: "How many of the \"OG Sam Heart\" do you want to purchase? ", imageUrl: "https://media.discordapp.net/attachments/953754034630717454/1089657277625159780/image.png" },
+    { text: "How many of the \"Cais Heart\" do you want to purchase? ", imageUrl: "https://media.discordapp.net/attachments/953754034630717454/1089657463831265330/image.png" },
+    { text: "How many of the \"Driver Station Sam \" do you want to purchase? ", imageUrl: "https://media.discordapp.net/attachments/953754034630717454/1089657632110944377/image.png" },
+    {text: "How many of the \"Duck Sam\" do you want to purchase? ", imageUrl: "https://media.discordapp.net/attachments/1033615451009323048/1089800008792014869/image.png" },
     { text: "How many of our team sticker would you like? (You'll get at least 1 or 2 with your order, so you can put 0 or N/A unless you want to order more)", imageUrl: "https://media.discordapp.net/attachments/953754034630717454/1089657780715126876/image.png" },
     {text: "Are you going to be at DCMP?"},
     {text: "Any questions or concerns? Such as shipping, payment, etc."}
@@ -46,7 +46,7 @@ class StickerForm extends React.Component {
             const sheet = doc.sheetsByIndex[0];
             await sheet.addRow(this.state.inputs);
 
-            alert('Your order has been submitted! You will be contacted by a member of the team to arrange payment and pickup.');
+
 
             await fetch("https://discordapp.com/api/webhooks/1089663073347977286/3yPU_A6b7202vwqClWP5SQPGjHNGobB8OQAn4P7MzvRfBNWjW_XUoC_MQsfeJ3hhiXBt", {
                 method: 'POST',
@@ -55,6 +55,9 @@ class StickerForm extends React.Component {
                 },
                 body: JSON.stringify({content: `A new sticker order has been submitted from **${this.state.inputs[1].toString()}**`,}),
             });
+
+            alert('Your order has been submitted! You will be contacted by a member of the team to arrange payment and pickup.');
+            window.location.reload();
         } catch (e) {
             console.error('Error: ', e);
         }
