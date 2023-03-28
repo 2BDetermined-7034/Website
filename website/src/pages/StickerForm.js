@@ -17,7 +17,8 @@ const data = [
     {text: "How many of the \"Duck Sam\" do you want to purchase? ", imageUrl: "https://media.discordapp.net/attachments/1033615451009323048/1089800008792014869/image.png" },
     { text: "How many of our team sticker would you like? (You'll get at least 1 or 2 with your order, so you can put 0 or N/A unless you want to order more)", imageUrl: "https://media.discordapp.net/attachments/953754034630717454/1089657780715126876/image.png" },
     {text: "Are you going to be at DCMP?"},
-    {text: "Any questions or concerns? Such as shipping, payment, etc."}
+    {text: "Any questions or concerns? Such as shipping, payment, etc."},
+    {text: "Every order gets one Sam sticker signed guaranteed. You can choose which sticker from your order Sam signs, please indicate your preference here:"}
 ];
 
 class StickerForm extends React.Component {
@@ -75,15 +76,12 @@ class StickerForm extends React.Component {
                 </h2>
 
 
-            <form
-                onSubmit={this.handleSubmit.bind(this)}
-                style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
-            >
+            <form onSubmit={this.handleSubmit.bind(this)} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 {data.map((item, index) => (
                     <div key={index} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                         <label>{item.text}</label>
                         {item.imageUrl && <img src={item.imageUrl} alt="" />}
-                        {index === data.length - 2 ? (
+                        {index === data.length - 3 ? (
                             <select
                                 value={this.state.inputs[index + 1]}
                                 onChange={this.handleInputChange.bind(this, index + 1)}
