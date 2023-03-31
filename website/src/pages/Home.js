@@ -84,13 +84,16 @@ class Home extends Component {
 
                                     </div>
                                     <div className="col-sm-4 mb-2">
-                                        <img src={require('../artifacts/images/awards/2022/2022OSF_EngiInsp.png')}/>
+                                        <img src={require('../artifacts/images/awards/2023ImpactAward.png')}/>
                                     </div>
                                     <div className="col-sm-4 mb-2">
 
                                     </div>
                                 </div>
                                 <div className="row mt-4">
+                                    <div className="col-sm-4 mb-2">
+                                        <img src={require('../artifacts/images/awards/2022/2022OSF_EngiInsp.png')}/>
+                                    </div>
                                     <div className="col-sm-4 mb-2">
                                         <img style={{width: 100}}  src={require('../artifacts/images/awards/2022/2022CAIS_winner.png')}/>
                                     </div>
