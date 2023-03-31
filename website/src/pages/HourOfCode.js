@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "./test.css";
+import "./Main.css";
 import Typewriter from "typewriter-effect";
 
 class HourOfCode extends Component {

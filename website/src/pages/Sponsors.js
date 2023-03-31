@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "./test.css";
+import "./Main.css";
 
 class Sponsors extends Component {
     render() {

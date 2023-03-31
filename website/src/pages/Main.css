@@ -11,6 +11,11 @@
     src: url(../ethnocentric_rg.otf);
 }
 
+.rounded-iframe {
+    border-radius: 20px;
+    background-clip: padding-box;
+}
+
 .intro-img {
     width: 25%;
     float: right;

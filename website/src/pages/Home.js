@@ -219,13 +219,21 @@ class Home extends Component {
                                                 <b><b style={{color: "red"}}>ENDED</b> - OREGON STATE FAIR FRC EVENT (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/oregon-state-fair-frc-event/"}>Additional Information</a>):</b> 
                                                 <br /><u>When</u>: March 23-25, 2023
                                                 <br /><u>Where</u>: Oregon State Fairgrounds (2330 – 17th St. NE Salem, OR 97301 USA) 
-                                                <br /><b><u>Stream</u></b>: <a href={"http://twitch.tv/firstinspires27"}>twitch.tv/firstinspires27</a>
-                                                <br /><b><u>Stream</u></b>: <a href={"http://twitch.tv/firstwa_red2"}>twitch.tv/firstwa_red2 (WIDE view)</a>
+                                                <br /><b><u>Match Replays</u></b>: <a href={"https://www.thebluealliance.com/event/2023orsal"}>thebluealliance.com/event/2023orsal</a>
+                                            </p>
+                                            <p>
+                                                <b><b style={{color: "red"}}>UPCOMING</b> - PNW DISTRICT CHAMPIONSHIP (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/pnw-district-championship-frc-event/"}>Additional Information</a>):</b>
+                                                <br /><u>When</u>: April 5th-8th, 2023
+                                                <br /><u>Where</u>: Eastern Washington University Reese Court, 526 5th St. Cheney, WA 99005
+                                                <br /><b><u>Stream</u></b>: <a href={"/"}>To be updated</a>
                                             </p>
                                             <hr />
-                                            <p>
-                                                <b><a href={"https://www.thebluealliance.com/team/7034"}>BLUE ALLIANCE</a></b>
-                                            </p>
+                                            {/*<p>*/}
+                                            {/*    <b><a href={"https://www.thebluealliance.com/team/7034"}>BLUE ALLIANCE</a></b>*/}
+                                            {/*</p>*/}
+                                            <div>
+                                                <iframe src="https://www.thebluealliance.com/team/7034" title="Blue Alliance" width="100%" height="500px" className="rounded-iframe"></iframe>
+                                            </div>
                                         </div>
                                   </div>
                               </div>
@@ -361,6 +369,7 @@ class Home extends Component {
                 </div>
             </div>
         );
+
     }
 }
 
