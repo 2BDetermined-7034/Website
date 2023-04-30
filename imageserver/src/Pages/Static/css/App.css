@@ -1,0 +1,23 @@
+.code-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.code-page form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.code-page input {
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.code-page button {
+  font-size: 18px;
+  padding: 10px 20px;
+}

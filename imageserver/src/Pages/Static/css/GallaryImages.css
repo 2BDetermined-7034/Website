@@ -1,0 +1,65 @@
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    background: linear-gradient(
+            270deg,
+            yellow,
+            yellowgreen,
+            green,
+            yellowgreen
+    );
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 10px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.image-name {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.image-grid .image-container {
+    border: 1px solid black;
+    width: 320px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .2);
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+}
+
+.download-button {
+    background-color: #7289da;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+}
+
+.download-button:hover {
+    background-color: #5b6eae;
+}
