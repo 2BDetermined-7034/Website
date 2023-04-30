@@ -21,9 +21,9 @@ const App = () => {
                         isAuthenticated ? (
                             <Images />
                         ) : (
-                            <div>
-                                <h1 >Error: You must enter the correct code to access this page</h1>
-                            </div>
+                            // redirect back to login page if not authenticated
+                            <CodePage setIsAuthenticated={setIsAuthenticated} />
+
                         )
                     }
                 />
