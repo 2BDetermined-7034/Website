@@ -27,7 +27,6 @@ class Compresults extends Component {
                                 </p>
                                 <p className="lead">
 
-
                                 <b><a href={"https://www.thebluealliance.com/team/7034"}>BLUE ALLIANCE</a></b>
                                 </p>
 

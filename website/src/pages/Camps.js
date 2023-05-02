@@ -25,15 +25,25 @@ return (
         <div className="col-sm-2" />
             <div className="col-sm-8"> 
                 <div className="jumbotron text-center bg-white">
-                    <h1 className="display-4 font-weight-bold">Changing The SySTEM website!</h1>
-                    <p className="lead">
-                    Recently, we unveiled a brand-new website for our Changing The SySTEM girls camp, 
-                    which will feature our whole camp package when it becomes available. 
-                    The website is now accessible at <a href={"https://changingthesystem.net/"}>changingthesystem.net</a>
-                    </p>
-                    <div className="col-sm mt-3 mt-md-0">
-                        <img src={require('../artifacts/CTSWebsite.png')} className="w-50" alt="letter" />
-                    </div>
+                <h1 className="display-4 font-weight-bold">Changing The SySTEM Camp!</h1>
+                <p className="lead">
+                                       West Linn Robotics is holding our annual all-girls STEM camp later this month! Registration is open now.
+                                        <br/>
+                                        The website is now accessible at <a href={"changingthesystem.net"}><b>changingthesystem.net</b></a>
+                                        <br/>
+                                        Register:<a href={"https://forms.gle/1sWoaQwaUhDSB2Et9"}><b>https://forms.gle/1sWoaQwaUhDSB2Et9</b></a>
+                                      </p>
+                                      <p className="lead">
+                                        <b><u>Camp Dates:</u></b>
+                                        <br/>Mondays & Wednesdays
+                                        <br/><b>When:</b> May 15th - May 24th
+                                        <br/>4PM - 7:30 PM
+                                        <br/><b>For:</b> 6-8th graders
+                                        <br/><b>Where:</b> West Linn High School 
+                                      </p>
+                                      <div className="col-sm mt-3 mt-md-0">
+                                      <img src={require('../artifacts/images/changingthesystem/Changing_the_SySTEM_Flyer_2023.jpg')} className="d-flex w-100" alt="letter" />
+                                  </div>
                 </div>
             </div>
             <div className="col-sm-2" />

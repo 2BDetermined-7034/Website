@@ -190,26 +190,38 @@ class Home extends Component {
                             </div>
                         </div>
                         */}
-                          {/*<div className="jumbotron text-center bg-white">*/}
-                          {/*    <div className="row">*/}
-                          {/*        <div className="col-sm my-auto">*/}
-                          {/*            <h1 className="display-4 font-weight-bold">Changing The SySTEM website!</h1>*/}
-                          {/*            <p className="lead">*/}
-                          {/*              Recently, we unveiled a brand-new website for our Changing The SySTEM girls camp, which will feature our whole camp package when it becomes available. The website is now accessible at <a href={"https://changingthesystem.net/"}>changingthesystem.net</a>*/}
-                          {/*            </p>*/}
-                          {/*        </div>*/}
-                          {/*        <div className="col-sm mt-3 mt-md-0">*/}
-                          {/*            <img src={require('../artifacts/CTSWebsite.png')} className="d-flex w-100" alt="letter" />*/}
-                          {/*        </div>*/}
-                          {/*    </div>*/}
-                          {/*</div>*/}
+                          <div className="jumbotron text-center bg-white">
+                              <div className="row">
+                                  <div className="col-sm my-auto">
+                                      <h1 className="display-4 font-weight-bold">Changing The SySTEM Camp!</h1>
+                                      <p className="lead">
+                                       West Linn Robotics is holding our annual all-girls STEM camp later this month! Registration is open now.
+                                        <br/>
+                                        The website is now accessible at <a href={"changingthesystem.net"}><b>changingthesystem.net</b></a>
+                                        <br/>
+                                        Register:<a href={"https://forms.gle/1sWoaQwaUhDSB2Et9"}><b>https://forms.gle/1sWoaQwaUhDSB2Et9</b></a>
+                                      </p>
+                                      <p className="lead">
+                                        <b><u>Camp Dates:</u></b>
+                                        <br/>Mondays & Wednesdays
+                                        <br/><b>When:</b> May 15th - May 24th
+                                        <br/>4PM - 7:30 PM
+                                        <br/><b>For:</b> 6-8th graders
+                                        <br/><b>Where:</b> West Linn High School 
+                                      </p>
+                                  </div>
+                                  <div className="col-sm mt-3 mt-md-0">
+                                      <img src={require('../artifacts/images/changingthesystem/Changing_the_SySTEM_Flyer_2023.jpg')} className="d-flex w-100" alt="letter" />
+                                  </div>
+                              </div>
+                          </div>
 
                           <div className="jumbotron text-center bg-white">
                               <div className="row">
                                   <div className="col-sm my-auto">
-                                      <h1 className="display-4 font-weight-bold">Upcoming Competitions</h1>
+                                      <h1 className="display-4 font-weight-bold">Competitions</h1>
                                       <p className="lead">
-                                          Our upcoming competitions are listed below. We will be updating this page as we get more information about the competitions.
+                                          Our competitions are listed below.
                                       </p>
                                         <div className={"col-sm my-auto"}>
                                             <p>
@@ -225,7 +237,7 @@ class Home extends Component {
                                                 <br /><b><u>Match Replays</u></b>: <a href={"https://www.thebluealliance.com/event/2023orsal"}>thebluealliance.com/event/2023orsal</a>
                                             </p>
                                             <p>
-                                                <b><b style={{color: "red"}}>UPCOMING</b> - PNW DISTRICT CHAMPIONSHIP (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/pnw-district-championship-frc-event/"}>Additional Information</a>):</b>
+                                                <b><b style={{color: "red"}}>ENDED</b> - PNW DISTRICT CHAMPIONSHIP (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/pnw-district-championship-frc-event/"}>Additional Information</a>):</b>
                                                 <br /><u>When</u>: April 5th-8th, 2023
                                                 <br /><u>Where</u>: Eastern Washington University Reese Court, 526 5th St. Cheney, WA 99005
                                                 <br /><b><u>Stream</u></b>: <a href={"/"}>To be updated</a>
