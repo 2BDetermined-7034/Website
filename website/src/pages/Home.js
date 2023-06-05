@@ -193,25 +193,23 @@ class Home extends Component {
                           <div className="jumbotron text-center bg-white">
                               <div className="row">
                                   <div className="col-sm my-auto">
-                                      <h1 className="display-4 font-weight-bold">Changing The SySTEM Camp!</h1>
+                                      <h1 className="display-4 font-weight-bold">Summer of STEAM Camp!</h1>
                                       <p className="lead">
-                                       West Linn Robotics is holding our annual all-girls STEM camp later this month! Registration is open now.
-                                        <br/>
-                                        The website is now accessible at <a href={"changingthesystem.net"}><b>changingthesystem.net</b></a>
-                                        <br/>
-                                        Register:<a href={"https://forms.gle/1sWoaQwaUhDSB2Et9"}><b>https://forms.gle/1sWoaQwaUhDSB2Et9</b></a>
+                                      West Linn Robotics is holding our annual summer camp for incoming 8th and 9th graders. 
+                                        <br />
+                                      Registration is open now. Registration form: <a href="https://forms.gle/MZJLJfqsC3BBTf726">https://forms.gle/MZJLJfqsC3BBTf726</a>
+                                     
                                       </p>
                                       <p className="lead">
                                         <b><u>Camp Dates:</u></b>
-                                        <br/>Mondays & Wednesdays
-                                        <br/><b>When:</b> May 15th - May 24th
-                                        <br/>4PM - 7:30 PM
-                                        <br/><b>For:</b> 6-8th graders
+                                        <br/><b>When:</b> July 24th - 28th
+                                        <br/>9 AM - 12 PM
+                                        <br/><b>For:</b> Incoming 8th & 9th graders
                                         <br/><b>Where:</b> West Linn High School 
                                       </p>
                                   </div>
                                   <div className="col-sm mt-3 mt-md-0">
-                                      <img src={require('../artifacts/images/changingthesystem/Changing_the_SySTEM_Flyer_2023.jpg')} className="d-flex w-100" alt="letter" />
+                                      <img src={require('../artifacts/images/camp/FunkySteam.png')} className="d-flex w-100" alt="letter" />
                                   </div>
                               </div>
                           </div>
