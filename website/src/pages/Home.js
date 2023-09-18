@@ -171,25 +171,37 @@ class Home extends Component {
 
 
 
-                    {/*
 
                       <div className="jumbotron text-center bg-white">
                             <div className="col-sm my-auto">
                                 <h1 className="display-4 font-weight-bold">Incoming students!</h1>
                                 <p className="lead">
-                                    Interesting in joining robotics? Great!!! You're always welcome in room 715 (700 building behind the school)
+                                    Interesting in joining robotics? Great!!! You're always welcome in room 715 (700 building behind the school near the football field)
                                     to come and check out robotics!
                                 </p>
-                        
-
-
-                                <a href="https://forms.gle/yEyU4Bh5BM1ASCT8A" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Emergency Contact Info</a>
-                                <a href="https://docs.google.com/document/d/1ZZ4ZRuYdhhTvWdU9l1pxtZcvL9wcgm_2gu6Yq0xtLLU/edit?usp=sharing" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Team Handbook</a>
+                                <a href="https://forms.gle/1Ug7F3AmhJm42BMG6 " target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Team Registration</a>
+                                {/*<a href="https://docs.google.com/document/d/1ZZ4ZRuYdhhTvWdU9l1pxtZcvL9wcgm_2gu6Yq0xtLLU/edit?usp=sharing" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Team Handbook</a>*/}
                             </div>
                             <div className="col-sm mt-3 mt-md-0">
                             </div>
                         </div>
-                        */}
+
+
+                          <div className="jumbotron text-center bg-white">
+                              <div className="row">
+                                  <div className="col-sm my-auto">
+                                      <h1 className="display-4 font-weight-bold">Robotics Open House</h1>
+                                      <p className="lead">
+                                          Interested in joining West Linn Robotics? We're hosting a open house for anyone that might be interested <b>on September 19th at 6PM in room 715</b>
+                                          <br />
+                                      </p>
+                                  </div>
+                                  <div className="col-sm mt-3 mt-md-0">
+                                      <img src={require('../artifacts/images/2023-24/2023 Fall Open House Flyer.png')} className="d-flex w-100" alt="letter" />
+                                  </div>
+                              </div>
+                          </div>
+
                           <div className="jumbotron text-center bg-white">
                               <div className="row">
                                   <div className="col-sm my-auto">
@@ -197,60 +209,54 @@ class Home extends Component {
                                       <p className="lead">
                                       West Linn Robotics is holding our annual summer camp for incoming 8th and 9th graders. 
                                         <br />
-                                      Registration is open now. Registration form: <a href="https://forms.gle/MZJLJfqsC3BBTf726">https://forms.gle/MZJLJfqsC3BBTf726</a>
-                                     
                                       </p>
-                                      <p className="lead">
-                                        <b><u>Camp Dates:</u></b>
-                                        <br/><b>When:</b> July 24th - 28th
-                                        <br/>9 AM - 12 PM
-                                        <br/><b>For:</b> Incoming 8th & 9th graders
-                                        <br/><b>Where:</b> West Linn High School 
+                                      <p className={"lead"}>
+                                          Registration is now open! Registration form: <a href="forms.gle/CjTtptzQktDJJ9Fj7">https://forms.gle/CjTtptzQktDJJ9Fj7</a>
                                       </p>
                                   </div>
                                   <div className="col-sm mt-3 mt-md-0">
-                                      <img src={require('../artifacts/images/camp/FunkySteam.png')} className="d-flex w-100" alt="letter" />
+                                      <img src={require('../artifacts/images/2023-24/2023 Full STEAM Ahead Flyer.png')} className="d-flex w-100" alt="letter" />
                                   </div>
                               </div>
                           </div>
 
-                          <div className="jumbotron text-center bg-white">
-                              <div className="row">
-                                  <div className="col-sm my-auto">
-                                      <h1 className="display-4 font-weight-bold">Competitions</h1>
-                                      <p className="lead">
-                                          Our competitions are listed below.
-                                      </p>
-                                        <div className={"col-sm my-auto"}>
-                                            <p>
-                                                <b><b style={{color: "red"}}>ENDED</b> - CLACKAMAS FRC EVENT (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/clackamas-frc-event/"}>Additional Information</a>):</b> 
-                                                <br /> <u>When</u>: March 2-4, 2023  
-                                                <br /><u>Where</u>: Clackamas Academy of Industrial Sciences (CAIS) (1306 12th St, Oregon City, OR 97045)
-                                                <br /> <b> <u>Match Replays</u></b>: <a href={"https://www.thebluealliance.com/event/2023orore"}>thebluealliance.com/event/2023orore</a>
-                                            </p>
-                                            <p>
-                                                <b><b style={{color: "red"}}>ENDED</b> - OREGON STATE FAIR FRC EVENT (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/oregon-state-fair-frc-event/"}>Additional Information</a>):</b> 
-                                                <br /><u>When</u>: March 23-25, 2023
-                                                <br /><u>Where</u>: Oregon State Fairgrounds (2330 – 17th St. NE Salem, OR 97301 USA) 
-                                                <br /><b><u>Match Replays</u></b>: <a href={"https://www.thebluealliance.com/event/2023orsal"}>thebluealliance.com/event/2023orsal</a>
-                                            </p>
-                                            <p>
-                                                <b><b style={{color: "red"}}>ENDED</b> - PNW DISTRICT CHAMPIONSHIP (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/pnw-district-championship-frc-event/"}>Additional Information</a>):</b>
-                                                <br /><u>When</u>: April 5th-8th, 2023
-                                                <br /><u>Where</u>: Eastern Washington University Reese Court, 526 5th St. Cheney, WA 99005
-                                                <br /><b><u>Stream</u></b>: <a href={"/"}>To be updated</a>
-                                            </p>
-                                            <hr />
-                                            {/*<p>*/}
-                                            {/*    <b><a href={"https://www.thebluealliance.com/team/7034"}>BLUE ALLIANCE</a></b>*/}
-                                            {/*</p>*/}
-                                            <div>
-                                                <iframe src="https://www.thebluealliance.com/team/7034" title="Blue Alliance" width="100%" height="500px" className="rounded-iframe"></iframe>
-                                            </div>
-                                        </div>
-                                  </div>
-                              </div>
-                          </div>
+                          {/*<div className="jumbotron text-center bg-white">*/}
+                          {/*    <div className="row">*/}
+                          {/*        <div className="col-sm my-auto">*/}
+                          {/*            <h1 className="display-4 font-weight-bold">Competitions</h1>*/}
+                          {/*            <p className="lead">*/}
+                          {/*                Our competitions are listed below.*/}
+                          {/*            </p>*/}
+                          {/*              <div className={"col-sm my-auto"}>*/}
+                          {/*                  <p>*/}
+                          {/*                      <b><b style={{color: "red"}}>ENDED</b> - CLACKAMAS FRC EVENT (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/clackamas-frc-event/"}>Additional Information</a>):</b> */}
+                          {/*                      <br /> <u>When</u>: March 2-4, 2023  */}
+                          {/*                      <br /><u>Where</u>: Clackamas Academy of Industrial Sciences (CAIS) (1306 12th St, Oregon City, OR 97045)*/}
+                          {/*                      <br /> <b> <u>Match Replays</u></b>: <a href={"https://www.thebluealliance.com/event/2023orore"}>thebluealliance.com/event/2023orore</a>*/}
+                          {/*                  </p>*/}
+                          {/*                  <p>*/}
+                          {/*                      <b><b style={{color: "red"}}>ENDED</b> - OREGON STATE FAIR FRC EVENT (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/oregon-state-fair-frc-event/"}>Additional Information</a>):</b> */}
+                          {/*                      <br /><u>When</u>: March 23-25, 2023*/}
+                          {/*                      <br /><u>Where</u>: Oregon State Fairgrounds (2330 – 17th St. NE Salem, OR 97301 USA) */}
+                          {/*                      <br /><b><u>Match Replays</u></b>: <a href={"https://www.thebluealliance.com/event/2023orsal"}>thebluealliance.com/event/2023orsal</a>*/}
+                          {/*                  </p>*/}
+                          {/*                  <p>*/}
+                          {/*                      <b><b style={{color: "red"}}>ENDED</b> - PNW DISTRICT CHAMPIONSHIP (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/pnw-district-championship-frc-event/"}>Additional Information</a>):</b>*/}
+                          {/*                      <br /><u>When</u>: April 5th-8th, 2023*/}
+                          {/*                      <br /><u>Where</u>: Eastern Washington University Reese Court, 526 5th St. Cheney, WA 99005*/}
+                          {/*                      <br /><b><u>Stream</u></b>: <a href={"/"}>To be updated</a>*/}
+                          {/*                  </p>*/}
+                          {/*                  <hr />*/}
+                          {/*                  /!*<p>*!/*/}
+                          {/*                  /!*    <b><a href={"https://www.thebluealliance.com/team/7034"}>BLUE ALLIANCE</a></b>*!/*/}
+                          {/*                  /!*</p>*!/*/}
+                          {/*                  <div>*/}
+                          {/*                      <iframe src="https://www.thebluealliance.com/team/7034" title="Blue Alliance" width="100%" height="500px" className="rounded-iframe"></iframe>*/}
+                          {/*                  </div>*/}
+                          {/*              </div>*/}
+                          {/*        </div>*/}
+                          {/*    </div>*/}
+                          {/*</div>*/}
 
 
                         <div className="jumbotron text-center bg-white">
