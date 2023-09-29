@@ -179,6 +179,7 @@ class Home extends Component {
                                     Interesting in joining robotics? Great!!! You're always welcome in room 715 (700 building behind the school near the football field)
                                     to come and check out robotics!
                                 </p>
+                                <p className="lead">The due date for all applications is <b>October 2nd</b></p>
                                 <a href="https://forms.gle/1Ug7F3AmhJm42BMG6 " target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Team Registration</a>
                                 {/*<a href="https://docs.google.com/document/d/1ZZ4ZRuYdhhTvWdU9l1pxtZcvL9wcgm_2gu6Yq0xtLLU/edit?usp=sharing" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Team Handbook</a>*/}
                             </div>
@@ -187,20 +188,20 @@ class Home extends Component {
                         </div>
 
 
-                          <div className="jumbotron text-center bg-white">
-                              <div className="row">
-                                  <div className="col-sm my-auto">
-                                      <h1 className="display-4 font-weight-bold">Robotics Open House</h1>
-                                      <p className="lead">
-                                          Interested in joining West Linn Robotics? We're hosting a open house for anyone that might be interested <b>on September 19th at 6PM in room 715</b>
-                                          <br />
-                                      </p>
-                                  </div>
-                                  <div className="col-sm mt-3 mt-md-0">
-                                      <img src={require('../artifacts/images/2023-24/2023 Fall Open House Flyer.png')} className="d-flex w-100" alt="letter" />
-                                  </div>
-                              </div>
-                          </div>
+                          // <div className="jumbotron text-center bg-white">
+                          //     <div className="row">
+                          //         <div className="col-sm my-auto">
+                          //             <h1 className="display-4 font-weight-bold">Robotics Open House</h1>
+                          //             <p className="lead">
+                          //                 Interested in joining West Linn Robotics? We're hosting a open house for anyone that might be interested <b>on September 19th at 6PM in room 715</b>
+                          //                 <br />
+                          //             </p>
+                          //         </div>
+                          //         <div className="col-sm mt-3 mt-md-0">
+                          //             <img src={require('../artifacts/images/2023-24/2023 Fall Open House Flyer.png')} className="d-flex w-100" alt="letter" />
+                          //         </div>
+                          //     </div>
+                          // </div>
 
                           <div className="jumbotron text-center bg-white">
                               <div className="row">
