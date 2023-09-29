@@ -183,7 +183,27 @@ class Home extends Component {
                                 <a href="https://forms.gle/1Ug7F3AmhJm42BMG6 " target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Team Registration</a>
                                 {/*<a href="https://docs.google.com/document/d/1ZZ4ZRuYdhhTvWdU9l1pxtZcvL9wcgm_2gu6Yq0xtLLU/edit?usp=sharing" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Team Handbook</a>*/}
                             </div>
-                            <div className="col-sm mt-3 mt-md-0">
+                        </div>
+
+                                <div className="jumbotron text-center bg-white">
+                            <div className="col-sm my-auto">
+                                <h1 className="display-4 font-weight-bold">Girls Generation</h1>
+                                <p className="lead">
+                                    Girls Generation is an off-season competiton for girls and non-binary team members to compete in the previous season's game.
+                                </p>
+                                <p>We'll be competing at <b>Wilsonville High School</b> on <b>Saturday, October 7th</b> </p>
+                            </div>
+                        </div>
+                                
+                                <div className="jumbotron text-center bg-white">
+                            <div className="col-sm my-auto">
+                                <h1 className="display-4 font-weight-bold">Bunny Bots</h1>
+                                <p className="lead">
+                                Bunny Bots is an off-season competition for new students that introduces them to robotics. Spectators aren't going to be allowed so keep an eye out for the live stream link on https://wwww.team1540.org/bunnybots
+                                </p>
+                                <p> 
+                                The location for the event will be at <b>Catlin Gabel School in Portland</b> on <b>Saturday, December 16th | 10AM - 4:45PM</b>
+                                </p>
                             </div>
                         </div>
 
