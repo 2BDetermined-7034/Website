@@ -226,19 +226,26 @@ class Home extends Component {
                           <div className="jumbotron text-center bg-white">
                               <div className="row">
                                   <div className="col-sm my-auto">
-                                      <h1 className="display-4 font-weight-bold">Summer of STEAM Camp!</h1>
+                                      <h1 className="display-4 font-weight-bold">Full Steam Ahead</h1>
                                       <p className="lead">
-                                      West Linn Robotics is holding our annual summer camp for incoming 8th and 9th graders. 
-                                        <br />
+                                      This is a day camp for 3rd through 5th graders that introduces them to the basics of STEM. \n(lmao)
                                       </p>
                                       <p className={"lead"}>
-                                          Registration is now open! Registration form: <a href="forms.gle/CjTtptzQktDJJ9Fj7">https://forms.gle/CjTtptzQktDJJ9Fj7</a>
+                                         Registration is now open! Spots are limited so register soon! <a href="forms.gle/opVoKrpunvocHYet9">https://forms.gle/opVoKrpunvocHYet9</a>
                                       </p>
                                   </div>
                                   <div className="col-sm mt-3 mt-md-0">
                                       <img src={require('../artifacts/images/2023-24/2023 Full STEAM Ahead Flyer.png')} className="d-flex w-100" alt="letter" />
                                   </div>
                               </div>
+                          </div>
+
+                        <div className="jumbotron text-center bg-white">
+                              <div className="row">
+                                  <div className="col-sm my-auto">
+                                      <h1 className="display-4 font-weight-bold">KILL YOURSELF </h1>
+                                          </div>
+                                          </div>
                           </div>
 
                           {/*<div className="jumbotron text-center bg-white">*/}
