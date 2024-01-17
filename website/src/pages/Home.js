@@ -140,8 +140,8 @@ class Home extends Component {
                             </div>
                         </div>
                     </div>
-                      <div className="col-sm-8">
-{/*
+                    <div className="col-sm-8">
+                        {/*
                       <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
@@ -169,122 +169,123 @@ class Home extends Component {
                     */}
 
 
-
-
-
-                      <div className="jumbotron text-center bg-white">
-                            <div className="col-sm my-auto">
-                                <h1 className="display-4 font-weight-bold">Incoming students!</h1>
-                                <p className="lead">
-                                    Interesting in joining robotics? Great!!! You're always welcome in room 715 (700 building behind the school near the football field)
-                                    to come and check out robotics!
-                                </p>
-                                <p className="lead">The due date for all applications is <b>October 2nd</b></p>
-                                <a href="https://forms.gle/1Ug7F3AmhJm42BMG6 " target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Team Registration</a>
-                                {/*<a href="https://docs.google.com/document/d/1ZZ4ZRuYdhhTvWdU9l1pxtZcvL9wcgm_2gu6Yq0xtLLU/edit?usp=sharing" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Team Handbook</a>*/}
-                            </div>
-                        </div>
-
-                                <div className="jumbotron text-center bg-white">
-                            <div className="col-sm my-auto">
-                                <h1 className="display-4 font-weight-bold">Girls Generation</h1>
-                                <p className="lead">
-                                    Girls Generation is an off-season competiton for girls and non-binary team members to compete in the previous season's game.
-                                </p>
-                                <p>We'll be competing at <b>Wilsonville High School</b> on <b>Saturday, October 7th</b> </p>
-                            </div>
-                        </div>
-                                
-                                <div className="jumbotron text-center bg-white">
-                            <div className="col-sm my-auto">
-                                <h1 className="display-4 font-weight-bold">Bunny Bots</h1>
-                                <p className="lead">
-                                Bunny Bots is an off-season competition for new students that introduces them to robotics. Spectators aren't going to be allowed so keep an eye out for the live stream link on https://wwww.team1540.org/bunnybots
-                                </p>
-                                <p> 
-                                The location for the event will be at <b>Catlin Gabel School in Portland</b> on <b>Saturday, December 16th | 10AM - 4:45PM</b>
-                                </p>
-                            </div>
-                        </div>
-
-
-                          // <div className="jumbotron text-center bg-white">
-                          //     <div className="row">
-                          //         <div className="col-sm my-auto">
-                          //             <h1 className="display-4 font-weight-bold">Robotics Open House</h1>
-                          //             <p className="lead">
-                          //                 Interested in joining West Linn Robotics? We're hosting a open house for anyone that might be interested <b>on September 19th at 6PM in room 715</b>
-                          //                 <br />
-                          //             </p>
-                          //         </div>
-                          //         <div className="col-sm mt-3 mt-md-0">
-                          //             <img src={require('../artifacts/images/2023-24/2023 Fall Open House Flyer.png')} className="d-flex w-100" alt="letter" />
-                          //         </div>
-                          //     </div>
-                          // </div>
-
-                          <div className="jumbotron text-center bg-white">
-                              <div className="row">
-                                  <div className="col-sm my-auto">
-                                      <h1 className="display-4 font-weight-bold">Full Steam Ahead</h1>
-                                      <p className="lead">
-                                      This is a day camp for 3rd through 5th graders that introduces them to the basics of STEM. \n(lmao)
-                                      </p>
-                                      <p className={"lead"}>
-                                         Registration is now open! Spots are limited so register soon! <a href="forms.gle/opVoKrpunvocHYet9">https://forms.gle/opVoKrpunvocHYet9</a>
-                                      </p>
-                                  </div>
-                                  <div className="col-sm mt-3 mt-md-0">
-                                      <img src={require('../artifacts/images/2023-24/2023 Full STEAM Ahead Flyer.png')} className="d-flex w-100" alt="letter" />
-                                  </div>
-                              </div>
-                          </div>
-
                         <div className="jumbotron text-center bg-white">
-                              <div className="row">
-                                  <div className="col-sm my-auto">
-                                      <h1 className="display-4 font-weight-bold">KILL YOURSELF </h1>
-                                          </div>
-                                          </div>
-                          </div>
+                            <div className="col-sm my-auto">
+                                <h1 className="display-4 font-weight-bold">Build Season</h1>
+                                <p className="lead">
+                                    The team is currently preparing for the 2024 FRC Game, Crescendo! They will be meeting 5 or more times a week til February 29th, their first competition!
+                                </p>
+                            </div>
+                        </div>
 
-                          {/*<div className="jumbotron text-center bg-white">*/}
-                          {/*    <div className="row">*/}
-                          {/*        <div className="col-sm my-auto">*/}
-                          {/*            <h1 className="display-4 font-weight-bold">Competitions</h1>*/}
-                          {/*            <p className="lead">*/}
-                          {/*                Our competitions are listed below.*/}
-                          {/*            </p>*/}
-                          {/*              <div className={"col-sm my-auto"}>*/}
-                          {/*                  <p>*/}
-                          {/*                      <b><b style={{color: "red"}}>ENDED</b> - CLACKAMAS FRC EVENT (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/clackamas-frc-event/"}>Additional Information</a>):</b> */}
-                          {/*                      <br /> <u>When</u>: March 2-4, 2023  */}
-                          {/*                      <br /><u>Where</u>: Clackamas Academy of Industrial Sciences (CAIS) (1306 12th St, Oregon City, OR 97045)*/}
-                          {/*                      <br /> <b> <u>Match Replays</u></b>: <a href={"https://www.thebluealliance.com/event/2023orore"}>thebluealliance.com/event/2023orore</a>*/}
-                          {/*                  </p>*/}
-                          {/*                  <p>*/}
-                          {/*                      <b><b style={{color: "red"}}>ENDED</b> - OREGON STATE FAIR FRC EVENT (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/oregon-state-fair-frc-event/"}>Additional Information</a>):</b> */}
-                          {/*                      <br /><u>When</u>: March 23-25, 2023*/}
-                          {/*                      <br /><u>Where</u>: Oregon State Fairgrounds (2330 – 17th St. NE Salem, OR 97301 USA) */}
-                          {/*                      <br /><b><u>Match Replays</u></b>: <a href={"https://www.thebluealliance.com/event/2023orsal"}>thebluealliance.com/event/2023orsal</a>*/}
-                          {/*                  </p>*/}
-                          {/*                  <p>*/}
-                          {/*                      <b><b style={{color: "red"}}>ENDED</b> - PNW DISTRICT CHAMPIONSHIP (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/pnw-district-championship-frc-event/"}>Additional Information</a>):</b>*/}
-                          {/*                      <br /><u>When</u>: April 5th-8th, 2023*/}
-                          {/*                      <br /><u>Where</u>: Eastern Washington University Reese Court, 526 5th St. Cheney, WA 99005*/}
-                          {/*                      <br /><b><u>Stream</u></b>: <a href={"/"}>To be updated</a>*/}
-                          {/*                  </p>*/}
-                          {/*                  <hr />*/}
-                          {/*                  /!*<p>*!/*/}
-                          {/*                  /!*    <b><a href={"https://www.thebluealliance.com/team/7034"}>BLUE ALLIANCE</a></b>*!/*/}
-                          {/*                  /!*</p>*!/*/}
-                          {/*                  <div>*/}
-                          {/*                      <iframe src="https://www.thebluealliance.com/team/7034" title="Blue Alliance" width="100%" height="500px" className="rounded-iframe"></iframe>*/}
-                          {/*                  </div>*/}
-                          {/*              </div>*/}
-                          {/*        </div>*/}
-                          {/*    </div>*/}
-                          {/*</div>*/}
+
+                        {/*<div className="jumbotron text-center bg-white">*/}
+                        {/*      <div className="col-sm my-auto">*/}
+                        {/*          <h1 className="display-4 font-weight-bold">Incoming students!</h1>*/}
+                        {/*          <p className="lead">*/}
+                        {/*              Interesting in joining robotics? Great!!! You're always welcome in room 715 (700 building behind the school near the football field)*/}
+                        {/*              to come and check out robotics!*/}
+                        {/*          </p>*/}
+                        {/*          <p className="lead">The due date for all applications is <b>October 2nd</b></p>*/}
+                        {/*          <a href="https://forms.gle/1Ug7F3AmhJm42BMG6 " target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Team Registration</a>*/}
+                        {/*          /!*<a href="https://docs.google.com/document/d/1ZZ4ZRuYdhhTvWdU9l1pxtZcvL9wcgm_2gu6Yq0xtLLU/edit?usp=sharing" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Team Handbook</a>*!/*/}
+                        {/*      </div>*/}
+                        {/*  </div>*/}
+
+                        {/*          <div className="jumbotron text-center bg-white">*/}
+                        {/*      <div className="col-sm my-auto">*/}
+                        {/*          <h1 className="display-4 font-weight-bold">Girls Generation</h1>*/}
+                        {/*          <p className="lead">*/}
+                        {/*              Girls Generation is an off-season competiton for girls and non-binary team members to compete in the previous season's game.*/}
+                        {/*          </p>*/}
+                        {/*          <p>We'll be competing at <b>Wilsonville High School</b> on <b>Saturday, October 7th</b> </p>*/}
+                        {/*      </div>*/}
+                        {/*  </div>*/}
+                        {/*          */}
+                        {/*          <div className="jumbotron text-center bg-white">*/}
+                        {/*      <div className="col-sm my-auto">*/}
+                        {/*          <h1 className="display-4 font-weight-bold">Bunny Bots</h1>*/}
+                        {/*          <p className="lead">*/}
+                        {/*          Bunny Bots is an off-season competition for new students that introduces them to robotics. Spectators aren't going to be allowed so keep an eye out for the live stream link on https://wwww.team1540.org/bunnybots*/}
+                        {/*          </p>*/}
+                        {/*          <p> */}
+                        {/*          The location for the event will be at <b>Catlin Gabel School in Portland</b> on <b>Saturday, December 16th | 10AM - 4:45PM</b>*/}
+                        {/*          </p>*/}
+                        {/*      </div>*/}
+                        {/*  </div>*/}
+
+
+                        // <div className="jumbotron text-center bg-white">
+                        // <div className="row">
+                        // <div className="col-sm my-auto">
+                        // <h1 className="display-4 font-weight-bold">Robotics Open House</h1>
+                        // <p className="lead">
+                        // Interested in joining West Linn Robotics? We're hosting a open house for anyone that might be
+                        interested <b>on September 19th at 6PM in room 715</b>
+                        // <br/>
+                        // </p>
+                        // </div>
+                        // <div className="col-sm mt-3 mt-md-0">
+                        // <img src={require('../artifacts/images/2023-24/2023 Fall Open House Flyer.png')}
+                                className="d-flex w-100" alt="letter"/>
+                        // </div>
+                        // </div>
+                        // </div>
+
+                        {/*<div className="jumbotron text-center bg-white">*/}
+                        {/*    <div className="row">*/}
+                        {/*        <div className="col-sm my-auto">*/}
+                        {/*            <h1 className="display-4 font-weight-bold">Full Steam Ahead</h1>*/}
+                        {/*            <p className="lead">*/}
+                        {/*            This is a day camp for 3rd through 5th graders that introduces them to the basics of STEM. \n(lmao)*/}
+                        {/*            </p>*/}
+                        {/*            <p className={"lead"}>*/}
+                        {/*               Registration is now open! Spots are limited so register soon! <a href="forms.gle/opVoKrpunvocHYet9">https://forms.gle/opVoKrpunvocHYet9</a>*/}
+                        {/*            </p>*/}
+                        {/*        </div>*/}
+                        {/*        <div className="col-sm mt-3 mt-md-0">*/}
+                        {/*            <img src={require('../artifacts/images/2023-24/2023 Full STEAM Ahead Flyer.png')} className="d-flex w-100" alt="letter" />*/}
+                        {/*        </div>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
+
+                        {/*<div className="jumbotron text-center bg-white">*/}
+                        {/*    <div className="row">*/}
+                        {/*        <div className="col-sm my-auto">*/}
+                        {/*            <h1 className="display-4 font-weight-bold">Competitions</h1>*/}
+                        {/*            <p className="lead">*/}
+                        {/*                Our competitions are listed below.*/}
+                        {/*            </p>*/}
+                        {/*              <div className={"col-sm my-auto"}>*/}
+                        {/*                  <p>*/}
+                        {/*                      <b><b style={{color: "red"}}>ENDED</b> - CLACKAMAS FRC EVENT (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/clackamas-frc-event/"}>Additional Information</a>):</b> */}
+                        {/*                      <br /> <u>When</u>: March 2-4, 2023  */}
+                        {/*                      <br /><u>Where</u>: Clackamas Academy of Industrial Sciences (CAIS) (1306 12th St, Oregon City, OR 97045)*/}
+                        {/*                      <br /> <b> <u>Match Replays</u></b>: <a href={"https://www.thebluealliance.com/event/2023orore"}>thebluealliance.com/event/2023orore</a>*/}
+                        {/*                  </p>*/}
+                        {/*                  <p>*/}
+                        {/*                      <b><b style={{color: "red"}}>ENDED</b> - OREGON STATE FAIR FRC EVENT (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/oregon-state-fair-frc-event/"}>Additional Information</a>):</b> */}
+                        {/*                      <br /><u>When</u>: March 23-25, 2023*/}
+                        {/*                      <br /><u>Where</u>: Oregon State Fairgrounds (2330 – 17th St. NE Salem, OR 97301 USA) */}
+                        {/*                      <br /><b><u>Match Replays</u></b>: <a href={"https://www.thebluealliance.com/event/2023orsal"}>thebluealliance.com/event/2023orsal</a>*/}
+                        {/*                  </p>*/}
+                        {/*                  <p>*/}
+                        {/*                      <b><b style={{color: "red"}}>ENDED</b> - PNW DISTRICT CHAMPIONSHIP (<a href={"https://firstwa.org/first-robotics-competition/game-and-season/pnw-district-championship-frc-event/"}>Additional Information</a>):</b>*/}
+                        {/*                      <br /><u>When</u>: April 5th-8th, 2023*/}
+                        {/*                      <br /><u>Where</u>: Eastern Washington University Reese Court, 526 5th St. Cheney, WA 99005*/}
+                        {/*                      <br /><b><u>Stream</u></b>: <a href={"/"}>To be updated</a>*/}
+                        {/*                  </p>*/}
+                        {/*                  <hr />*/}
+                        {/*                  /!*<p>*!/*/}
+                        {/*                  /!*    <b><a href={"https://www.thebluealliance.com/team/7034"}>BLUE ALLIANCE</a></b>*!/*/}
+                        {/*                  /!*</p>*!/*/}
+                        {/*                  <div>*/}
+                        {/*                      <iframe src="https://www.thebluealliance.com/team/7034" title="Blue Alliance" width="100%" height="500px" className="rounded-iframe"></iframe>*/}
+                        {/*                  </div>*/}
+                        {/*              </div>*/}
+                        {/*        </div>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
 
 
                         <div className="jumbotron text-center bg-white">
@@ -292,12 +293,16 @@ class Home extends Component {
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Newsletter</h1>
                                     <p className="lead">
-                                        Sign up for our newsletter in order to recieve updates about the team every month!
+                                        Sign up for our newsletter in order to recieve updates about the team every
+                                        month!
                                     </p>
-                                    <a href="https://www.smore.com/63e8z-wlhs-robotics" target="_blank" rel="noopener noreferrer" type="button" className="btn btn-success mx-2 mb-1">View</a>
+                                    <a href="https://www.smore.com/63e8z-wlhs-robotics" target="_blank"
+                                       rel="noopener noreferrer" type="button"
+                                       className="btn btn-success mx-2 mb-1">View</a>
                                 </div>
                                 <div className="col-sm mt-3 mt-md-0">
-                                    <img src={require('../artifacts/images/newsletter.PNG')} className="d-block w-100" alt="letter" />
+                                    <img src={require('../artifacts/images/newsletter.PNG')} className="d-block w-100"
+                                         alt="letter"/>
                                 </div>
                             </div>
                         </div>
@@ -307,16 +312,18 @@ class Home extends Component {
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Lab Access</h1>
                                     <p className="lead">
-                                        Here is a map of where our lab is located. The classroom is in room 715 in the 700 building behind the school.
+                                        Here is a map of where our lab is located. The classroom is in room 715 in the
+                                        700 building behind the school.
                                     </p>
                                 </div>
                                 <div className="col-sm mt-3 mt-md-0">
-                                    <img src={require('../artifacts/images/map.png')} className="d-block w-100" alt="letter" />
+                                    <img src={require('../artifacts/images/map.png')} className="d-block w-100"
+                                         alt="letter"/>
                                 </div>
                             </div>
                         </div>
 
-                       {/* 
+                        {/*
                        <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
@@ -393,21 +400,23 @@ class Home extends Component {
                                 <ol className="carousel-indicators">
                                     {
                                         imageGalleryPics.map((img, index) =>
-                                            <li key={index} data-target="#gallery" data-slide-to={index} className={`${index === 0 ? 'active' : ''}`}/>)
+                                            <li key={index} data-target="#gallery" data-slide-to={index}
+                                                className={`${index === 0 ? 'active' : ''}`}/>)
                                     }
                                 </ol>
                                 <div className="carousel-inner">
                                     {
                                         imageGalleryPics.map((img, index) =>
-                                            <GalleryImage key={img.image} img={img.image} className="d-block h-100" alt={img.image} active={index === 0} title={img.title} />)
+                                            <GalleryImage key={img.image} img={img.image} className="d-block h-100"
+                                                          alt={img.image} active={index === 0} title={img.title}/>)
                                     }
                                 </div>
                                 <a className="carousel-control-prev" href="#gallery" role="button" data-slide="prev">
-                                    <span className="carousel-control-prev-icon" />
+                                    <span className="carousel-control-prev-icon"/>
                                     <span className="sr-only">Previous</span>
                                 </a>
                                 <a className="carousel-control-next" href="#gallery" role="button" data-slide="next">
-                                    <span className="carousel-control-next-icon" />
+                                    <span className="carousel-control-next-icon"/>
                                     <span className="sr-only">Next</span>
                                 </a>
                             </div>
@@ -422,10 +431,11 @@ class Home extends Component {
 
 class GalleryImage extends Component {
     render() {
-        return(
+        return (
             <div className={`carousel-item${this.props.active ? ' active' : ''}`}>
                 <div className="d-block w-100">
-                    <img src={require(`../artifacts/images/gallery/${this.props.img}`)} className="d-block w-100" alt={this.props.img} />
+                    <img src={require(`../artifacts/images/gallery/${this.props.img}`)} className="d-block w-100"
+                         alt={this.props.img}/>
                 </div>
                 <div className="carousel-caption d-none d-md-block">
                     <p>{this.props.title}</p>
