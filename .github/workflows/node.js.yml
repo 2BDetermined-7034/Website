@@ -26,21 +26,18 @@ jobs:
     - run: cd website
     - run: npm ci
     - run: npm run build --if-present
-    - name: Bump version and push tag
-      id: tag_version
+    - name: Generate version
+      id: generate_version
       run: |
-        git fetch --prune --unshallow
-        echo "BUMP_TYPE=patch" >> $GITHUB_ENV # Set the version bump type here
-        echo "NEW_TAG=$(npm version $BUMP_TYPE)" >> $GITHUB_ENV
-        git push origin refs/tags/$NEW_TAG
+        echo "NEW_VERSION=$(date +%Y%m%d%H%M%S)-$RANDOM" >> $GITHUB_ENV
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
       with:
-        tag_name: ${{ env.NEW_TAG }}
-        release_name: Release ${{ env.NEW_TAG }}
+        tag_name: ${{ env.NEW_VERSION }}
+        release_name: Release ${{ env.NEW_VERSION }}
         draft: false
         prerelease: false
     - name: Archive production artifacts
