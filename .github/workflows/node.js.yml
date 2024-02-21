@@ -13,41 +13,39 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x, 20.x]
+        node-version: [16.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
     - uses: actions/checkout@v3
-    - name: Use Node.js 16.x
+    - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
-        node-version: 16.x
+        node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: cd website
     - run: npm ci
     - run: npm run build --if-present
-    - name: Use Node.js 20.x
-      uses: actions/setup-node@v3
-      with:
-        node-version: 20.x
-    - name: Semantic Release
-      run: npx semantic-release
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-    - name: Archive production artifacts
+    - name: Bump version and push tag
+      id: tag_version
       run: |
-        zip -r build.zip ./*
+        git fetch --prune --unshallow
+        echo "BUMP_TYPE=patch" >> $GITHUB_ENV # Set the version bump type here
+        echo "NEW_TAG=$(npm version $BUMP_TYPE)" >> $GITHUB_ENV
+        git push origin refs/tags/$NEW_TAG
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
       with:
-        tag_name: ${{ github.ref }}
-        release_name: Release ${{ github.ref }}
+        tag_name: ${{ env.NEW_TAG }}
+        release_name: Release ${{ env.NEW_TAG }}
         draft: false
         prerelease: false
+    - name: Archive production artifacts
+      run: |
+        zip -r build.zip ./*
     - name: Upload Release Asset
       id: upload-release-asset 
       uses: actions/upload-release-asset@v1
