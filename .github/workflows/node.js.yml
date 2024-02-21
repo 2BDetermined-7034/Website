@@ -29,7 +29,7 @@ jobs:
     - name: Generate version
       id: generate_version
       run: |
-        echo "NEW_VERSION=$(date +%Y%m%d%H%M%S)-$RANDOM" >> $GITHUB_ENV
+        echo "NEW_VERSION=$(date +'%Y-%m-%d-%H-%M-%S')-$RANDOM" >> $GITHUB_ENV
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
