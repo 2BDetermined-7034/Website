@@ -187,10 +187,7 @@ class Home extends Component {
                                     The team will be competing at Clackamas Academy of Industrial Sciences from February 29th - March 2nd. For more information, check out Blue Alliance website or the team website, <a href="https://wlhsfrc.com">wlhsfrc.com</a>.
                                     </p>
                                     
-                                    <h2 className='display-7 font-weight-bold'>CUM Competition</h2>
-                                    <p className="lead">
-                                    The team will be competing at Clackamas Academy of Industrial Sciences from February 29th - March 2nd. For more information, check out Blue Alliance website or the team website, <a href="https://wlhsfrc.com">wlhsfrc.com</a>.
-                                    </p>
+                        
                                 </div>
                             </div>
                         </div>
