@@ -177,6 +177,23 @@ class Home extends Component {
                                 </p>
                             </div>
                         </div>
+                        
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Upcoming Competitions:</h1>
+                                    <h2 className='display-7 font-weight-bold'>CAIS Competition</h2>
+                                    <p className="lead">
+                                    The team will be competing at Clackamas Academy of Industrial Sciences from February 29th - March 2nd. For more information, check out Blue Alliance website or the team website, <a href="https://wlhsfrc.com">wlhsfrc.com</a>.
+                                    </p>
+                                    
+                                    <h2 className='display-7 font-weight-bold'>CUM Competition</h2>
+                                    <p className="lead">
+                                    The team will be competing at Clackamas Academy of Industrial Sciences from February 29th - March 2nd. For more information, check out Blue Alliance website or the team website, <a href="https://wlhsfrc.com">wlhsfrc.com</a>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
 
                         {/*<div className="jumbotron text-center bg-white">*/}
@@ -213,24 +230,6 @@ class Home extends Component {
                         {/*          </p>*/}
                         {/*      </div>*/}
                         {/*  </div>*/}
-
-
-                        // <div className="jumbotron text-center bg-white">
-                        // <div className="row">
-                        // <div className="col-sm my-auto">
-                        // <h1 className="display-4 font-weight-bold">Robotics Open House</h1>
-                        // <p className="lead">
-                        // Interested in joining West Linn Robotics? We're hosting a open house for anyone that might be
-                        interested <b>on September 19th at 6PM in room 715</b>
-                        // <br/>
-                        // </p>
-                        // </div>
-                        // <div className="col-sm mt-3 mt-md-0">
-                        // <img src={require('../artifacts/images/2023-24/2023 Fall Open House Flyer.png')}
-                                className="d-flex w-100" alt="letter"/>
-                        // </div>
-                        // </div>
-                        // </div>
 
                         {/*<div className="jumbotron text-center bg-white">*/}
                         {/*    <div className="row">*/}
@@ -322,6 +321,8 @@ class Home extends Component {
                                 </div>
                             </div>
                         </div>
+
+                      
 
                         {/*
                        <div className="jumbotron text-center bg-white">
