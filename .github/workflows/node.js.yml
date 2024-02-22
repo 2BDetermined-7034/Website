@@ -57,7 +57,7 @@ jobs:
       uses: sebastianpopp/ftp-action@releases/v2
       with:
         host: ftp.wlhsfrc.com
-        username: ${{ secrets.FTP_USER }}@wlhsfrc.com
+        user: ${{ secrets.FTP_USER }}@wlhsfrc.com
         password: ${{ secrets.FTP_PASSWORD }}
         localDir: "./"
         remoteDir: "/home/xwj7xv1ampya"
