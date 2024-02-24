@@ -42,7 +42,7 @@ jobs:
         prerelease: false
     - name: Archive production artifacts
       run: |
-        zip -r build.zip ./*
+        zip -r build.zip ./build/*
     - name: Upload Release Asset
       id: upload-release-asset 
       uses: actions/upload-release-asset@v1
