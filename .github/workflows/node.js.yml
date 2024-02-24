@@ -40,9 +40,14 @@ jobs:
         release_name: Release ${{ env.NEW_VERSION }}
         draft: false
         prerelease: false
+    - run: cd website
+    - run: npm run build
     - name: Archive production artifacts
       run: |
-        zip -r build.zip ./build/*
+        mkdir build.zip
+        cp -r ./build/* build.zip/
+        zip -r build.zip build.zip/
+
     - name: Upload Release Asset
       id: upload-release-asset 
       uses: actions/upload-release-asset@v1
