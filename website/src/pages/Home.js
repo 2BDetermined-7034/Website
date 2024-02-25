@@ -192,7 +192,6 @@ class Home extends Component {
                             </div>
                         </div>
 
-
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
