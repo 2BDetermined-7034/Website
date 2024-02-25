@@ -34,14 +34,14 @@ jobs:
         id: create_release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ env.NEW_VERSION }}
           release_name: Release ${{ env.NEW_VERSION }}
           draft: false
           prerelease: false
-      - run: cd website  # Change directory to 'website'
-      - run: npm run build  # Now this command is run in the 'website' directory
+      - run: cd website
+      - run: npm run build
       - name: Archive production artifacts
         run: |
           mkdir build.zip
