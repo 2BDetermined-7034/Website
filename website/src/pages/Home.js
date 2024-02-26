@@ -201,14 +201,15 @@ class Home extends Component {
                                         The team will be competing at Clackamas Academy of Industrial Sciences from
                                         February 29th - March 2nd. For more information, check out Blue <a
                                         href="https://thebluealliance.com">Alliance website</a> or the team website, <a
-                                        href="https://wlhsfrc.com">wlhsfrc.com</a>.
+                                        href="https://wlhsfrc.com">wlhsfrc.com</a>, and the competition stream will be live at 
+                                            <ahref="https://www.twitch.tv/firstinspires14 ">twitch.tv/firstinspires14</a> on game day!
                                     </p>
 
                                     <h2 className='display-7 font-weight-bold'>Wilsonville Competition</h2>
                                     <p className="lead">
                                         The team will be competing at Wilsonville High School from March 21st - March
                                         23rd. For more information,
-                                        <a href="https://thebluealliance.com">Alliance website</a> or the team
+                                         <a href="https://thebluealliance.com">Alliance website</a> or the team
                                         website, <a href="https://wlhsfrc.com">wlhsfrc.com</a>.
                                     </p>
 
