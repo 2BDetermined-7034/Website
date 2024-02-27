@@ -202,7 +202,7 @@ class Home extends Component {
                                         February 29th - March 2nd. For more information, check out Blue <a
                                         href="https://thebluealliance.com">Alliance website</a> or the team website, <a
                                         href="https://wlhsfrc.com">wlhsfrc.com</a>, and the competition stream will be live at 
-                                            <ahref="https://www.twitch.tv/firstinspires14 ">twitch.tv/firstinspires14</a> on game day!
+                                            <a href="https://www.twitch.tv/firstinspires14 ">twitch.tv/firstinspires14</a> on game day!
                                     </p>
 
                                     <h2 className='display-7 font-weight-bold'>Wilsonville Competition</h2>
