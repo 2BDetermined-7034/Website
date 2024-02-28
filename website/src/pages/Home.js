@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import { TwitterTimelineEmbed } from 'react-twitter-embed';
+import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
+import {TwitterTimelineEmbed} from 'react-twitter-embed';
 
 import CTSInfoForm from '../artifacts/Changing_the_system_info_sheet_2022.pdf'
 
@@ -63,22 +63,23 @@ var imageGalleryPics = [
 
 class Home extends Component {
     render() {
-        return(
+        return (
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-sm-4">
                         <div className="container">
-                           {/* Twitter
+                            {/* Twitter
                             <div className="card h-100" style={{marginBottom: '32px'}}>
                                 <div className="card-body">
                                     <TwitterTimelineEmbed sourceType="profile" screenName="Team_7034" options={{height: 600}}/>
                                 </div>
                             </div>*/}
-                            <div className="jumbotron text-center bg-white" >
+                            <div className="jumbotron text-center bg-white">
                                 <h1 className="display-4 font-weight-bold">2B United</h1>
                                 <h1 className="display-4 font-weight-bold">2B Inspired</h1>
                                 <h1 className="display-4 font-weight-bold">2B Determined</h1>
-                                <img src={require('../artifacts/images/TeamPhoto.png')} className="d-block w-100" alt="PPE" />
+                                <img src={require('../artifacts/images/TeamPhoto.png')} className="d-block w-100"
+                                     alt="PPE"/>
                                 <div className="row mt-4">
                                     <div className="col-sm-4 mb-2">
 
@@ -95,46 +96,58 @@ class Home extends Component {
                                         <img src={require('../artifacts/images/awards/2022/2022OSF_EngiInsp.png')}/>
                                     </div>
                                     <div className="col-sm-4 mb-2">
-                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2022/2022CAIS_winner.png')}/>
+                                        <img style={{width: 100}}
+                                             src={require('../artifacts/images/awards/2022/2022CAIS_winner.png')}/>
                                     </div>
                                     <div className="col-sm-4 mb-2">
-                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2022/2022CAIS_InvinCtrl.png')}/>
+                                        <img style={{width: 100}}
+                                             src={require('../artifacts/images/awards/2022/2022CAIS_InvinCtrl.png')}/>
                                     </div>
                                     <div className="col-sm-4 mb-2">
-                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2022/2022OSF_winner.png')}/>
-                                    </div>
-                                </div>
-                                <div className="row mt-4">
-                                    <div className="col-sm-4 mb-2">
-                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2021/regionalChairmans.png')}/>
-                                    </div>
-                                    <div className="col-sm-4 mb-2">
-                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2021/districtsChairmans.png')}/>
-                                    </div>
-                                    <div className="col-sm-4 mb-2">
-                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2019/wilsonvilleJudges.png')}/>
+                                        <img style={{width: 100}}
+                                             src={require('../artifacts/images/awards/2022/2022OSF_winner.png')}/>
                                     </div>
                                 </div>
                                 <div className="row mt-4">
                                     <div className="col-sm-4 mb-2">
-                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2019/wilsonvilleSafety.png')}/>
+                                        <img style={{width: 100}}
+                                             src={require('../artifacts/images/awards/2021/regionalChairmans.png')}/>
                                     </div>
                                     <div className="col-sm-4 mb-2">
-                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2018/houstonInspiration.png')}/>
+                                        <img style={{width: 100}}
+                                             src={require('../artifacts/images/awards/2021/districtsChairmans.png')}/>
                                     </div>
                                     <div className="col-sm-4 mb-2">
-                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2018/pnwRookieAllStar.png')}/>
+                                        <img style={{width: 100}}
+                                             src={require('../artifacts/images/awards/2019/wilsonvilleJudges.png')}/>
                                     </div>
                                 </div>
                                 <div className="row mt-4">
                                     <div className="col-sm-4 mb-2">
-                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2018/lakeOswegoRookieAllStar.png')}/>
+                                        <img style={{width: 100}}
+                                             src={require('../artifacts/images/awards/2019/wilsonvilleSafety.png')}/>
                                     </div>
                                     <div className="col-sm-4 mb-2">
-                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2018/lakeOswegoRookieSeed.png')}/>
+                                        <img style={{width: 100}}
+                                             src={require('../artifacts/images/awards/2018/houstonInspiration.png')}/>
                                     </div>
                                     <div className="col-sm-4 mb-2">
-                                        <img style={{width: 100}}  src={require('../artifacts/images/awards/2018/wilsonvilleRookieSeed.png')}/>
+                                        <img style={{width: 100}}
+                                             src={require('../artifacts/images/awards/2018/pnwRookieAllStar.png')}/>
+                                    </div>
+                                </div>
+                                <div className="row mt-4">
+                                    <div className="col-sm-4 mb-2">
+                                        <img style={{width: 100}}
+                                             src={require('../artifacts/images/awards/2018/lakeOswegoRookieAllStar.png')}/>
+                                    </div>
+                                    <div className="col-sm-4 mb-2">
+                                        <img style={{width: 100}}
+                                             src={require('../artifacts/images/awards/2018/lakeOswegoRookieSeed.png')}/>
+                                    </div>
+                                    <div className="col-sm-4 mb-2">
+                                        <img style={{width: 100}}
+                                             src={require('../artifacts/images/awards/2018/wilsonvilleRookieSeed.png')}/>
                                     </div>
                                 </div>
                             </div>
@@ -173,17 +186,23 @@ class Home extends Component {
                             <div className="col-sm my-auto">
                                 <h1 className="display-4 font-weight-bold">Build Season</h1>
                                 <p className="lead">
-                                    The team is currently preparing for the 2024 FRC Game, Crescendo! They will be meeting 5 or more times a week til February 29th, their first competition!
+                                    The team is currently preparing for the 2024 FRC Game, Crescendo! They will be
+                                    meeting 5 or more times a week til February 29th, their first competition!
                                 </p>
                             </div>
                         </div>
+<<<<<<< HEAD
                 */}
+=======
+
+>>>>>>> 3a405b28bd71567b94afa8d3cd7b6d92d87064e6
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">CRESCENDO Competitions</h1>
                                     <h2 className='display-7 font-weight-bold'>CAIS Competition</h2>
                                     <p className="lead">
+<<<<<<< HEAD
                                     The team will be competing at Clackamas Academy of Industrial Sciences from February 29th - March 2nd. For more information, check out <a href="https://www.thebluealliance.com/event/2024orore">Blue Alliance webiste</a>.
                                     </p>
                                     <center><img src={require('../artifacts/images/2024 CAIS Schedule.png')} className="d-block w-50"
@@ -193,6 +212,24 @@ class Home extends Component {
                                     The team will be competing at Wilsonville High School from March 21st - 23rd. For more information, check out <a href="https://www.thebluealliance.com/event/2024orwil">Blue Alliance website</a>.
                                     </p>
                         
+=======
+                                        The team will be competing at Clackamas Academy of Industrial Sciences from
+                                        February 29th - March 2nd. For more information, check out Blue <a
+                                        href="https://thebluealliance.com">Alliance website</a> or the team website, <a
+                                        href="https://wlhsfrc.com">wlhsfrc.com</a>, and the competition stream will be live at 
+                                            <a href="https://www.twitch.tv/firstinspires14 ">twitch.tv/firstinspires14</a> on game day!
+                                    </p>
+
+                                    <h2 className='display-7 font-weight-bold'>Wilsonville Competition</h2>
+                                    <p className="lead">
+                                        The team will be competing at Wilsonville High School from March 21st - March
+                                        23rd. For more information,
+                                         <a href="https://thebluealliance.com">Alliance website</a> or the team
+                                        website, <a href="https://wlhsfrc.com">wlhsfrc.com</a>.
+                                    </p>
+
+
+>>>>>>> 3a405b28bd71567b94afa8d3cd7b6d92d87064e6
                                 </div>
                             </div>
                         </div>
@@ -374,7 +411,6 @@ class Home extends Component {
                             </div>
                         </div>
 
-                      
 
                         {/*
                        <div className="jumbotron text-center bg-white">
