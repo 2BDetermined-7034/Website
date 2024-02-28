@@ -12,15 +12,22 @@ return (
                 <div className="jumbotron text-center bg-white">
                     <h1 className="display-4 font-weight-bold">Camps</h1>
                     <p className="lead">
-                        Our various camp programs aim to teach students about STEAM through hands-on experiences.
-                        Students learn about engineering, use real-world tools, and receive instruction from both industry professionals and 2B Determined team members.
-                        We offer a variety of camp programs, including a comprehensive summer experience and single-day events.
-                        Check out our home page for any current camp offerings!
+                    2B Determined proudly hosts three camp programs for varying age ranges. We aim to teach students 
+                    about STEAM (Science, Technology, Engineering, Art, and Math) through hands-on experiences. 
+                    Campers learn about engineering, real-world tools, and receive instruction from both team 
+                    members and industry professionals.
+                    <br />
+                    <br />
+                    If you'd like to register for a camp, check out our 
+                        <a href="https://wlhsfrc.com/home"> home page</a> to view any upcoming camps!
                     </p>
                 </div>
             </div>
             <div className="col-sm-2" />
         </div>
+
+
+        {/*}
         <div className="row">
         <div className="col-sm-2" />
             <div className="col-sm-8"> 
@@ -46,17 +53,20 @@ return (
                                   </div>
                 </div>
             </div>
+          
             <div className="col-sm-2" />
         </div>
             <hr />
+*/}
 
         <div className="row">
             <div className="col-sm-3" />
                 <div className="col-sm-6">
                     <div className="jumbotron text-center bg-white">
-                    <h1 className="display-4 font-weight-bold">Past Camps</h1>
-                    <lead>These are some of our favorite past camp programs. We've been hosting these experiences since our rookie year summer camp and we consider their success to be one of our greatest achievements as a team.</lead>
-                </div>
+                    <h1 className="display-4 font-weight-bold">Camp Summaries</h1>
+                    <p className="lead">
+                    </p>
+                    </div>
             </div>
         <div className="col-sm-3" />
         </div>
@@ -64,38 +74,47 @@ return (
         <div className="row">
             <div className="col-sm-4">
                 <div className="jumbotron text-center bg-white">
-                    <h1 className="display-4 font-weight-bold">Full STEAM Ahead</h1>
-                    <hr />
-                    <p className="text-left">
-                        2B Determined has developed an online daycamp program for 4th-7th graders interested in Science, Technology, Engineering, Art, and/or Math!
-                        This camp ran for 5 weeks in 2020, with unique lessons and personalized instruction.
-                        Activities and lessons included science and engineering experiments, listening to speakers from various STEAM industries, building lava lamps, coding, and more!
-                    </p>
-                    <img src={require('../artifacts/images/fullsteamahead.png')} className="d-block w-100" alt="fsaposter" />
-                </div>
-            </div>
-{/* 
-            <div className="col-sm-4">
-                <div className="jumbotron text-center bg-white">
                     <h1 className="display-4 font-weight-bold">Changing the SySTEM</h1>
                     <hr />
                     <p className="text-left">
-                        Changing the SySTEM was a free, bi-weekly camp targeted at 6th-8th grade girls interested in STEM held virtually in the spring of 2020.
-                        Content was similar to that of our other camp experiences but with a focus on promoting female interest and participation in STEM fields.
-                        We're proud of the stong female presence on our team and we hope that offerings like these help to continue that trend well into the future.
-                    </p>
-                    <img src={require('../artifacts/images/changingthesystem/flyer.jpg')} className="d-block w-100" alt="ctsposter" />
+                    2B Determined proudly hosts their annual all-girls STEM Camp:
+                    <li>Time: Late May</li>
+                    <li>Price: Cost free</li>
+                    <li>Demographic: Non-male middle school students</li>
+                    <li>Length: 2 weeks</li>
+                    <li>Lessons taught by experienced team members</li>
+                    <li>Featuring female STEM professional speakers.</li>
+</p>
                 </div>
             </div>
-*/}            
+
             <div className="col-sm-4">
                 <div className="jumbotron text-center bg-white">
-                    <h1 className="display-4 font-weight-bold">Day Camps</h1>
+                    <h1 className="display-4 font-weight-bold">Summer of STEAM</h1>
                     <hr />
                     <p className="text-left">
-                        Students throughout our district are released early one Wednesday per month. Prior to the pandemic, we offered single-day experiences for middle school students
-                        to attend on these days. These camps were a great way for students to interact with STEM without the weeklong commitment requirement by our longer experiences
-                        and we hope to resume them in the 2022 school year.
+                    Introducing our STEAM summer camp to introduce incoming high schoolers:
+                    <li>Time: Late July</li>
+                    <li>Price: TBD</li>
+                    <li>Demographic: 8th and 9th graders</li>
+                    <li>Length: 1 to 2 weeks</li>
+                    <li>A variety of advanced lessons taught by experienced team members</li>
+</p>
+                </div>
+            </div>
+        
+            <div className="col-sm-4">
+                <div className="jumbotron text-center bg-white">
+                    <h1 className="display-4 font-weight-bold">Full STEAM Ahead</h1>
+                    <hr />
+                    <p className="text-left">
+                    Presenting our day STEAM camp aimed at elementary schoolers:
+                    <li>Time: Late Fall</li>
+                    <li>Price: TBD</li>
+                    <li>Demographic: 3rd-5th graders</li>
+                    <li>Length: 1 day</li>
+                    <li>Simple lessons exploring STEAM and engineering</li>
+
                     </p>
                 </div>
             </div>

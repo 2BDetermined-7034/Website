@@ -168,7 +168,7 @@ class Home extends Component {
                     </div>
                     */}
 
-
+                    {/*
                         <div className="jumbotron text-center bg-white">
                             <div className="col-sm my-auto">
                                 <h1 className="display-4 font-weight-bold">Build Season</h1>
@@ -177,20 +177,75 @@ class Home extends Component {
                                 </p>
                             </div>
                         </div>
-                        
+                */}
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Upcoming Competitions:</h1>
+                                    <h1 className="display-4 font-weight-bold">CRESCENDO Competitions</h1>
                                     <h2 className='display-7 font-weight-bold'>CAIS Competition</h2>
                                     <p className="lead">
-                                    The team will be competing at Clackamas Academy of Industrial Sciences from February 29th - March 2nd. For more information, check out Blue Alliance website or the team website, <a href="https://wlhsfrc.com">wlhsfrc.com</a>.
+                                    The team will be competing at Clackamas Academy of Industrial Sciences from February 29th - March 2nd. For more information, check out <a href="https://www.thebluealliance.com/event/2024orore">Blue Alliance webiste</a>.
                                     </p>
-                                    
+                                    <center><img src={require('../artifacts/images/2024 CAIS Schedule.png')} className="d-block w-50"
+                                        alt="letter"/></center>
+                                    <h2 className='display-7 font-weight-bold'>Wilsonville Competition</h2>
+                                    <p className="lead">
+                                    The team will be competing at Wilsonville High School from March 21st - 23rd. For more information, check out <a href="https://www.thebluealliance.com/event/2024orwil">Blue Alliance website</a>.
+                                    </p>
                         
                                 </div>
                             </div>
                         </div>
+
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Oregon FLL State Championship</h1>
+                                    <p className="lead">
+                                    Team 7034 is incredibly proud to be hosting the FIRST Lego League State Championships at West Linn High School on March 17th. Feel free to show up and support!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Backyard Burger Dine-Out</h1>
+                                    <p className="lead">
+                                    Looking to grab a snack and support the local robotics team? Come to Backyard 
+                                    Burger on March 28th 5:30 - 8:30 PM. 10% of proceeds—all orders except for delivery—will 
+                                    be going to the team! The address is 18750 Willamette Dr, West Linn, OR 97068. 
+                                    </p>
+                                    <a href="https://backyardburgercompany.com/menu/" target="_blank"
+                                    rel="noopener noreferrer" type="button"
+                                    className="btn btn-success mx-2 mb-1">Menu</a>
+                                </div>
+                                <img src={require('../artifacts/images/Backyard Burger Dineout Flyer.png')} className="d-block w-50"
+                                        alt="letter"/>
+                            </div>
+                        </div>
+            
+                
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Changing the SySTEM Camp</h1>
+                                    <p className="lead">
+                                    The team is hosting a free, all-girls STEM camp in late May!
+                                    The camp is on May 15th, 17th, 20th, and 22nd from 4:30 - 7:30 PM. Registration is limited so sign up soon.
+                                    </p>
+                                    <a href="https://forms.gle/CieUqjp7TUth4YJq6" target="_blank"
+                                    rel="noopener noreferrer" type="button"
+                                    className="btn btn-success mx-2 mb-1">Sign-up</a>
+                                    
+                                    <center><img src={require('../artifacts/images/2024 Changing the SySTEM Flyer.png')} className="d-block w-50"
+                                        alt="letter"/></center>
+                                    
+                                </div>
+                            </div>
+                        </div>
+            
 
 
                         {/*<div className="jumbotron text-center bg-white">*/}

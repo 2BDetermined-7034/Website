@@ -33,10 +33,12 @@ class AboutUs extends Component {
                                         <div className="col-sm-7">
                                         <h5 className="text-center">Team 7034</h5>
                                         <p className="text-justified">
-                                            We are 2B Determined, the FIRST Robotics Competition (FRC) team as West Linn High School. This is our third year competing in FRC, although many of our members have experience
-                                            in similar competitions, such as FIRST Lego League and FIRST Tech Challenge. Being a new team has many challenges, including finding sponsors and raising money, building a robot
-                                            from scratch, developing and learning to use advanced control systems, and building a community presence through outreach. If you have any questions or wish to support us, please
-                                            feel free to reach out on our socials (bottom of the page) or on the "Support Us" page.
+                                        We are 2B Determined, the FIRST Robotics Competition (FRC) Team at West Linn High School, 
+                                        in the Pacific Northwest District. This is our 6th year competing in FRC. We aim to spread 
+                                        the principles of FIRST across our community, increasing STEM accessibility for those of 
+                                        all ages and all backgrounds. If you have any questions, please reach out to our email 
+                                        wlhsfrc@gmail.com. 
+
                                         </p>
                                     </div>
                                 </div>
@@ -56,9 +58,13 @@ class AboutUs extends Component {
                                     <h5 className="text-center">FIRST Robotics</h5>
                                     <p className="text-justified">
                                         <RedLetter letter="F"/>or <RedLetter letter="I"/>nspiration and <RedLetter letter="R"/>ecognition of <RedLetter letter="S"/>cience and <RedLetter letter="T"/>echnology (FIRST) is an international youth organization that operates the FIRST Robotics Competition,
-                                        FIRST LEGO League, FIRST LEGO League Jr. and FIRST Tech Challenge competitions. Their motto, "to create a world where science and technology are celebrated...
-                                        where young people dream of becoming science and technology heros," inspires many to compete in their tournaments every year -- including our own WLHS Robotics FRC team!
-                                    </p>
+                                        For Inspiration and Recognition of Science and Technology (FIRST) is an international
+                                        youth organization that operates the FIRST Robotics Competition, FIRST LEGO League, 
+                                        FIRST LEGO League Jr. and FIRST Tech Challenge competitions. Their motto, "to create 
+                                        a world where science and technology are celebrated... where young people dream of 
+                                        becoming science and technology heroes," inspires many to compete in their tournaments 
+                                        every year—including our own WLHS Robotics FRC team!
+</p>
                                 </div>
                             </div>
                         </div>

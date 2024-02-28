@@ -4,12 +4,13 @@ class Compresults extends Component {
     render() {
         return (
             <div className="container-fluid">
+                
                 <div className="row">
                     <div className="col-sm-2" />
                     <div className="col-sm-8">
                         <div className="jumbotron text-center bg-white">
                             <div className="col-sm my-auto">
-                                <h1 className="display-4 font-weight-bold">2022-2023:</h1>
+                                <h1 className="display-4 font-weight-bold">2023-2024:</h1>
                             </div>
                         </div>
                         <div className="col-sm-2" />
@@ -21,15 +22,67 @@ class Compresults extends Component {
                     <div className="col-sm-8">
                         <div className="jumbotron text-center bg-white">
                             <div className="col-sm my-auto">
-                                <h1 className="display-4 font-weight-bold">OREGON STATE FAIR FRC EVENT</h1>
+                                <h1 className="display-4 font-weight-bold">Wilsonville Event</h1>
+                                <p className="lead">
+                                March 21-23, 2024
+                                </p>
+                                <p className="lead">
+                                    Results coming soon!
+                                <br /><b><a href={"https://www.thebluealliance.com/event/2024orwil"}>BLUE ALLIANCE</a></b>
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-sm-2" />
+                    </div>
+                </div> 
+        
+                <div className="row">
+                    <div className="col-sm-2" />
+                    <div className="col-sm-8">
+                        <div className="jumbotron text-center bg-white">
+                            <div className="col-sm my-auto">
+                                <h1 className="display-4 font-weight-bold">CAIS Event</h1>
+                                <p className="lead">
+                                February 29-March 3, 2024
+                                </p>
+                                <p className="lead">
+                                    Results coming soon!
+                                <br /><b><a href={"https://www.thebluealliance.com/event/2024orore"}>BLUE ALLIANCE</a></b>
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-sm-2" />
+                    </div>
+                </div> 
+
+                <div className="row">
+                    <div className="col-sm-2" />
+                    <div className="col-sm-8">
+                        <div className="jumbotron text-center bg-white">
+                            <div className="col-sm my-auto">
+                                <h1 className="display-4 font-weight-bold">2022-2023:</h1>
+                            </div>
+                        </div>
+                        <div className="col-sm-2" />
+                    </div>
+                </div>
+        
+                <div className="row">
+                    <div className="col-sm-2" />
+                    <div className="col-sm-8">
+                        <div className="jumbotron text-center bg-white">
+                            <div className="col-sm my-auto">
+                                <h1 className="display-4 font-weight-bold">OSF Event</h1>
                                 <p className="lead">
                                 March 23-25, 2023
                                 </p>
                                 <p className="lead">
-
-                                <b><a href={"https://www.thebluealliance.com/team/7034"}>BLUE ALLIANCE</a></b>
+                                We ranked 6th place.
+                                <br />We also won the District FIRST Impact Award.
+                                <br /><b><a href={"https://www.thebluealliance.com/event/2023orsal"}>BLUE ALLIANCE</a></b>
                                 </p>
-
+                                <img src={require('../artifacts/images/Competition/OSF2023Results.png')} className="w-50" 
+                                    alt=""/>
                                 <br/>
 
                             </div>
@@ -43,7 +96,7 @@ class Compresults extends Component {
                     <div className="col-sm-8">
                         <div className="jumbotron text-center bg-white">
                             <div className="col-sm my-auto">
-                                <h1 className="display-4 font-weight-bold">CLACKAMAS FRC EVENT</h1>
+                                <h1 className="display-4 font-weight-bold">CAIS Event</h1>
                                 <p className="lead">
                                 March 2-4, 2023
                                 </p>
@@ -53,19 +106,17 @@ class Compresults extends Component {
                                                 We also won the following awards:
                                                 <li>District Event Finalist</li>
                                                 <li>Team Sustainability Award</li>
-                                <b><a href={"https://www.thebluealliance.com/team/7034"}>BLUE ALLIANCE</a></b>
+                                <b><a href={"https://www.thebluealliance.com/event/2023orore"}>BLUE ALLIANCE</a></b>
                                 </p>
-                                <img src={require('../artifacts/images/Competition/Schedule.png')} className="w-50"/>
+                                <img src={require('../artifacts/images/Competition/Schedule.png')} className="w-50" 
+                                    alt=""/>
                                 <br/>
-                                <img src={require('../artifacts/images/Competition/Robotpic.jpg')} className="w-50"/>
-                                <img src={require('../artifacts/images/Competition/Robotpic2.jpg')} className="w-50"/>
-                                <br/>
-                                <img src={require('../artifacts/images/Competition/CoolPhoto.jpg')} className="w-100"/>
                             </div>
                         </div>
                         <div className="col-sm-2" />
                     </div>
                 </div> 
+                
 
                 <div className="row">
                     <div className="col-sm-2" />
@@ -74,13 +125,7 @@ class Compresults extends Component {
                             <div className="col-sm my-auto">
                                 <h1 className="display-4 font-weight-bold">Bunny Bots Competition Results</h1>
                                 <p className="lead">
-                                    This past Saturday, December 17th, we attended the bunny bots competition held at Catlin Gabel School in Portland. We brought three robots in total, two of which (A and B) were designed and built by new students. The third robot (robot C) was our experimental swerve drive base that we decorated with Christmas lights and a wreath.                                </p>
-                                <p className="lead">
-                                    At the competition, robot A ranked 19th and B ranked 22nd after the qualifying rounds. Robot 3 (the swerve drive base) placed 3rd after qualifying rounds and advanced into the semifinals as the 3rd alliance captain!
-                                </p>
-                                <p className="lead">
-                                    We had so much fun at the competition and it was a huge learning opportunity, especially for the new members. If you wish to see the recording of the competition, you can view it <a href={"https://www.youtube.com/watch?v=gu1z2s3G15A&ab_channel=1540FlamingChickens"}>here</a>.
-                                </p>
+                                On Saturday, December 17th, we attended the BunnyBots Competition held at Catlin Gabel School in Portland. We brought three robots. We ranked 19th, 22nd, and 3rd, advancing into the semifinals with one of our robots.</p>
                                 <img src={require('../artifacts/images/2022bunnybots/DSC_0291.JPG')} className="w-50"  alt="bunnybots" />
                             </div>
                         </div>
@@ -94,11 +139,10 @@ class Compresults extends Component {
                     <div className="jumbotron text-center bg-white">
                         <div className="row">
                             <div className="col-sm my-auto">
-                                <h1 className="display-4 font-weight-bold">Girls Generation</h1>
+                                <h1 className="display-4 font-weight-bold">Girls Generation Off-Season Event</h1>
                                 <p className="lead">
+                                On October 15th, we competed in Girls Generation, an off-season competition that highlights women in STEM! It gives people a chance to experience STEM in a more comfortable environment. The two robots we bought both advanced to finals, competing against each other. One of ours ranked 2nd, the other at 5th.
                                 </p>
-                                October 15th we’ll be competing in Girls Generation, an offseason competition that highlights women in STEM! It gives people a chance to experience STEM in a more comfortable environment, and we are excited to be involved! We just successfully completed a new type of drive base called swerve which allows the robot to drive in any direction. We are also bringing our robot from the past season in order to give more opportunities for driving, coaching, and competition setting experience. Girls Generation has been a great way for incoming and current team members to learn manufacturing, electrical, software, and experience the team environment! Now that the robot drives we need to finish attaching the climb mechanism and then practice for the upcoming competition!
-
                             </div>
 
                         </div>
@@ -125,7 +169,7 @@ class Compresults extends Component {
                     <div className="col-sm-8"> 
                         <div className="jumbotron text-center bg-white">
                                 <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">FIRST Houston Championship Results</h1>
+                                    <h1 className="display-4 font-weight-bold">FIRST Houston Championship Event</h1>
                                     <p className="lead">
                                         During our Championship competition at the FIRST Houston Championship event, our team finished 4th
                                         seed in our division and made it all the way to division finals with our partners 1648, 1710, and 1533.
@@ -142,7 +186,7 @@ class Compresults extends Component {
                     <div className="col-sm-8"> 
                         <div className="jumbotron text-center bg-white">
                                 <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">PNW Championship Competition Results</h1>
+                                    <h1 className="display-4 font-weight-bold">PNW Championship Event</h1>
                                     <p className="lead">
                                         During our third competition at the PNW District event, our team finished 19st
                                         seed and we were picked by the 7th alliance captain team 997, but unfortunately we were knocked out during quarter final matches.
@@ -158,7 +202,7 @@ class Compresults extends Component {
                         <div className="col-sm-8">    
                             <div className="jumbotron text-center bg-white">
                                 <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">OSF Competition Results</h1>
+                                    <h1 className="display-4 font-weight-bold">OSF Event</h1>
                                     <p className="lead">
                                         During our second competition at the OSF week 4 event, our team finished 4st
                                         seed, moved to 3rd, and were the captains of the winning alliance. We were also given the Engineering Inspiration award
@@ -174,7 +218,7 @@ class Compresults extends Component {
                         <div className="col-sm-8"> 
                             <div className="jumbotron text-center bg-white">
                                 <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">CAIS Competition Results</h1>
+                                    <h1 className="display-4 font-weight-bold">CAIS Event</h1>
                                     <p className="lead">
                                             During our first competition at the CAIS week 1 event, our team finished 1st
                                             seed and were the captains of the winning alliance. We were also given the Innovation in Control award
