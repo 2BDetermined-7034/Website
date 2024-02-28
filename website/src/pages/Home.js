@@ -203,6 +203,9 @@ class Home extends Component {
                                     The team will be competing at Clackamas Academy of Industrial Sciences from February 29th - 
                                     March 2nd. For more information, check out the
                                     <a href="https://www.thebluealliance.com/event/2024orore"> Blue Alliance webiste</a>.
+                                    </p>
+                                    <p className={"lead"}>
+                                        You can watch the stream at <a href={"https://www.twitch.tv/firstinspires14"}>twitch.tv/firstinspires14</a> on game day.
                                     <center><img src={require('../artifacts/images/2024 CAIS Schedule.png')} className="d-block w-50"
                                         alt="letter"/></center>
                                     </p>
