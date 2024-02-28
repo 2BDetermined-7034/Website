@@ -191,48 +191,32 @@ class Home extends Component {
                                 </p>
                             </div>
                         </div>
-<<<<<<< HEAD
                 */}
-=======
-
->>>>>>> 3a405b28bd71567b94afa8d3cd7b6d92d87064e6
+               
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">CRESCENDO Competitions</h1>
                                     <h2 className='display-7 font-weight-bold'>CAIS Competition</h2>
                                     <p className="lead">
-<<<<<<< HEAD
-                                    The team will be competing at Clackamas Academy of Industrial Sciences from February 29th - March 2nd. For more information, check out <a href="https://www.thebluealliance.com/event/2024orore">Blue Alliance webiste</a>.
-                                    </p>
+
+                                    The team will be competing at Clackamas Academy of Industrial Sciences from February 29th - 
+                                    March 2nd. For more information, check out the
+                                    <a href="https://www.thebluealliance.com/event/2024orore"> Blue Alliance webiste</a>.
                                     <center><img src={require('../artifacts/images/2024 CAIS Schedule.png')} className="d-block w-50"
                                         alt="letter"/></center>
-                                    <h2 className='display-7 font-weight-bold'>Wilsonville Competition</h2>
-                                    <p className="lead">
-                                    The team will be competing at Wilsonville High School from March 21st - 23rd. For more information, check out <a href="https://www.thebluealliance.com/event/2024orwil">Blue Alliance website</a>.
-                                    </p>
-                        
-=======
-                                        The team will be competing at Clackamas Academy of Industrial Sciences from
-                                        February 29th - March 2nd. For more information, check out Blue <a
-                                        href="https://thebluealliance.com">Alliance website</a> or the team website, <a
-                                        href="https://wlhsfrc.com">wlhsfrc.com</a>, and the competition stream will be live at 
-                                            <a href="https://www.twitch.tv/firstinspires14 ">twitch.tv/firstinspires14</a> on game day!
                                     </p>
 
                                     <h2 className='display-7 font-weight-bold'>Wilsonville Competition</h2>
                                     <p className="lead">
                                         The team will be competing at Wilsonville High School from March 21st - March
-                                        23rd. For more information,
-                                         <a href="https://thebluealliance.com">Alliance website</a> or the team
-                                        website, <a href="https://wlhsfrc.com">wlhsfrc.com</a>.
+                                        23rd. For more information, check out the
+                                         <a href="https://www.thebluealliance.com/event/2024orwil"> Blue Alliance website</a>.
                                     </p>
-
-
->>>>>>> 3a405b28bd71567b94afa8d3cd7b6d92d87064e6
                                 </div>
                             </div>
                         </div>
+
 
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
@@ -285,18 +269,7 @@ class Home extends Component {
             
 
 
-                        {/*<div className="jumbotron text-center bg-white">*/}
-                        {/*      <div className="col-sm my-auto">*/}
-                        {/*          <h1 className="display-4 font-weight-bold">Incoming students!</h1>*/}
-                        {/*          <p className="lead">*/}
-                        {/*              Interesting in joining robotics? Great!!! You're always welcome in room 715 (700 building behind the school near the football field)*/}
-                        {/*              to come and check out robotics!*/}
-                        {/*          </p>*/}
-                        {/*          <p className="lead">The due date for all applications is <b>October 2nd</b></p>*/}
-                        {/*          <a href="https://forms.gle/1Ug7F3AmhJm42BMG6 " target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Team Registration</a>*/}
-                        {/*          /!*<a href="https://docs.google.com/document/d/1ZZ4ZRuYdhhTvWdU9l1pxtZcvL9wcgm_2gu6Yq0xtLLU/edit?usp=sharing" target="_blank" rel="nooperner noreferrer" type="button" className="btn btn-success mx-2 mb-1">Team Handbook</a>*!/*/}
-                        {/*      </div>*/}
-                        {/*  </div>*/}
+                       
 
                         {/*          <div className="jumbotron text-center bg-white">*/}
                         {/*      <div className="col-sm my-auto">*/}
