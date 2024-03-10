@@ -200,29 +200,43 @@ class Home extends Component {
                                     <h2 className='display-7 font-weight-bold'>CAIS Competition</h2>
                                     <p className="lead">
 
-                                    The team will be competing at Clackamas Academy of Industrial Sciences from February 29th - 
-                                    March 2nd. For more information, check out the
-                                    <a href="https://www.thebluealliance.com/event/2024orore"> Blue Alliance webiste</a>.
+                                        On March 1st and 2nd, the team competed at Clackamas Academy of Industrial
+                                        Sciences. We ranked 4th after qualifiers. In the play-offs, we made it to the
+                                        semifinals and lost, placing third. For detailed results, check out
+                                        <a href="https://www.thebluealliance.com/event/2024orore"> Blue Alliance
+                                            webiste</a>.
                                     </p>
-                                    <p className={"lead"}>
-                                        You can watch the stream at <a href={"https://www.twitch.tv/firstinspires14"}>twitch.tv/firstinspires14</a> on game day.
-                                    <center><img src={require('../artifacts/images/2024 CAIS Schedule.png')} className="d-block w-50"
-                                        alt="letter"/></center>
-                                    </p>
+                                    <center><img src={require('../artifacts/images/2024 CAIS Res.png')}
+                                                 className="d-block w-50"
+                                                 alt="letter"/></center>
+                                    {/*<p className={"lead"}>*/}
+                                    {/*    You can watch the stream at <a href={"https://www.twitch.tv/firstinspires14"}>twitch.tv/firstinspires14</a> on game day.*/}
+                                    {/*/!*<center><img src={require('../artifacts/images/2024 CAIS Schedule.png')} className="d-block w-50"*!/*/}
+                                    {/*/!*    alt="letter"/></center>*!/*/}
+                                    {/*</p>*/}
 
                                     <h2 className='display-7 font-weight-bold'>Wilsonville Competition</h2>
                                     <p className="lead">
                                         The team will be competing at Wilsonville High School from March 21st - March
                                         23rd. For more information, check out the
-                                         <a href="https://www.thebluealliance.com/event/2024orwil"> Blue Alliance website</a>.
+                                        <a href="https://www.thebluealliance.com/event/2024orwil"> Blue Alliance
+                                            website</a>.
                                     </p>
+                                    <p className='lead'>
+                                        You can watch the game live at <a
+                                        href={"https://www.twitch.tv/firstwa_red1"}>twitch.tv/firstwa_red1</a> on game
+                                        day.
+                                    </p>
+                                    <center><img src={require('../artifacts/images/2024 WLV Schedule.png')}
+                                                 className="d-block w-50"
+                                                 alt="letter"/></center>
                                 </div>
                             </div>
                         </div>
 
 
                         <div className="jumbotron text-center bg-white">
-                            <div className="row">
+                        <div className="row">
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Oregon FLL State Championship</h1>
                                     <p className="lead">
