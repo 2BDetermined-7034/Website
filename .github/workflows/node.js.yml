@@ -44,9 +44,9 @@
 #      - run: npm run build
 #      - name: Archive production artifacts
 #        run: |
-#          mkdir build.zip
-#          cp -r ./build/* build.zip/
-#          zip -r build.zip build.zip/
+#          mkdir build.bat
+#          cp -r ./build/* build.bat/
+#          zip -r build.bat build.bat/
 #      - name: Upload Release Asset
 #        id: upload-release-asset
 #        uses: actions/upload-release-asset@v1
@@ -54,8 +54,8 @@
 #          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 #        with:
 #          upload_url: ${{ steps.create_release.outputs.upload_url }}
-#          asset_path: ./build.zip
-#          asset_name: build.zip
+#          asset_path: ./build.bat
+#          asset_name: build.bat
 #          asset_content_type: application/zip
 ##    - name: Upload to FTP
 ##      uses: sebastianpopp/ftp-action@releases/v2
