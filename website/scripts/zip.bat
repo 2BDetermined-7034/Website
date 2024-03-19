@@ -1,2 +1,2 @@
 @echo off
-powershell.exe -nologo -noprofile -command "& { Compress-Archive -Path ./build -DestinationPath build.zip -Force }"
+powershell.exe -nologo -noprofile -command "& { Get-ChildItem -Path ./build | Compress-Archive -DestinationPath build.zip -Force }"

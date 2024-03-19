@@ -199,7 +199,6 @@ class Home extends Component {
                                     <h1 className="display-4 font-weight-bold">CRESCENDO Competitions</h1>
                                     <h2 className='display-7 font-weight-bold'>CAIS Competition</h2>
                                     <p className="lead">
-
                                         On March 1st and 2nd, the team competed at Clackamas Academy of Industrial
                                         Sciences. We ranked 4th after qualifiers. In the play-offs, we made it to the
                                         semifinals and lost, placing third. For detailed results, check out
