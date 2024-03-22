@@ -223,7 +223,7 @@ class Home extends Component {
                                     </p>
                                     <p className='lead'>
                                         You can watch the game live at <a
-                                        href={"https://www.twitch.tv/firstwa_red1"}>twitch.tv/firstwa_red1</a> on game
+                                        href={"https://www.twitch.tv/firstinspires14"}>twitch.tv/firstinspires14</a> on game
                                         day.
                                     </p>
                                     <center><img src={require('../artifacts/images/2024 WLV Schedule.png')}
