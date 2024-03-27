@@ -201,7 +201,7 @@ class Home extends Component {
                                     <p className="lead">
                                         On March 1st and 2nd, the team competed at Clackamas Academy of Industrial
                                         Sciences. We ranked 4th after qualifiers. In the play-offs, we made it to the
-                                        semifinals and lost, placing third. For detailed results, check out
+                                        semifinals and lost, placing third. For detailed results womp womp, check out
                                         <a href="https://www.thebluealliance.com/event/2024orore"> Blue Alliance
                                             webiste</a>.
                                     </p>
