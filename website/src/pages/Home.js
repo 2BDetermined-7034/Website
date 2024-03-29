@@ -232,36 +232,6 @@ class Home extends Component {
                                 </div>
                             </div>
                         </div>
-
-
-                        <div className="jumbotron text-center bg-white">
-                        <div className="row">
-                                <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Oregon FLL State Championship</h1>
-                                    <p className="lead">
-                                    Team 7034 is incredibly proud to be hosting the FIRST Lego League State Championships at West Linn High School on March 17th. Feel free to show up and support!
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="jumbotron text-center bg-white">
-                            <div className="row">
-                                <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Backyard Burger Dine-Out</h1>
-                                    <p className="lead">
-                                    Looking to grab a snack and support the local robotics team? Come to Backyard 
-                                    Burger on March 28th 5:30 - 8:30 PM. 10% of proceeds—all orders except for delivery—will 
-                                    be going to the team! The address is 18750 Willamette Dr, West Linn, OR 97068. 
-                                    </p>
-                                    <a href="https://backyardburgercompany.com/menu/" target="_blank"
-                                    rel="noopener noreferrer" type="button"
-                                    className="btn btn-success mx-2 mb-1">Menu</a>
-                                </div>
-                                <img src={require('../artifacts/images/Backyard Burger Dineout Flyer.png')} className="d-block w-50"
-                                        alt="letter"/>
-                            </div>
-                        </div>
             
                 
                         <div className="jumbotron text-center bg-white">
