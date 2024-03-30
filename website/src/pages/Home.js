@@ -223,29 +223,40 @@ class Home extends Component {
                                     </p>
                                     <p className='lead'>
                                         You can watch the game live at <a
-                                        href={"https://www.twitch.tv/firstinspires14"}>twitch.tv/firstinspires14</a> on game
+                                        href={"https://www.twitch.tv/firstinspires14"}>twitch.tv/firstinspires14</a> on
+                                        game
                                         day.
                                     </p>
-                                    <center><img src={require('../artifacts/images/2024 WLV Schedule.png')}
-                                                 className="d-block w-50"
-                                                 alt="letter"/></center>
+
+                                    <h2 className='display-7 font-weight-bold'>Pacific Northwest District Championship</h2>
+                                    <p className="lead">
+                                        The team will be competing at the Veterans Memorial Coliseum Wednesday, April 3 to Saturday, April 6, 2024. For more information, check out the
+                                        <a href="https://www.thebluealliance.com/event/2024pncmp"> Blue Alliance website</a>.
+                                    </p>
+                                    <p className='lead'>
+                                        You can watch the game live at <a
+                                        href={"https://www.twitch.tv/firstinspires14"}>twitch.tv/firstinspires14</a> on
+                                        game
+                                        day.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-            
-                
+
+
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Changing the SySTEM Camp</h1>
                                     <p className="lead">
-                                    The team is hosting a free, all-girls STEM camp in late May!
-                                    The camp is on May 15th, 17th, 20th, and 22nd from 4:30 - 7:30 PM. Registration is limited so sign up soon.
+                                        The team is hosting a free, all-girls STEM camp in late May!
+                                        The camp is on May 15th, 17th, 20th, and 22nd from 4:30 - 7:30 PM. Registration
+                                        is limited so sign up soon.
                                     </p>
                                     <a href="https://forms.gle/CieUqjp7TUth4YJq6" target="_blank"
-                                    rel="noopener noreferrer" type="button"
-                                    className="btn btn-success mx-2 mb-1">Sign-up</a>
-                                    
+                                       rel="noopener noreferrer" type="button"
+                                       className="btn btn-success mx-2 mb-1">Sign-up</a>
+
                                     <center><img src={require('../artifacts/images/2024 Changing the SySTEM Flyer.png')} className="d-block w-50"
                                         alt="letter"/></center>
                                     
