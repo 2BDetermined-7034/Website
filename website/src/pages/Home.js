@@ -228,10 +228,13 @@ class Home extends Component {
                                         day.
                                     </p>
 
-                                    <h2 className='display-7 font-weight-bold'>Pacific Northwest District Championship</h2>
+                                    <h2 className='display-7 font-weight-bold'>Pacific Northwest District
+                                        Championship</h2>
                                     <p className="lead">
-                                        The team will be competing at the Veterans Memorial Coliseum Wednesday, April 3 to Saturday, April 6, 2024. For more information, check out the
-                                        <a href="https://www.thebluealliance.com/event/2024pncmp"> Blue Alliance website</a>.
+                                        The team will be competing at the Veterans Memorial Coliseum Wednesday, April 3
+                                        to Saturday, April 6, 2024. For more information, check out the
+                                        <a href="https://www.thebluealliance.com/event/2024pncmp"> Blue Alliance
+                                            website</a>.
                                     </p>
                                     <p className='lead'>
                                         You can watch the game live at <a
@@ -239,6 +242,9 @@ class Home extends Component {
                                         game
                                         day.
                                     </p>
+                                    <center><img src={require('../artifacts/images/2024/2024DCMPCompSchedule.png')}
+                                                 className="d-block w-50"
+                                                 alt="letter"/></center>
                                 </div>
                             </div>
                         </div>
@@ -246,7 +252,7 @@ class Home extends Component {
 
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
-                                <div className="col-sm my-auto">
+                            <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Changing the SySTEM Camp</h1>
                                     <p className="lead">
                                         The team is hosting a free, all-girls STEM camp in late May!
@@ -257,8 +263,8 @@ class Home extends Component {
                                        rel="noopener noreferrer" type="button"
                                        className="btn btn-success mx-2 mb-1">Sign-up</a>
 
-                                    <center><img src={require('../artifacts/images/2024 Changing the SySTEM Flyer.png')} className="d-block w-50"
-                                        alt="letter"/></center>
+                                    <center><img src={require('../artifacts/images/2024/2024 Changing the SySTEM Flyer.png')} className="d-block w-50"
+                                                 alt="letter"/></center>
                                     
                                 </div>
                             </div>
