@@ -245,7 +245,7 @@ class Home extends Component {
                                     <center><img src={require('../artifacts/images/2024/2024DCMPCompSchedule.png')}
                                                  className="d-block w-50"
                                                  alt="letter"/></center>
-                                    <center><img src={require('../artifacts/images/2024/2024DCMPMatchSchedule.png.png')}
+                                    <center><img src={require('../artifacts/images/2024/2024DCMPMatchSchedule.png')}
                                                  className="d-block w-50"
                                                  alt="letter"/></center>
                                 </div>
