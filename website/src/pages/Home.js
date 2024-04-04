@@ -245,9 +245,7 @@ class Home extends Component {
                                     <center><img src={require('../artifacts/images/2024/2024DCMPCompSchedule.png')}
                                                  className="d-block w-50"
                                                  alt="letter"/></center>
-                                    <center><img src={require('../artifacts/images/2024/2024DCMPMatchSchedule.png')}
-                                                 className="d-block w-50"
-                                                 alt="letter"/></center>
+                                    <iframe src="https://frc.nexus/en/event/2024pncmp/team/7034" width="40%" height="500"></iframe>
                                 </div>
                             </div>
                         </div>
