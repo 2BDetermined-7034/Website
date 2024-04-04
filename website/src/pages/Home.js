@@ -245,6 +245,9 @@ class Home extends Component {
                                     <center><img src={require('../artifacts/images/2024/2024DCMPCompSchedule.png')}
                                                  className="d-block w-50"
                                                  alt="letter"/></center>
+                                    <center><img src={require('../artifacts/images/2024/2024DCMPMatchSchedule.png.png')}
+                                                 className="d-block w-50"
+                                                 alt="letter"/></center>
                                 </div>
                             </div>
                         </div>
@@ -252,7 +255,7 @@ class Home extends Component {
 
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
-                            <div className="col-sm my-auto">
+                                <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Changing the SySTEM Camp</h1>
                                     <p className="lead">
                                         The team is hosting a free, all-girls STEM camp in late May!
