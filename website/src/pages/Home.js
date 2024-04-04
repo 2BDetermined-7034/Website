@@ -238,7 +238,7 @@ class Home extends Component {
                                     </p>
                                     <p className='lead'>
                                         You can watch the game live at <a
-                                        href={"https://www.twitch.tv/firstinspires14"}>twitch.tv/firstinspires15</a> on
+                                        href={"https://www.twitch.tv/firstinspires15"}>twitch.tv/firstinspires15</a> on
                                         game
                                         day.
                                     </p>
