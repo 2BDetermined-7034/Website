@@ -62,6 +62,26 @@ var imageGalleryPics = [
 ]
 
 class Home extends Component {
+    state = {
+        width: '60%',
+        height: '500px'
+    };
+
+    componentDidMount() {
+        this.updateIframeDimensions();
+        window.addEventListener('resize', this.updateIframeDimensions);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.updateIframeDimensions);
+    }
+
+    updateIframeDimensions = () => {
+        this.setState({
+            width: window.innerWidth * 0.4 + 'px', // 40% of viewport width
+            height: window.innerHeight * 0.5 + 'px' // 50% of viewport height
+        });
+    };
     render() {
         return (
             <div className="container-fluid">
@@ -245,7 +265,11 @@ class Home extends Component {
                                     <center><img src={require('../artifacts/images/2024/2024DCMPCompSchedule.png')}
                                                  className="d-block w-50"
                                                  alt="letter"/></center>
-                                    <iframe src="https://frc.nexus/en/event/2024pncmp/team/7034" width="40%" height="500"></iframe>
+                                    <iframe
+                                        src="https://frc.nexus/en/event/2024pncmp/team/7034"
+                                        width={this.state.width}
+                                        height={this.state.height}>
+                                    </iframe>
                                 </div>
                             </div>
                         </div>
