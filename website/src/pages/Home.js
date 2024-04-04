@@ -197,36 +197,36 @@ class Home extends Component {
                             <div className="row">
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">CRESCENDO Competitions</h1>
-                                    <h2 className='display-7 font-weight-bold'>CAIS Competition</h2>
-                                    <p className="lead">
-                                        On March 1st and 2nd, the team competed at Clackamas Academy of Industrial
-                                        Sciences. We ranked 4th after qualifiers. In the play-offs, we made it to the
-                                        semifinals and lost, placing third. For detailed results, check out
-                                        <a href="https://www.thebluealliance.com/event/2024orore"> Blue Alliance
-                                            webiste</a>.
-                                    </p>
-                                    <center><img src={require('../artifacts/images/2024 CAIS Res.png')}
-                                                 className="d-block w-50"
-                                                 alt="letter"/></center>
+                                    {/*<h2 className='display-7 font-weight-bold'>CAIS Competition</h2>*/}
+                                    {/*<p className="lead">*/}
+                                    {/*    On March 1st and 2nd, the team competed at Clackamas Academy of Industrial*/}
+                                    {/*    Sciences. We ranked 4th after qualifiers. In the play-offs, we made it to the*/}
+                                    {/*    semifinals and lost, placing third. For detailed results, check out*/}
+                                    {/*    <a href="https://www.thebluealliance.com/event/2024orore"> Blue Alliance*/}
+                                    {/*        webiste</a>.*/}
+                                    {/*</p>*/}
+                                    {/*<center><img src={require('../artifacts/images/2024 CAIS Res.png')}*/}
+                                    {/*             className="d-block w-50"*/}
+                                    {/*             alt="letter"/></center>*/}
                                     {/*<p className={"lead"}>*/}
                                     {/*    You can watch the stream at <a href={"https://www.twitch.tv/firstinspires14"}>twitch.tv/firstinspires14</a> on game day.*/}
                                     {/*/!*<center><img src={require('../artifacts/images/2024 CAIS Schedule.png')} className="d-block w-50"*!/*/}
                                     {/*/!*    alt="letter"/></center>*!/*/}
                                     {/*</p>*/}
 
-                                    <h2 className='display-7 font-weight-bold'>Wilsonville Competition</h2>
-                                    <p className="lead">
-                                        The team will be competing at Wilsonville High School from March 21st - March
-                                        23rd. For more information, check out the
-                                        <a href="https://www.thebluealliance.com/event/2024orwil"> Blue Alliance
-                                            website</a>.
-                                    </p>
-                                    <p className='lead'>
-                                        You can watch the game live at <a
-                                        href={"https://www.twitch.tv/firstinspires14"}>twitch.tv/firstinspires14</a> on
-                                        game
-                                        day.
-                                    </p>
+                                    {/*<h2 className='display-7 font-weight-bold'>Wilsonville Competition</h2>*/}
+                                    {/*<p className="lead">*/}
+                                    {/*    The team will be competing at Wilsonville High School from March 21st - March*/}
+                                    {/*    23rd. For more information, check out the*/}
+                                    {/*    <a href="https://www.thebluealliance.com/event/2024orwil"> Blue Alliance*/}
+                                    {/*        website</a>.*/}
+                                    {/*</p>*/}
+                                    {/*<p className='lead'>*/}
+                                    {/*    You can watch the game live at <a*/}
+                                    {/*    href={"https://www.twitch.tv/firstinspires14"}>twitch.tv/firstinspires14</a> on*/}
+                                    {/*    game*/}
+                                    {/*    day.*/}
+                                    {/*</p>*/}
 
                                     <h2 className='display-7 font-weight-bold'>Pacific Northwest District
                                         Championship</h2>
@@ -238,7 +238,7 @@ class Home extends Component {
                                     </p>
                                     <p className='lead'>
                                         You can watch the game live at <a
-                                        href={"https://www.twitch.tv/firstinspires14"}>twitch.tv/firstinspires14</a> on
+                                        href={"https://www.twitch.tv/firstinspires14"}>twitch.tv/firstinspires15</a> on
                                         game
                                         day.
                                     </p>
