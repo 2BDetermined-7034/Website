@@ -281,6 +281,7 @@ class Home extends Component {
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">Changing the SySTEM Camp</h1>
                                     <p className="lead">
+                                        aaaaaa
                                         The team is hosting a free, all-girls STEM camp in late May!
                                         The camp is on May 15th, 17th, 20th, and 22nd from 4:30 - 7:30 PM. Registration
                                         is limited so sign up soon.
