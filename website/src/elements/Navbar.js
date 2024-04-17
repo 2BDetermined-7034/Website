@@ -41,7 +41,6 @@ class Navbar extends Component {
                                 <DropdownNavElement to="/AboutUs">About Us</DropdownNavElement>
                                 {/*<ModalDropdownNavElement modalId="aboutFirst">About FIRST</ModalDropdownNavElement>*/}
                                 <DropdownNavElement to="/About_Us/Competition_Results">Competition Results</DropdownNavElement>
-                                <a className="dropdown-item" href="http://wlhsfrc.com/wiki/doku.php" target="_blank" rel="noopener noreferrer">Wiki</a>
                             </div>
                         </li>
                     
