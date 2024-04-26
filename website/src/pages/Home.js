@@ -1,8 +1,4 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
-import {TwitterTimelineEmbed} from 'react-twitter-embed';
-
-import CTSInfoForm from '../artifacts/Changing_the_system_info_sheet_2022.pdf'
 
 
 var imageGalleryPics = [
@@ -174,6 +170,67 @@ class Home extends Component {
                         </div>
                     </div>
                     <div className="col-sm-8">
+
+
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Changing the SySTEM Camp</h1>
+                                    <p className="lead">
+                                        The team is hosting a free, all-girls STEM camp in late May!
+                                        The camp is on May 15th, 17th, 20th, and 22nd from 4:30 - 7:30 PM. Registration
+                                        is limited so sign up soon.
+                                    </p>
+                                    <a href="https://forms.gle/CieUqjp7TUth4YJq6" target="_blank"
+                                       rel="noopener noreferrer" type="button"
+                                       className="btn btn-success mx-2 mb-1">Sign-up</a>
+
+                                    <center><img
+                                        src={require('../artifacts/images/2024/2024 Changing the SySTEM Flyer.png')}
+                                        className="d-block w-50"
+                                        alt="letter"/></center>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Newsletter</h1>
+                                    <p className="lead">
+                                        Sign up for our newsletter in order to recieve updates about the team every
+                                        month!
+                                    </p>
+                                    <a href="https://www.smore.com/63e8z-wlhs-robotics" target="_blank"
+                                       rel="noopener noreferrer" type="button"
+                                       className="btn btn-success mx-2 mb-1">View</a>
+                                </div>
+                                <div className="col-sm mt-3 mt-md-0">
+                                    <img src={require('../artifacts/images/newsletter.PNG')} className="d-block w-100"
+                                         alt="letter"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Lab Access</h1>
+                                    <p className="lead">
+                                        Here is a map of where our lab is located. The classroom is in room 715 in the
+                                        700 building behind the school.
+                                    </p>
+                                </div>
+                                <div className="col-sm mt-3 mt-md-0">
+                                    <img src={require('../artifacts/images/map.png')} className="d-block w-100"
+                                         alt="letter"/>
+                                </div>
+                            </div>
+                        </div>
+
+
                         {/*
                       <div className="jumbotron text-center bg-white">
                             <div className="row">
@@ -196,12 +253,12 @@ class Home extends Component {
                                    <img src={require('../artifacts/images/FULL Steam Ahead/IMG 2.JPG')} className="w-50" alt="PPE" />
                                    <img src={require('../artifacts/images/FULL Steam Ahead/IMG 1.JPG')} className="w-50" alt="PPE" />
                                 </div>
- 
+
                             </div>
                     </div>
                     */}
 
-                    {/*
+                        {/*
                         <div className="jumbotron text-center bg-white">
                             <div className="col-sm my-auto">
                                 <h1 className="display-4 font-weight-bold">Build Season</h1>
@@ -217,36 +274,36 @@ class Home extends Component {
                             <div className="row">
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">CRESCENDO Competitions</h1>*/}
-                                    {/*<h2 className='display-7 font-weight-bold'>CAIS Competition</h2>*/}
-                                    {/*<p className="lead">*/}
-                                    {/*    On March 1st and 2nd, the team competed at Clackamas Academy of Industrial*/}
-                                    {/*    Sciences. We ranked 4th after qualifiers. In the play-offs, we made it to the*/}
-                                    {/*    semifinals and lost, placing third. For detailed results, check out*/}
-                                    {/*    <a href="https://www.thebluealliance.com/event/2024orore"> Blue Alliance*/}
-                                    {/*        webiste</a>.*/}
-                                    {/*</p>*/}
-                                    {/*<center><img src={require('../artifacts/images/2024 CAIS Res.png')}*/}
-                                    {/*             className="d-block w-50"*/}
-                                    {/*             alt="letter"/></center>*/}
-                                    {/*<p className={"lead"}>*/}
-                                    {/*    You can watch the stream at <a href={"https://www.twitch.tv/firstinspires14"}>twitch.tv/firstinspires14</a> on game day.*/}
-                                    {/*/!*<center><img src={require('../artifacts/images/2024 CAIS Schedule.png')} className="d-block w-50"*!/*/}
-                                    {/*/!*    alt="letter"/></center>*!/*/}
-                                    {/*</p>*/}
+                        {/*<h2 className='display-7 font-weight-bold'>CAIS Competition</h2>*/}
+                        {/*<p className="lead">*/}
+                        {/*    On March 1st and 2nd, the team competed at Clackamas Academy of Industrial*/}
+                        {/*    Sciences. We ranked 4th after qualifiers. In the play-offs, we made it to the*/}
+                        {/*    semifinals and lost, placing third. For detailed results, check out*/}
+                        {/*    <a href="https://www.thebluealliance.com/event/2024orore"> Blue Alliance*/}
+                        {/*        webiste</a>.*/}
+                        {/*</p>*/}
+                        {/*<center><img src={require('../artifacts/images/2024 CAIS Res.png')}*/}
+                        {/*             className="d-block w-50"*/}
+                        {/*             alt="letter"/></center>*/}
+                        {/*<p className={"lead"}>*/}
+                        {/*    You can watch the stream at <a href={"https://www.twitch.tv/firstinspires14"}>twitch.tv/firstinspires14</a> on game day.*/}
+                        {/*/!*<center><img src={require('../artifacts/images/2024 CAIS Schedule.png')} className="d-block w-50"*!/*/}
+                        {/*/!*    alt="letter"/></center>*!/*/}
+                        {/*</p>*/}
 
-                                    {/*<h2 className='display-7 font-weight-bold'>Wilsonville Competition</h2>*/}
-                                    {/*<p className="lead">*/}
-                                    {/*    The team will be competing at Wilsonville High School from March 21st - March*/}
-                                    {/*    23rd. For more information, check out the*/}
-                                    {/*    <a href="https://www.thebluealliance.com/event/2024orwil"> Blue Alliance*/}
-                                    {/*        website</a>.*/}
-                                    {/*</p>*/}
-                                    {/*<p className='lead'>*/}
-                                    {/*    You can watch the game live at <a*/}
-                                    {/*    href={"https://www.twitch.tv/firstinspires14"}>twitch.tv/firstinspires14</a> on*/}
-                                    {/*    game*/}
-                                    {/*    day.*/}
-                                    {/*</p>*/}
+                        {/*<h2 className='display-7 font-weight-bold'>Wilsonville Competition</h2>*/}
+                        {/*<p className="lead">*/}
+                        {/*    The team will be competing at Wilsonville High School from March 21st - March*/}
+                        {/*    23rd. For more information, check out the*/}
+                        {/*    <a href="https://www.thebluealliance.com/event/2024orwil"> Blue Alliance*/}
+                        {/*        website</a>.*/}
+                        {/*</p>*/}
+                        {/*<p className='lead'>*/}
+                        {/*    You can watch the game live at <a*/}
+                        {/*    href={"https://www.twitch.tv/firstinspires14"}>twitch.tv/firstinspires14</a> on*/}
+                        {/*    game*/}
+                        {/*    day.*/}
+                        {/*</p>*/}
 
                         {/*
                                     <h2 className='display-7 font-weight-bold'>Pacific Northwest District
@@ -276,29 +333,6 @@ class Home extends Component {
                         </div>
                         */}
 
-                        <div className="jumbotron text-center bg-white">
-                            <div className="row">
-                                <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Changing the SySTEM Camp</h1>
-                                    <p className="lead">
-                                        The team is hosting a free, all-girls STEM camp in late May!
-                                        The camp is on May 15th, 17th, 20th, and 22nd from 4:30 - 7:30 PM. Registration
-                                        is limited so sign up soon.
-                                    </p>
-                                    <a href="https://forms.gle/CieUqjp7TUth4YJq6" target="_blank"
-                                       rel="noopener noreferrer" type="button"
-                                       className="btn btn-success mx-2 mb-1">Sign-up</a>
-
-                                    <center><img src={require('../artifacts/images/2024/2024 Changing the SySTEM Flyer.png')} className="d-block w-50"
-                                                 alt="letter"/></center>
-                                    
-                                </div>
-                            </div>
-                        </div>
-            
-
-
-                       
 
                         {/*          <div className="jumbotron text-center bg-white">*/}
                         {/*      <div className="col-sm my-auto">*/}
@@ -376,42 +410,6 @@ class Home extends Component {
                         {/*        </div>*/}
                         {/*    </div>*/}
                         {/*</div>*/}
-
-
-                        <div className="jumbotron text-center bg-white">
-                            <div className="row">
-                                <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Newsletter</h1>
-                                    <p className="lead">
-                                        Sign up for our newsletter in order to recieve updates about the team every
-                                        month!
-                                    </p>
-                                    <a href="https://www.smore.com/63e8z-wlhs-robotics" target="_blank"
-                                       rel="noopener noreferrer" type="button"
-                                       className="btn btn-success mx-2 mb-1">View</a>
-                                </div>
-                                <div className="col-sm mt-3 mt-md-0">
-                                    <img src={require('../artifacts/images/newsletter.PNG')} className="d-block w-100"
-                                         alt="letter"/>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="jumbotron text-center bg-white">
-                            <div className="row">
-                                <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Lab Access</h1>
-                                    <p className="lead">
-                                        Here is a map of where our lab is located. The classroom is in room 715 in the
-                                        700 building behind the school.
-                                    </p>
-                                </div>
-                                <div className="col-sm mt-3 mt-md-0">
-                                    <img src={require('../artifacts/images/map.png')} className="d-block w-100"
-                                         alt="letter"/>
-                                </div>
-                            </div>
-                        </div>
 
 
                         {/*
