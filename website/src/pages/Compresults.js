@@ -76,12 +76,54 @@ class Compresults extends Component {
                                 </p>
                                 <p className="lead">
                                     We ranked 4th place!
-                                    We also won Judges’ Award for our detailed camp programs.
+                                    <br/>We also won Judges’ Award for our detailed camp programs.
                                     <br/><b><a href={"https://www.thebluealliance.com/event/2024orore"}>BLUE
                                     ALLIANCE</a></b>
                                     <center><img src={require('../artifacts/images/2024 CAIS Res.png')}
                                                  className="d-block w-50"
                                                  alt="letter"/></center>
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-sm-2"/>
+                    </div>
+                </div>
+
+                <div className="row">
+                    <div className="col-sm-2"/>
+                    <div className="col-sm-8">
+                        <div className="jumbotron text-center bg-white">
+                            <div className="col-sm my-auto">
+                                <h1 className="display-4 font-weight-bold">BunnyBots Off-Season Event</h1>
+                                <p className="lead">
+                                    December 16, 2023
+                                </p>
+                                <p className="lead">
+                                    We brought 2 robots to this event, ranking 15th & 16th place.
+                                    <br/>One of our robots was in the winning alliance, ending as finalists.
+                                    <br/><b><a href={"https://www.thebluealliance.com/event/2023orbb"}>BLUE
+                                    ALLIANCE</a></b>
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-sm-2"/>
+                    </div>
+                </div>
+
+                <div className="row">
+                    <div className="col-sm-2"/>
+                    <div className="col-sm-8">
+                        <div className="jumbotron text-center bg-white">
+                            <div className="col-sm my-auto">
+                                <h1 className="display-4 font-weight-bold">Girls Generation Off-Season Event</h1>
+                                <p className="lead">
+                                    October 7, 2023
+                                </p>
+                                <p className="lead">
+                                    We ranked 6th place.
+                                    <br/>We were also finalists.
+                                    <br/><b><a href={"https://www.thebluealliance.com/event/2023orgg"}>BLUE
+                                    ALLIANCE</a></b>
                                 </p>
                             </div>
                         </div>
