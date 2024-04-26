@@ -1,3 +1,4 @@
 website/update.bat
 node_modules
 website/node_modules
+website/*.bat
