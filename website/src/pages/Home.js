@@ -201,7 +201,7 @@ class Home extends Component {
                     </div>
                     */}
 
-                    {/*
+                        {/*
                         <div className="jumbotron text-center bg-white">
                             <div className="col-sm my-auto">
                                 <h1 className="display-4 font-weight-bold">Build Season</h1>
@@ -217,36 +217,36 @@ class Home extends Component {
                             <div className="row">
                                 <div className="col-sm my-auto">
                                     <h1 className="display-4 font-weight-bold">CRESCENDO Competitions</h1>*/}
-                                    {/*<h2 className='display-7 font-weight-bold'>CAIS Competition</h2>*/}
-                                    {/*<p className="lead">*/}
-                                    {/*    On March 1st and 2nd, the team competed at Clackamas Academy of Industrial*/}
-                                    {/*    Sciences. We ranked 4th after qualifiers. In the play-offs, we made it to the*/}
-                                    {/*    semifinals and lost, placing third. For detailed results, check out*/}
-                                    {/*    <a href="https://www.thebluealliance.com/event/2024orore"> Blue Alliance*/}
-                                    {/*        webiste</a>.*/}
-                                    {/*</p>*/}
-                                    {/*<center><img src={require('../artifacts/images/2024 CAIS Res.png')}*/}
-                                    {/*             className="d-block w-50"*/}
-                                    {/*             alt="letter"/></center>*/}
-                                    {/*<p className={"lead"}>*/}
-                                    {/*    You can watch the stream at <a href={"https://www.twitch.tv/firstinspires14"}>twitch.tv/firstinspires14</a> on game day.*/}
-                                    {/*/!*<center><img src={require('../artifacts/images/2024 CAIS Schedule.png')} className="d-block w-50"*!/*/}
-                                    {/*/!*    alt="letter"/></center>*!/*/}
-                                    {/*</p>*/}
+                        {/*<h2 className='display-7 font-weight-bold'>CAIS Competition</h2>*/}
+                        {/*<p className="lead">*/}
+                        {/*    On March 1st and 2nd, the team competed at Clackamas Academy of Industrial*/}
+                        {/*    Sciences. We ranked 4th after qualifiers. In the play-offs, we made it to the*/}
+                        {/*    semifinals and lost, placing third. For detailed results, check out*/}
+                        {/*    <a href="https://www.thebluealliance.com/event/2024orore"> Blue Alliance*/}
+                        {/*        webiste</a>.*/}
+                        {/*</p>*/}
+                        {/*<center><img src={require('../artifacts/images/2024 CAIS Res.png')}*/}
+                        {/*             className="d-block w-50"*/}
+                        {/*             alt="letter"/></center>*/}
+                        {/*<p className={"lead"}>*/}
+                        {/*    You can watch the stream at <a href={"https://www.twitch.tv/firstinspires14"}>twitch.tv/firstinspires14</a> on game day.*/}
+                        {/*/!*<center><img src={require('../artifacts/images/2024 CAIS Schedule.png')} className="d-block w-50"*!/*/}
+                        {/*/!*    alt="letter"/></center>*!/*/}
+                        {/*</p>*/}
 
-                                    {/*<h2 className='display-7 font-weight-bold'>Wilsonville Competition</h2>*/}
-                                    {/*<p className="lead">*/}
-                                    {/*    The team will be competing at Wilsonville High School from March 21st - March*/}
-                                    {/*    23rd. For more information, check out the*/}
-                                    {/*    <a href="https://www.thebluealliance.com/event/2024orwil"> Blue Alliance*/}
-                                    {/*        website</a>.*/}
-                                    {/*</p>*/}
-                                    {/*<p className='lead'>*/}
-                                    {/*    You can watch the game live at <a*/}
-                                    {/*    href={"https://www.twitch.tv/firstinspires14"}>twitch.tv/firstinspires14</a> on*/}
-                                    {/*    game*/}
-                                    {/*    day.*/}
-                                    {/*</p>*/}
+                        {/*<h2 className='display-7 font-weight-bold'>Wilsonville Competition</h2>*/}
+                        {/*<p className="lead">*/}
+                        {/*    The team will be competing at Wilsonville High School from March 21st - March*/}
+                        {/*    23rd. For more information, check out the*/}
+                        {/*    <a href="https://www.thebluealliance.com/event/2024orwil"> Blue Alliance*/}
+                        {/*        website</a>.*/}
+                        {/*</p>*/}
+                        {/*<p className='lead'>*/}
+                        {/*    You can watch the game live at <a*/}
+                        {/*    href={"https://www.twitch.tv/firstinspires14"}>twitch.tv/firstinspires14</a> on*/}
+                        {/*    game*/}
+                        {/*    day.*/}
+                        {/*</p>*/}
 
                         {/*
                                     <h2 className='display-7 font-weight-bold'>Pacific Northwest District
@@ -289,16 +289,40 @@ class Home extends Component {
                                        rel="noopener noreferrer" type="button"
                                        className="btn btn-success mx-2 mb-1">Sign-up</a>
 
-                                    <center><img src={require('../artifacts/images/2024/2024 Changing the SySTEM Flyer.png')} className="d-block w-50"
-                                                 alt="letter"/></center>
-                                    
+                                    <center><img
+                                        src={require('../artifacts/images/2024/2024 Changing the SySTEM Flyer.png')}
+                                        className="d-block w-50"
+                                        alt="letter"/></center>
+
                                 </div>
                             </div>
                         </div>
-            
 
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Summer of STEAM Camp</h1>
+                                    <p className="lead">
+                                        The team is hosting their annual week-long day camp for incoming 8th-9th graders!
+                                        <br/>Registration is $250
+                                        <br/>Lessons feature engaging engineering, coding, and more. Additionally, campers get the chance to design and create their own robot and participate in a custom, full-fledged competition against other robots.
+                                        <br/>The camp is from July 29th to August 2nd from 9 AM - 12 PM.
+                                        <br/>Registration is limited to the first 40 campers.
 
-                       
+                                    </p>
+                                    <a href="https://forms.gle/HsDwkRr4i7Wyt1et5" target="_blank"
+                                       rel="noopener noreferrer" type="button"
+                                       className="btn btn-success mx-2 mb-1">Sign-up</a>
+
+                                    <center><img
+                                        src={require('../artifacts/images/2023-24/2024 Summer of S.T.E.A.M. Flyer.png')}
+                                        className="d-block w-50"
+                                        alt="letter"/></center>
+
+                                </div>
+                            </div>
+                        </div>
+
 
                         {/*          <div className="jumbotron text-center bg-white">*/}
                         {/*      <div className="col-sm my-auto">*/}

@@ -43,7 +43,7 @@ class Outreach extends Component {
                                     <ul>
                                         <li>West Linn Old Time Fair</li>
                                         <li>West Linn Wednesday Markets</li>
-                                        <li>Winter Craft Fair</li>
+                                        <li>Winter Craft Fairc</li>
                                     </ul>
                                 </ul>
                             </div>
