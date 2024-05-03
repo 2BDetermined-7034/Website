@@ -1,8 +1,4 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
-import {TwitterTimelineEmbed} from 'react-twitter-embed';
-
-import CTSInfoForm from '../artifacts/Changing_the_system_info_sheet_2022.pdf'
 
 
 var imageGalleryPics = [
@@ -174,6 +170,67 @@ class Home extends Component {
                         </div>
                     </div>
                     <div className="col-sm-8">
+
+
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Changing the SySTEM Camp</h1>
+                                    <p className="lead">
+                                        The team is hosting a free, all-girls STEM camp in late May!
+                                        The camp is on May 15th, 17th, 20th, and 22nd from 4:30 - 7:30 PM.
+                                        Registration is limited so sign up soon.
+                                    </p>
+                                    <a href="https://forms.gle/CieUqjp7TUth4YJq6" target="_blank"
+                                       rel="noopener noreferrer" type="button"
+                                       className="btn btn-success mx-2 mb-1">Sign-up</a>
+
+                                    <center><img
+                                        src={require('../artifacts/images/2024/2024 Changing the SySTEM Flyer.png')}
+                                        className="d-block w-50"
+                                        alt="letter"/></center>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Newsletter</h1>
+                                    <p className="lead">
+                                        Sign up for our newsletter in order to recieve updates about the team every
+                                        month!
+                                    </p>
+                                    <a href="https://www.smore.com/63e8z-wlhs-robotics" target="_blank"
+                                       rel="noopener noreferrer" type="button"
+                                       className="btn btn-success mx-2 mb-1">View</a>
+                                </div>
+                                <div className="col-sm mt-3 mt-md-0">
+                                    <img src={require('../artifacts/images/newsletter.PNG')} className="d-block w-100"
+                                         alt="letter"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Lab Access</h1>
+                                    <p className="lead">
+                                        Here is a map of where our lab is located. The classroom is in room 715 in the
+                                        700 building behind the school.
+                                    </p>
+                                </div>
+                                <div className="col-sm mt-3 mt-md-0">
+                                    <img src={require('../artifacts/images/map.png')} className="d-block w-100"
+                                         alt="letter"/>
+                                </div>
+                            </div>
+                        </div>
+
+
                         {/*
                       <div className="jumbotron text-center bg-white">
                             <div className="row">
@@ -196,7 +253,7 @@ class Home extends Component {
                                    <img src={require('../artifacts/images/FULL Steam Ahead/IMG 2.JPG')} className="w-50" alt="PPE" />
                                    <img src={require('../artifacts/images/FULL Steam Ahead/IMG 1.JPG')} className="w-50" alt="PPE" />
                                 </div>
- 
+
                             </div>
                     </div>
                     */}
@@ -276,53 +333,6 @@ class Home extends Component {
                         </div>
                         */}
 
-                        <div className="jumbotron text-center bg-white">
-                            <div className="row">
-                                <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Changing the SySTEM Camp</h1>
-                                    <p className="lead">
-                                        The team is hosting a free, all-girls STEM camp in late May!
-                                        The camp is on May 15th, 17th, 20th, and 22nd from 4:30 - 7:30 PM. Registration
-                                        is limited so sign up soon.
-                                    </p>
-                                    <a href="https://forms.gle/CieUqjp7TUth4YJq6" target="_blank"
-                                       rel="noopener noreferrer" type="button"
-                                       className="btn btn-success mx-2 mb-1">Sign-up</a>
-
-                                    <center><img
-                                        src={require('../artifacts/images/2024/2024 Changing the SySTEM Flyer.png')}
-                                        className="d-block w-50"
-                                        alt="letter"/></center>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="jumbotron text-center bg-white">
-                            <div className="row">
-                                <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Summer of STEAM Camp</h1>
-                                    <p className="lead">
-                                        The team is hosting their annual week-long day camp for incoming 8th-9th graders!
-                                        <br/>Registration is $250
-                                        <br/>Lessons feature engaging engineering, coding, and more. Additionally, campers get the chance to design and create their own robot and participate in a custom, full-fledged competition against other robots.
-                                        <br/>The camp is from July 29th to August 2nd from 9 AM - 12 PM.
-                                        <br/>Registration is limited to the first 40 campers.
-
-                                    </p>
-                                    <a href="https://forms.gle/HsDwkRr4i7Wyt1et5" target="_blank"
-                                       rel="noopener noreferrer" type="button"
-                                       className="btn btn-success mx-2 mb-1">Sign-up</a>
-
-                                    <center><img
-                                        src={require('../artifacts/images/2023-24/2024 Summer of S.T.E.A.M. Flyer.png')}
-                                        className="d-block w-50"
-                                        alt="letter"/></center>
-
-                                </div>
-                            </div>
-                        </div>
-
 
                         {/*          <div className="jumbotron text-center bg-white">*/}
                         {/*      <div className="col-sm my-auto">*/}
@@ -400,42 +410,6 @@ class Home extends Component {
                         {/*        </div>*/}
                         {/*    </div>*/}
                         {/*</div>*/}
-
-
-                        <div className="jumbotron text-center bg-white">
-                            <div className="row">
-                                <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Newsletter</h1>
-                                    <p className="lead">
-                                        Sign up for our newsletter in order to recieve updates about the team every
-                                        month!
-                                    </p>
-                                    <a href="https://www.smore.com/63e8z-wlhs-robotics" target="_blank"
-                                       rel="noopener noreferrer" type="button"
-                                       className="btn btn-success mx-2 mb-1">View</a>
-                                </div>
-                                <div className="col-sm mt-3 mt-md-0">
-                                    <img src={require('../artifacts/images/newsletter.PNG')} className="d-block w-100"
-                                         alt="letter"/>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="jumbotron text-center bg-white">
-                            <div className="row">
-                                <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Lab Access</h1>
-                                    <p className="lead">
-                                        Here is a map of where our lab is located. The classroom is in room 715 in the
-                                        700 building behind the school.
-                                    </p>
-                                </div>
-                                <div className="col-sm mt-3 mt-md-0">
-                                    <img src={require('../artifacts/images/map.png')} className="d-block w-100"
-                                         alt="letter"/>
-                                </div>
-                            </div>
-                        </div>
 
 
                         {/*
