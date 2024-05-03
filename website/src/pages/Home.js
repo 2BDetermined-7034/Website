@@ -194,6 +194,33 @@ class Home extends Component {
                             </div>
                         </div>
 
+                        <div className="jumbotron text-center bg-white">
+                            <div className="row">
+                                <div className="col-sm my-auto">
+                                    <h1 className="display-4 font-weight-bold">Summer of STEAM Camp</h1>
+                                    <p className="lead">
+                                        The team is hosting their annual week-long day camp for incoming 8th-9th
+                                        graders!
+                                        <br/>Registration is $250
+                                        <br/>Lessons feature engaging engineering, coding, and more. Additionally,
+                                        campers get the chance to design and create their own robot and participate in a
+                                        custom, full-fledged competition against other robots.
+                                        <br/>The camp is from July 29th to August 2nd from 9 AM - 12 PM.
+                                        <br/>Registration is limited to the first 40 campers.
+
+                                    </p>
+                                    <a href="https://forms.gle/HsDwkRr4i7Wyt1et5" target="_blank"
+                                       rel="noopener noreferrer" type="button"
+                                       className="btn btn-success mx-2 mb-1">Sign-up</a>
+
+                                    <center><img
+                                        src={require('../artifacts/images/2023-24/2024 Summer of S.T.E.A.M. Flyer.png')}
+                                        className="d-block w-50"
+                                        alt="letter"/></center>
+
+                                </div>
+                            </div>
+                        </div>
 
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
