@@ -1,11 +1,11 @@
 import React, { Component, Fragment } from 'react';
 import { NavLink } from 'react-router-dom';
-// import { CopyToClipboard } from 'react-copy-to-clipboard';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faCopy } from '@fortawesome/free-solid-svg-icons';
+import { CopyToClipboard } from 'react-copy-to-clipboard';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCopy } from '@fortawesome/free-solid-svg-icons';
 import logo from '../artifacts/images/GearLogo2022.png';
-// import wlhsRoboticsLogo from '../artifacts/images/wlhsRoboticsLogo.png';
-// import firstLogo from '../artifacts/images/firstLogo.png';
+import wlhsRoboticsLogo from '../artifacts/images/wlhsRoboticsLogo.png';
+import firstLogo from '../artifacts/images/firstLogo.png';
 
 
 class Navbar extends Component {
@@ -199,20 +199,20 @@ class DropdownNavElement extends Component {
     }
 }
 
-// class ModalNavElement extends Component {
-//     render() {
-//         return (
-//             <a className="nav-link" role="button" aria-expanded="false" href="#" data-toggle="modal" data-target={`#${this.props.modalId}`}>{this.props.children}</a>
-//         )
-//     }
-// }
+class ModalNavElement extends Component {
+    render() {
+        return (
+            <a className="nav-link" role="button" aria-expanded="false" href="#" data-toggle="modal" data-target={`#${this.props.modalId}`}>{this.props.children}</a>
+        )
+    }
+}
 
-// class ModalDropdownNavElement extends Component {
-//     render() {
-//         return (
-//             <a className="dropdown-item" role="button" aria-expanded="false" href="#" data-toggle="modal" data-target={`#${this.props.modalId}`}>{this.props.children}</a>
-//         )
-//     }
-// }
+class ModalDropdownNavElement extends Component {
+    render() {
+        return (
+            <a className="dropdown-item" role="button" aria-expanded="false" href="#" data-toggle="modal" data-target={`#${this.props.modalId}`}>{this.props.children}</a>
+        )
+    }
+}
 
 export default Navbar;

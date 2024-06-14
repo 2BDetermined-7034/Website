@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-// https://www.smore.com/63e8z-wlhs-robotics
+{/* https://www.smore.com/63e8z-wlhs-robotics Update */}
     class Newsletter extends Component {
         render() {
             return (
