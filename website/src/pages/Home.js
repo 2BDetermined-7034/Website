@@ -171,24 +171,25 @@ class Home extends Component {
                     </div>
                     <div className="col-sm-8">
 
-
                         <div className="jumbotron text-center bg-white">
                             <div className="row">
                                 <div className="col-sm my-auto">
-                                    <h1 className="display-4 font-weight-bold">Changing the SySTEM Camp</h1>
+                                    <h1 className="display-4 font-weight-bold">Summer Lab Times</h1>
                                     <p className="lead">
-                                        The team is hosting a free, all-girls STEM camp in late May!
-                                        The camp is on May 15th, 17th, 20th, and 22nd from 4:30 - 7:30 PM.
-                                        Registration is limited so sign up soon.
+                                        Any interested student is free to come check out the lab during our summer lab
+                                        times!
+                                        <br/>You can find us at the back of the school on the side of the 700 building
+                                        in Room 709/715.
+                                        <br/>
+                                        <br/>Lab times will be every Tuesday from 6 - 9 PM. There may be additional
+                                        hours, please keep an eye out for emails from the team. The team calendar will
+                                        always contain accurate information.
                                     </p>
-                                    <a href="https://forms.gle/CieUqjp7TUth4YJq6" target="_blank"
-                                       rel="noopener noreferrer" type="button"
-                                       className="btn btn-success mx-2 mb-1">Sign-up</a>
 
-                                    <center><img
-                                        src={require('../artifacts/images/2024/2024 Changing the SySTEM Flyer.png')}
-                                        className="d-block w-50"
-                                        alt="letter"/></center>
+
+                                <a href="https://forms.gle/UMnNUg1T1s56CS7h7" target="_blank"
+                                   rel="noopener noreferrer" type="button"
+                                   className="btn btn-success mx-2 mb-1">Sign up for the Summer Lab Contact List</a>
 
                                 </div>
                             </div>
